@@ -1,95 +1,74 @@
 {{ define "main" }}
+{{ $productions := where .Site.RegularPages "Section" "productions" }}
+{{ $current := where $productions "Params.status" "current" }}
+{{ $upcoming := where $productions "Params.status" "upcoming" }}
+{{ $archive := where $productions "Params.status" "archive" }}
+{{ $news := first 3 (where .Site.RegularPages "Section" "news") }}
 
-  {{ range where .Site.RegularPages "Params.onsale" true }}
-  
-  <div class='container-fluid hero-split-wrapper' style='padding: 0;'>
-    <div class='row' style='margin: 0; display: flex; flex-wrap: wrap; align-items: stretch; min-height: 60vh;'>
-      
-      <div class='col-md-6 col-xs-12 hero-left-pane' style='background-color: var(--bl-pink); padding: 5% 8%; display: flex; flex-direction: column; justify-content: center;'>
-        
-        <span class='headline headline-primary'>{{ .Title }}</span>
-        <span class='author'>{{ .Params.author }}</span>
-        
-        <div style='margin: 15px 0;'>
-          <span class='byline byline-hero'>{{ .Params.details }}</span><br/>
-          <span class='byline byline-hero'>{{ .Params.price }}</span>
-        </div>
-
-        <div class='hero-buttons' style='display: flex; gap: 15px; flex-wrap: wrap; margin-top: 10px; align-items: center;'>
-          <a class='btn btn-primary book-btn' href='{{ .Params.booking_url }}'>
-            <i class='fa fa-ticket btn-icon fa-2x'></i>Book Tickets
-          </a>
-          <a class='btn btn-info' href='{{ .RelPermalink }}'>
-            <i class='fa fa-circle-info btn-icon'></i>Show Details
-          </a>
-        </div>
-      </div>
-      
-      <div class='col-md-6 col-xs-12 hero-right-pane' style='background-image:url("{{ .Params.cover_image }}"); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center; min-height: 400px; position: relative;'>
-        <div style='position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.15);'></div>
-        <a href='{{ .RelPermalink }}' style='position: relative; z-index: 1; display: block; text-align: center; max-width: 70%;'>
-          <img class='hero-image' src='{{ .Params.show_logo }}' style='max-width: 100%; max-height: 60vh; object-fit: contain; filter: drop-shadow(0 15px 25px rgba(0,0,0,0.5)); margin: auto;'/>
-        </a>
-      </div>
-      
-    </div>
-  </div>
-
-  {{ end }}
-
-  <div class='container-fluid' style='margin-bottom: 60px;'>
-    <div class='container'>
-      <div class='row'>
-        
-        <div class='col-xs-12 col-md-3 pod-container'>
-          <a href="/who-are-we">
-            <div class='row img-rounded text-center pod' style='background-image: url("https://lh3.googleusercontent.com/d/1NBy8w2y81dbFnaFJfQuVjTAcwd63ir9f")'>
-              <div class='headline-pod img-rounded'>
-                <span>About Us</span>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class='col-xs-12 col-md-3 pod-container'>
-          <a href="/join-us">
-             <div class='row img-rounded text-center pod' style='background-image: url("https://lh3.googleusercontent.com/d/1AcDFD4REGVoE-PHoreCr0FPlXWxJ2wjv")'>
-              <div class='headline-pod img-rounded'>
-                <span>Join Us</span>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class='col-xs-12 col-md-3 pod-container'>
-          <div class='text-center comingsoon-pod'>
-            <h2 style='margin-top:0px; font-size: 24px;'>
-              <i class='fa fa-calendar' style='font-size:30px; vertical-align: top;'></i> Coming Soon
-            </h2>
-            <p>Future productions will be announced here.</p>
-          </div>
-        </div>
-
-        <div class='col-xs-12 col-md-3 pod-container'>
-          <div class='text-center mailing-list-pod'>
-            <h2 style='margin-top:0px; font-size: 24px;'>Mailing List</h2>
-            <p style="font-size: 13px; line-height: 1.2;">Sign up to be the first to hear of our latest productions!</p>
-            
-            <form action='//brightlight-theatre.us9.list-manage.com/subscribe/post?u=a040ae15a45e5c2c63ab115c3&id=08c1c51746' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' target='_blank'>
-              <div class='form-group' style="margin-bottom: 10px;">
-                <div class='input-group'>
-                  <span class='input-group-addon' style="background: var(--bl-pink); color: white; border: none;"><i class='fa fa-envelope-o fa-fw'></i></span>
-                  <input class='form-control' id='mce-EMAIL' name='EMAIL' placeholder='Email address' type='text' style="height: 34px; border: 1px solid #ddd;"/>
-                </div>
-              </div>
-              <div style='position: absolute; left: -5000px;'><input name='b_a040ae15a45e5c2c63ab115c3_08c1c51746' tabindex='-1' type='text' value=''/></div>
-              <button class='btn btn-primary' id='mc-embedded-subscribe' name='subscribe' type='submit' style="padding: 8px 20px; font-size: 12px;"><i class='fa fa-sign-out'></i> Subscribe</button>
-            </form>
-          </div>
-        </div>
-
+{{ range $current }}
+  {{ partial "hero-current-show.html" . }}
+{{ else }}
+  <section class="hero-split hero-split--empty">
+    <div class="hero-split__text">
+      <p class="eyebrow">Brightlight Theatre</p>
+      <h1>Live stories, beautifully told.</h1>
+      <p class="hero-split__author">Modern, intimate productions with bold design.</p>
+      <div class="hero-split__actions">
+        <a class="btn btn--solid" href="{{ "/productions/" | relURL }}">View Productions</a>
       </div>
     </div>
-  </div>
+    <div class="hero-split__media hero-split__media--empty"></div>
+  </section>
+{{ end }}
 
+<section class="section">
+  <div class="site-shell">
+    {{ partial "site-section-heading.html" (dict "kicker" "More from Brightlight" "title" "More productions" "text" "Theatre that moves from one season to the next.") }}
+    <div class="content-grid">
+      {{ range $upcoming }}
+        {{ partial "production-card.html" . }}
+        {{ range first 3 $archive }}
+          {{ partial "production-card.html" . }}
+        {{ else }}
+          <div class="empty-state">
+            <p>No upcoming productions are listed yet.</p>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+    <a href="productions">See more</a>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="site-shell">
+    {{ partial "site-section-heading.html" (dict "kicker" "News" "title" "Latest from Brightlight" "text" "Behind-the-scenes updates, announcements and stories.") }}
+    <div class="content-grid content-grid--news">
+      {{ range $news }}
+        {{ partial "news-card.html" . }}
+      {{ else }}
+        <div class="empty-state">
+          <p>No news yet.</p>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="site-shell intro-panel">
+    <div>
+      <p class="eyebrow">About Brightlight</p>
+      <h2>Small company feel. Big stage presence.</h2>
+    </div>
+    <p>
+      Brightlight Theatre creates thoughtful, intimate productions with bold visuals and strong performances.
+      The site is driven entirely from markdown, so each production becomes its own landing page.
+    </p>
+    <div class="hero-split__actions">
+      <a class="btn btn--solid" href="{{ "/about/" | relURL }}">About us</a>
+      <a class="btn btn--ghost" href="{{ "/contact/" | relURL }}">Get in touch</a>
+    </div>
+  </div>
+</section>
 {{ end }}

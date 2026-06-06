@@ -1,0 +1,46 @@
+{{ define "main" }}
+{{ $items := .Pages }}
+{{ $current := where $items "Params.status" "current" }}
+{{ $upcoming := where $items "Params.status" "upcoming" }}
+{{ $archive := where $items "Params.status" "archive" }}
+
+<section class="page">
+  <div class="site-shell">
+    {{ partial "site-section-heading.html" (dict "kicker" "All our productions" "title" "Productions" "text" .Params.description) }}
+
+    {{ with index $current 0 }}
+    <div class="featured-block">
+      {{ partial "hero-current-show.html" . }}
+    </div>
+    {{ end }}
+
+    {{ with $upcoming }}
+    <div class="section-block">
+      {{ partial "site-section-heading.html" (dict "kicker" "Upcoming" "title" "Coming soon") }}
+      <div class="content-grid">
+        {{ range . }}
+          {{ partial "production-card.html" . }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    {{ with $archive }}
+    <div class="section-block">
+      {{ partial "site-section-heading.html" (dict "kicker" "Archive" "title" "Past productions") }}
+      <div class="content-grid">
+        {{ range . }}
+          {{ partial "production-card.html" . }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    {{ if not (or $current $upcoming $archive) }}
+      <div class="empty-state">
+        <p>No productions have been published yet.</p>
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,17 @@
+{{ $p := . }}
+{{ $badge := "" }}
+{{ if eq $p.Params.status "archive" }}
+  {{ $badge = "Previous Production" }}
+{{ else if eq $p.Params.status "upcoming" }}
+  {{ $badge = "Upcoming" }}
+{{ end }}
+<a class="card" href="{{ $p.RelPermalink }}">
+  <div class="card__image" style="background-image:url('{{ $p.Params.cover_image }}')">
+    <span class="badge">{{ $badge }}</span>
+  </div>
+  <div class="card__body">
+    <h3 class="card__title">{{ $p.Title }}</h3>
+    {{ with $p.Params.details }}<p class="card__meta">{{ . }}</p>{{ end }}
+    {{ with $p.Params.author }}<p class="card__meta card__meta--muted">{{ . }}</p>{{ end }}
+  </div>
+</a>

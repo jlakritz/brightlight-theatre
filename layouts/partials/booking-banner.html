@@ -1,0 +1,12 @@
+{{ with .Params.booking_url }}
+<section class="booking-banner">
+  <div class="site-shell booking-banner__inner">
+    <div>
+      <p class="eyebrow eyebrow--dark">Tickets</p>
+      <h2>Book {{ $.Title }}</h2>
+      {{ with $.Params.details }}<p>{{ . }}</p>{{ end }}
+    </div>
+    <a class="btn btn--solid btn--dark" href="{{ . }}" target="_blank" rel="noopener">Book Tickets</a>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,27 @@
+<section class="hero-split">
+  <div class="hero-split__text">
+    <p class="eyebrow">{{ default "Our Next Show" .Params.eyebrow }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.author }}<p class="hero-split__author">{{ . }}</p>{{ end }}
+    <div class="hero-split__meta">
+      {{ with .Params.details }}<p>{{ . }}</p>{{ end }}
+      {{ with .Params.price }}<p>{{ . }}</p>{{ end }}
+    </div>
+    <div class="hero-split__actions">
+      {{ with .Params.booking_url }}
+      <a class="btn btn--solid" href="{{ . }}" target="_blank" rel="noopener">Book Tickets</a>
+      {{ end }}
+      <a class="btn btn--ghost" href="{{ .RelPermalink }}">Show Details</a>
+    </div>
+  </div>
+
+  <a class="hero-split__media" href="{{ .RelPermalink }}" aria-label="Read more about {{ .Title }}">
+    <div class="hero-split__bg" style="background-image:url('{{ .Params.cover_image }}')"></div>
+    <div class="hero-split__veil"></div>
+    {{ with .Params.show_logo }}
+      <img class="hero-split__logo" src="{{ . }}" alt="{{ $.Title }} logo">
+    {{ else }}
+      <div class="hero-split__fallback">{{ $.Title }}</div>
+    {{ end }}
+  </a>
+</section>

@@ -1,0 +1,11 @@
+{{ define "main" }}
+<section class="page">
+  <article class="site-shell prose">
+      <img class="news-hero__media" src="{{ .Params.image  }}"/>
+    <p class="eyebrow">News</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Date }}<p class="page__date">{{ .Format "2 January 2006" }}</p>{{ end }}
+    {{ .Content }}
+  </article>
+</section>
+{{ end }}

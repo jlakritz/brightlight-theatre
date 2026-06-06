@@ -1,0 +1,104 @@
+{{ define "main" }}
+<section class="production-hero">
+  <div class="production-hero__text">
+    <p class="eyebrow">Show Details</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.author }}<p class="production-hero__author">{{ . }}</p>{{ end }}
+    <div class="production-hero__meta">
+      {{ with .Params.details }}<p>{{ . }}</p>{{ end }}
+      {{ with .Params.price }}<p>{{ . }}</p>{{ end }}
+      {{ with .Params.venue }}<p>{{ . }}</p>{{ end }}
+    </div>
+    <div class="hero-split__actions">
+      {{ with .Params.booking_url }}
+        <a class="btn btn--solid" href="{{ . }}" target="_blank" rel="noopener">Book Tickets</a>
+      {{ end }}
+      {{ with .Params.booking_text }}
+        <span class="ticket-note">{{ . }}</span>
+      {{ end }}
+    </div>
+  </div>
+  <div class="production-hero__media" style="background-image:url('{{ .Params.cover_image }}')">
+    <div class="production-hero__veil"></div>
+    {{ with .Params.show_logo }}
+      <img class="production-hero__logo" src="{{ . }}" alt="{{ $.Title }} logo">
+    {{ else }}
+      <div class="production-hero__fallback">{{ $.Title }}</div>
+    {{ end }}
+  </div>
+</section>
+
+{{ partial "booking-banner.html" . }}
+
+<section class="section">
+  <div class="site-shell production-layout">
+    <article class="prose production-copy">
+      {{ .Content }}
+    </article>
+
+    <aside class="production-sidebar">
+      {{ with .Params.dates }}
+      <div class="info-panel">
+        <h2>Dates</h2>
+        <ul class="info-list">
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+      {{ with .Params.cast }}
+      <div class="info-panel">
+        <h2>Cast</h2>
+        <ul class="info-list">
+          {{ range . }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+      {{ with .Params.crew }}
+      <div class="info-panel">
+        <h2>Production team</h2>
+        <ul class="info-list">
+          {{ range . }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+      {{ with .Params.charity }}
+      <div class="info-panel">
+        <h2>Charity partner</h2>
+        <p>
+          {{ .name }} — {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .url }}</a>{{ end }}
+        </p>
+      </div>
+      {{ end }}
+
+      {{ with .Params.licence }}
+      <div class="info-panel">
+        <h2>Licensing</h2>
+        <p>{{ . }}</p>
+      </div>
+      {{ end }}
+    </aside>
+  </div>
+</section>
+
+{{ with .Params.gallery }}
+<section class="section section--alt">
+  <div class="site-shell">
+    {{ partial "site-section-heading.html" (dict "kicker" "Gallery" "title" "Production images") }}
+    <div class="gallery-grid">
+      {{ range . }}
+        <figure class="gallery-item">
+          <img src="{{ . }}" alt="">
+        </figure>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

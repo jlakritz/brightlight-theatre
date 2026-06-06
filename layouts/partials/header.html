@@ -1,0 +1,24 @@
+<header class="site-header">
+  <div class="site-shell site-header__inner">
+    <a class="brand" href="{{ "/" | relURL }}" aria-label="Brightlight Theatre home">
+ <!--     <span class="brand__mark">Brightlight</span>
+      <span class="brand__sub">Theatre</span> -->
+      <img src="{{ "images/black-logo.svg" | relURL }}" class="brand-logo"/>
+    </a>
+
+    <input class="nav-toggle" type="checkbox" id="nav-toggle">
+    <label class="nav-toggle__button" for="nav-toggle" aria-label="Toggle menu">
+<svg width="70%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+<path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+<path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+</svg>
+    </label>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      {{ range .Site.Menus.main }}
+        <a class="site-nav__link" href="{{ .URL | relURL }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

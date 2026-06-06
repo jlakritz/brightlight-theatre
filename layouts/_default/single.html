@@ -1,0 +1,9 @@
+{{ define "main" }}
+<section class="page">
+  <div class="site-shell prose">
+    <p class="eyebrow">{{ default .Title .Params.eyebrow }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}
