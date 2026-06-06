@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Site.Title }}</title>
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bl-yellow: #FCFE02;
+      --bl-pink: #FE027E;
+      --text-dark: #111111;
+      --bg-light: #FAFAFA;
+    }
+
+    body {
+      background-color: var(--bg-light);
+      color: var(--text-dark);
+      font-family: 'Open Sans', sans-serif;
+    }
+    
+    h1, h2, h3, h4, h5, .headline {
+      font-family: 'Alfa Slab One', cursive, sans-serif !important;
+      font-weight: normal;
+    }
+
+    /* 50/50 Hero Styling */
+    .hero-split-wrapper { margin-bottom: 40px; }
+    .headline.headline-primary {
+      font-size: 4.5vw;
+      line-height: 1.1;
+      color: var(--bl-yellow);
+      display: block;
+      margin-bottom: 15px;
+    }
+    .author, .byline-hero {
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+
+    .btn {
+      border-radius: 50px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 12px 28px;
+      transition: all 0.3s ease;
+      border: none;
+    }
+    .btn-primary {
+      background-color: var(--bl-yellow);
+      color: var(--text-dark);
+    }
+    .btn-primary:hover {
+      background-color: var(--text-dark);
+      color: var(--bl-yellow);
+    }
+    .btn-info {
+      background-color: transparent;
+      border: 2px solid var(--bl-yellow);
+      color: var(--bl-yellow);
+    }
+    .btn-info:hover {
+      background-color: var(--bl-yellow);
+      color: var(--text-dark);
+    }
+
+    @media (max-width: 768px) {
+      .headline.headline-primary { font-size: 45px; }
+      .hero-left-pane { padding: 40px 20px !important; text-align: center; }
+      .hero-buttons { justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+  {{ block "main" . }}{{ end }}
+
+  </body>
+</html>

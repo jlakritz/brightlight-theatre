@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+  {{ range where .Site.RegularPages "Params.onsale" true }}
+  
+  <div class='container-fluid hero-split-wrapper' style='padding: 0;'>
+    <div class='row' style='margin: 0; display: flex; flex-wrap: wrap; align-items: stretch; min-height: 60vh;'>
+      
+      <div class='col-md-6 col-xs-12 hero-left-pane' style='background-color: var(--bl-pink); padding: 5% 8%; display: flex; flex-direction: column; justify-content: center;'>
+        
+        <span class='headline headline-primary'>{{ .Title }}</span>
+        
+        <span class='author'>{{ .Params.author }}</span>
+        
+        <div style='margin: 15px 0;'>
+          <span class='byline byline-hero'>{{ .Params.details }}</span><br/>
+          <span class='byline byline-hero'>{{ .Params.price }}</span>
+        </div>
+
+        <div class='hero-buttons' style='display: flex; gap: 15px; flex-wrap: wrap; margin-top: 10px; align-items: center;'>
+          
+          <a class='btn btn-primary book-btn' href='{{ .Params.booking_url }}'>
+            <i class='fa fa-ticket btn-icon fa-2x'></i>Book Tickets
+          </a>
+          
+          <a class='btn btn-info' href='{{ .RelPermalink }}'>
+            <i class='fa fa-circle-info btn-icon'></i>Show Details
+          </a>
+          
+        </div>
+      </div>
+      
+      <div class='col-md-6 col-xs-12 hero-right-pane' style='background-image:url("{{ .Params.cover_image }}"); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center; min-height: 400px; position: relative;'>
+        
+        <div style='position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.15);'></div>
+        
+        <a href='{{ .RelPermalink }}' style='position: relative; z-index: 1; display: block; text-align: center; max-width: 70%;'>
+          <img class='hero-image' src='{{ .Params.show_logo }}' style='max-width: 100%; max-height: 60vh; object-fit: contain; filter: drop-shadow(0 15px 25px rgba(0,0,0,0.5)); margin: auto;'/>
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+
+  {{ end }}
+
+{{ end }}
