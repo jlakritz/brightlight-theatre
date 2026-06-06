@@ -7,8 +7,10 @@
 
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,500" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
 
   <style>
     :root {
@@ -21,54 +23,84 @@
     body {
       background-color: var(--bg-light);
       color: var(--text-dark);
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Raleway', 'Open Sans', sans-serif;
+      padding-top: 60px; /* Accommodates fixed navbar [cite: 10] */
+      margin-bottom: 30px; [cite: 10]
     }
     
-    h1, h2, h3, h4, h5, .headline {
+    h1, h2, h3, h4, h5, .headline, .headline-pod {
       font-family: 'Alfa Slab One', cursive, sans-serif !important;
       font-weight: normal;
     }
 
-    /* 50/50 Hero Styling */
-    .hero-split-wrapper { margin-bottom: 40px; }
-    .headline.headline-primary {
-      font-size: 4.5vw;
-      line-height: 1.1;
-      color: var(--bl-yellow);
-      display: block;
-      margin-bottom: 15px;
-    }
-    .author, .byline-hero {
-      color: white;
+    /* Subtitle Bar [cite: 14] */
+    .subtitle {
+      padding: 5px 0px; 
+      background: rgba(0,0,0,0.8); 
+      color: white; 
       font-family: 'Open Sans', sans-serif;
-      font-size: 1.2em;
-      font-weight: 600;
+      font-size: 14px;
+    }
+    .subtitle a { color: white; }
+
+    /* Navbar [cite: 34, 50, 56] */
+    .navbar-header { display: flex; justify-content: space-between; align-items: center; width: 100%; }
+    .navbar-logo { max-height: 80px; margin: 3px 0px; }
+    .navbar-nav { display: flex; flex-wrap: nowrap; align-items: center; }
+    .social-icon { padding: 0px 0px 0px 5px !important; color: #337ab7 !important; border: none !important; }
+
+    @media (max-width: 767px) {
+      .navbar .container { flex-direction: column; align-items: stretch; }
+      .navbar-logo { margin: 15px 0px; height: 60px; } [cite: 44]
+      .social-icon { margin-right: 5px; padding: 0px; } [cite: 45]
     }
 
-    .btn {
-      border-radius: 50px;
-      font-weight: 700;
-      text-transform: uppercase;
-      padding: 12px 28px;
-      transition: all 0.3s ease;
-      border: none;
+    /* 50/50 Hero Styling */
+    .hero-split-wrapper { margin-bottom: 40px; }
+    .headline.headline-primary { font-size: 4.5vw; line-height: 1.1; color: var(--bl-yellow); display: block; margin-bottom: 15px; }
+    .author, .byline-hero { color: white; font-family: 'Open Sans', sans-serif; font-size: 1.2em; font-weight: 600; }
+    
+    .btn { border-radius: 50px; font-weight: 700; text-transform: uppercase; padding: 12px 28px; transition: all 0.3s ease; border: none; }
+    .btn-primary { background-color: var(--bl-yellow); color: var(--text-dark); }
+    .btn-primary:hover { background-color: var(--text-dark); color: var(--bl-yellow); }
+    .btn-info { background-color: transparent; border: 2px solid var(--bl-yellow); color: var(--bl-yellow); }
+    .btn-info:hover { background-color: var(--bl-yellow); color: var(--text-dark); }
+
+    /* Pods [cite: 30, 31, 348] */
+    .pod-container { padding: 15px; }
+    .pod { 
+      height: 200px; 
+      background-size: cover; 
+      background-position: center;
+      margin-top: 10px; 
+      padding: 10px;
+      position: relative;
+      display: flex;
+      align-items: flex-end;
     }
-    .btn-primary {
-      background-color: var(--bl-yellow);
-      color: var(--text-dark);
+    .headline-pod { 
+      width: 100%; 
+      padding: 10px; 
+      background: rgba(255,255,255,0.9); 
+      color: #000; 
+      font-size: 24px !important;
+      margin: 0;
     }
-    .btn-primary:hover {
-      background-color: var(--text-dark);
-      color: var(--bl-yellow);
+    .comingsoon-pod, .mailing-list-pod {
+      background: #f8f8f8;
+      height: 200px;
+      padding: 20px;
+      margin-top: 10px;
+      border-radius: 6px;
     }
-    .btn-info {
-      background-color: transparent;
-      border: 2px solid var(--bl-yellow);
-      color: var(--bl-yellow);
-    }
-    .btn-info:hover {
-      background-color: var(--bl-yellow);
-      color: var(--text-dark);
+
+    /* Footer [cite: 28] */
+    .footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 30px;
+      background-color: #e7e7e7;
     }
 
     @media (max-width: 768px) {
@@ -80,7 +112,63 @@
 </head>
 <body>
 
+  <div class="container-fluid subtitle">
+    <div class="row">
+      <div class="container">
+       <div class="visible-xsx col-xs-1x"></div>
+       <small class="">Frimley's leading amateur dramatics group</small>
+       <small class="pull-right hidden-xs">
+        <a href="mailto:info@brightlight-theatre.co.uk"><i class="fa fa-envelope"></i> info@brightlight-theatre.co.uk</a> | 
+        <a href="tel:01276817046"><i class="fa fa-phone"></i> 01276 817046</a>
+       </small>
+      </div>
+     </div>
+  </div>
+
+  <nav class='navbar navbar-default navbar-fixed-top'>
+    <div class='container'>
+      <div class='navbar-header w-100'>
+        <a class='pull-left' href='/'>
+          <img class='navbar-logo' src='https://lh3.googleusercontent.com/d/1H06ej4JXhK6gCfUJED-iMWPaD6SAKd2m' alt="Brightlight Theatre">
+        </a>
+        <div class='d-flex align-items-center gap-2'>
+          <a class='visible-xs-block social-icon' href='https://www.facebook.com/brightlighttc'>
+            <i class='fa-brands fa-square-facebook fa-2x'></i>
+          </a>
+          <a class='visible-xs-block social-icon' href='https://twitter.com/brightlighttc'>
+            <i class='fa-brands fa-square-x-twitter fa-2x'></i>
+          </a>
+          <button aria-controls='navbar' aria-expanded='false' class='navbar-toggle collapsed' data-target='#navbar' data-toggle='collapse' type='button'>
+            <span class='sr-only'>Toggle navigation</span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </button>
+        </div>
+      </div>
+      <div aria-expanded='false' class='navbar-collapse collapse' id='navbar'>
+        <ul class='nav navbar-nav navbar-right'>
+          <li><a href='/who-are-we'>About Us</a></li>
+          <li><a href='/join-us'>Join Us</a></li>
+          <li><a href='/donate'>Donate</a></li>
+          <li><a href='/contact-us'>Contact Us</a></li>
+          <li class='visible-xs-block'><a href='mailto:info@brightlight-theatre.co.uk'><i class='fa fa-envelope'></i> info@brightlight-theatre.co.uk</a></li>
+          <li class='hidden-xs'><a class='social-icon navbar-toggle' href='https://twitter.com/brightlighttc'><i class='fa-brands fa-square-x-twitter fa-2x'></i></a></li>
+          <li class='hidden-xs'><a class='social-icon navbar-toggle' href='https://www.facebook.com/brightlighttc'><i class='fa-brands fa-square-facebook fa-2x'></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   {{ block "main" . }}{{ end }}
 
-  </body>
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted text-center">© 2026 Brightlight Theatre Company. Registered charity: 1185359</p>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
 </html>
