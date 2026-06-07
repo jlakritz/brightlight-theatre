@@ -3,158 +3,174 @@ media:
   output: /uploads
 
 content:
-  collections:
-    - name: productions
-      label: Productions
-      type: collection
-      path: content/productions
-      filename: "{slug}.md"
-      view:
+  - name: productions
+    label: Productions
+    type: collection
+    path: content/productions
+    filename: "{slug}.md"
+    view:
+      fields:
+        - title
+        - status
+        - dates
+    fields:
+      - name: title
+        label: Show Title
+        type: string
+        required: true
+
+      - name: status
+        label: Status
+        type: select
+        options:
+          values:
+            - name: current
+              label: Current
+            - name: upcoming
+              label: Upcoming
+            - name: archive
+              label: Archive
+
+      - name: onsale
+        label: Tickets On Sale
+        type: boolean
+
+      - name: date
+        label: Date
+        type: date
+
+      - name: author
+        label: Author
+        type: string
+
+      - name: details
+        label: Performance Details
+        type: string
+
+      - name: eyebrow
+        label: Eyebrow
+        type: string
+
+      - name: price
+        label: Ticket Price
+        type: string
+
+      - name: venue
+        label: Venue
+        type: string
+
+      - name: booking_url
+        label: Booking URL
+        type: string
+
+      - name: booking_text
+        label: Booking Text
+        type: string
+
+      - name: show_logo
+        label: Show Logo
+        type: image
+
+      - name: cover_image
+        label: Cover Image
+        type: image
+
+      - name: dates
+        label: Performance Dates
+        type: string
+        list: true
+
+      - name: charity
+        label: Charity
+        type: object
         fields:
-          - title
-          - status
-          - dates
-      fields:
-        - name: title
-          label: Show Title
-          type: string
-          required: true
+          - name: name
+            label: Charity Name
+            type: string
 
-        - name: status
-          label: Status
-          type: select
-          options:
-            - current
-            - upcoming
-            - archive
+          - name: url
+            label: Charity URL
+            type: string
 
-        - name: onsale
-          label: Tickets On Sale
-          type: boolean
+      - name: licence
+        label: Performance Licence
+        type: string
 
-        - name: date
-          label: Date
-          type: date
+      - name: gallery
+        label: Photo Gallery
+        type: image
+        list: true
 
-        - name: author
-          label: Author
-          type: string
+  - name: news
+    label: News
+    type: collection
+    path: content/news
+    filename: "{slug}.md"
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
 
-        - name: details
-          label: Performance Details
-          type: string
+      - name: date
+        label: Publish Date
+        type: date
 
-        - name: eyebrow
-          label: eyebrow
-          type: string
+      - name: image
+        label: Header Image
+        type: image
 
-        - name: price
-          label: Ticket Price
-          type: string
+      - name: body
+        label: Content
+        type: rich-text
 
-        - name: venue
-          label: Venue
-          type: string
+  - name: about
+    label: About Us
+    type: file
+    path: content/about.md
+    fields:
+      - name: title
+        type: string
 
-        - name: booking_url
-          label: Booking URL
-          type: string
+      - name: description
+        type: string
 
-        - name: booking_text
-          label: Booking Text
-          type: string
+      - name: eyebrow
+        type: string
 
-        - name: show_logo
-          label: Show Logo
-          type: image
+      - name: body
+        type: rich-text
 
-        - name: cover_image
-          label: Cover Image
-          type: image
+  - name: join_us
+    label: Join Us
+    type: file
+    path: content/join-us.md
+    fields:
+      - name: title
+        type: string
 
-        - name: dates
-          label: Performance Dates
-          type: string
-          list: true
+      - name: description
+        type: string
 
-        - name: charity
-          label: Charity
-          type: object
-          fields:
-            - name: name
-              label: Charity Name
-              type: string
-            - name: url
-              label: Charity URL
-              type: string
+      - name: eyebrow
+        type: string
 
-        - name: licence
-          label: Performance Licence
-          type: string
+      - name: body
+        type: rich-text
 
-        - name: gallery
-          label: Photo Gallery
-          type: image
-          list: true
+  - name: contact
+    label: Contact
+    type: file
+    path: content/contact.md
+    fields:
+      - name: title
+        type: string
 
-    - name: news
-      label: News
-      type: collection
-      path: content/news
-      filename: "{slug}.md"
-      fields:
-        - name: title
-          label: Title
-          type: string
-          required: true
-        - name: date
-          label: Publish Date
-          type: date
-        - name: image
-          label: Header Image
-          type: image
-        - name: body
-          label: Content
-          type: rich-text
+      - name: description
+        type: string
 
-    - name: about
-      label: About Us
-      type: file
-      path: content/about.md
-      fields:
-        - name: title
-          type: string
-        - name: description
-          type: string
-        - name: eyebrow
-          type: string
-        - name: body
-          type: rich-text
+      - name: eyebrow
+        type: string
 
-    - name: join_us
-      label: Join Us
-      type: file
-      path: content/join-us.md
-      fields:
-        - name: title
-          type: string
-        - name: description
-          type: string
-        - name: eyebrow
-          type: string
-        - name: body
-          type: rich-text
-
-    - name: contact
-      label: Contact
-      type: file
-      path: content/contact.md
-      fields:
-        - name: title
-          type: string
-        - name: description
-          type: string
-        - name: eyebrow
-          type: string
-        - name: body
-          type: rich-text
+      - name: body
+        type: rich-text
