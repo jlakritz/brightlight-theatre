@@ -16,10 +16,10 @@
   </div>
 
   <a class="hero-split__media" href="{{ .RelPermalink }}" aria-label="Read more about {{ .Title }}">
-    <div class="hero-split__bg" style="background-image:url('{{ .Params.cover_image | absURL }}')"></div>
+    <div class="hero-split__bg" style="background-image:url('{{ .Params.cover_image | relURL }}')"></div>
     <div class="hero-split__veil"></div>
     {{ with .Params.show_logo }}
-      <img class="hero-split__logo" src="{{ . | absURL }}" alt="{{ $.Title }} logo">
+      <img class="hero-split__logo" src="{{ . | relURL }}" alt="{{ $.Title }} logo">
     {{ else }}
       <div class="hero-split__fallback">{{ $.Title }}</div>
     {{ end }}
