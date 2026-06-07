@@ -178,3 +178,11 @@ content:
 
       - name: body
         type: rich-text
+
+  - name: refund-policy
+    label: Contact
+    type: file
+    path: content/refund.md
+    fields:
+      - name: body
+        type: rich-text
