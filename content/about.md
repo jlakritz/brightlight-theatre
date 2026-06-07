@@ -1,5 +1,6 @@
 ---
 title: An award-winning, crowd-pleasing community theatre company!!
+eyebrow: About Us
 ---
 Brightlight Theatre creates intimate productions with bold visual identity and a strong connection with audiences.
 
