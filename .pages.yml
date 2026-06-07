@@ -180,7 +180,7 @@ content:
         type: rich-text
 
   - name: refund-policy
-    label: Contact
+    label: Refund Policy
     type: file
     path: content/refund.md
     fields:
