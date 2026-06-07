@@ -3,122 +3,158 @@ media:
   output: /uploads
 
 content:
-  - name: productions
-    label: Productions
-    type: collection
-    path: content/productions
-    filename: "{slug}.md"
-    view:
+  collections:
+    - name: productions
+      label: Productions
+      type: collection
+      path: content/productions
+      filename: "{slug}.md"
+      view:
+        fields:
+          - title
+          - status
+          - dates
       fields:
-        - title
-        - status
-        - show_dates
-    fields:
-      - name: title
-        label: Show Title
-        type: string
-        required: true
+        - name: title
+          label: Show Title
+          type: string
+          required: true
 
-      - name: status
-        label: Status
-        type: select
-        options:
-          - current
-          - upcoming
-          - archive
-        default: upcoming
+        - name: status
+          label: Status
+          type: select
+          options:
+            - current
+            - upcoming
+            - archive
 
-      - name: onsale
-        label: Tickets On Sale
-        type: boolean
-        default: false
+        - name: onsale
+          label: Tickets On Sale
+          type: boolean
 
-      - name: author
-        label: Author
-        type: string
+        - name: date
+          label: Date
+          type: date
 
-      - name: venue
-        label: Venue
-        type: string
+        - name: author
+          label: Author
+          type: string
 
-      - name: details
-        label: Performance Details
-        type: string
+        - name: details
+          label: Performance Details
+          type: string
 
-      - name: price
-        label: Ticket Price
-        type: string
+        - name: eyebrow
+          label: eyebrow
+          type: string
 
-      - name: booking_url
-        label: Booking URL
-        type: string
+        - name: price
+          label: Ticket Price
+          type: string
 
-      - name: show_logo
-        label: Show Logo
-        type: image
+        - name: venue
+          label: Venue
+          type: string
 
-      - name: cover_image
-        label: Cover Image
-        type: image
+        - name: booking_url
+          label: Booking URL
+          type: string
 
-      - name: show_dates
-        label: Performance Dates
-        type: list
-        default: []
+        - name: booking_text
+          label: Booking Text
+          type: string
 
-      - name: body
-        label: Page Content
-        type: rich-text
+        - name: show_logo
+          label: Show Logo
+          type: image
 
-  - name: news
-    label: News
-    type: collection
-    path: content/news
-    filename: "{slug}.md"
-    fields:
-      - name: title
-        label: Title
-        type: string
-        required: true
+        - name: cover_image
+          label: Cover Image
+          type: image
 
-      - name: date
-        label: Publish Date
-        type: date
+        - name: dates
+          label: Performance Dates
+          type: string
+          list: true
 
-      - name: image
-        label: Header Image
-        type: image
+        - name: charity
+          label: Charity
+          type: object
+          fields:
+            - name: name
+              label: Charity Name
+              type: string
+            - name: url
+              label: Charity URL
+              type: string
 
-      - name: body
-        label: Content
-        type: rich-text
+        - name: licence
+          label: Performance Licence
+          type: string
 
-  - name: about
-    label: About Us
-    type: file
-    path: content/about.md
-    fields:
-      - name: title
-        type: string
-      - name: body
-        type: rich-text
+        - name: gallery
+          label: Photo Gallery
+          type: image
+          list: true
 
-  - name: join_us
-    label: Join Us
-    type: file
-    path: content/join-us.md
-    fields:
-      - name: title
-        type: string
-      - name: body
-        type: rich-text
+    - name: news
+      label: News
+      type: collection
+      path: content/news
+      filename: "{slug}.md"
+      fields:
+        - name: title
+          label: Title
+          type: string
+          required: true
+        - name: date
+          label: Publish Date
+          type: date
+        - name: image
+          label: Header Image
+          type: image
+        - name: body
+          label: Content
+          type: rich-text
 
-  - name: contact
-    label: Contact
-    type: file
-    path: content/contact.md
-    fields:
-      - name: title
-        type: string
-      - name: body
-        type: rich-text
+    - name: about
+      label: About Us
+      type: file
+      path: content/about.md
+      fields:
+        - name: title
+          type: string
+        - name: description
+          type: string
+        - name: eyebrow
+          type: string
+        - name: body
+          type: rich-text
+
+    - name: join_us
+      label: Join Us
+      type: file
+      path: content/join-us.md
+      fields:
+        - name: title
+          type: string
+        - name: description
+          type: string
+        - name: eyebrow
+          type: string
+        - name: body
+          type: rich-text
+
+    - name: contact
+      label: Contact
+      type: file
+      path: content/contact.md
+      fields:
+        - name: title
+          type: string
+        - name: description
+          type: string
+        - name: eyebrow
+          type: string
+        - name: body
+          type: rich-text
