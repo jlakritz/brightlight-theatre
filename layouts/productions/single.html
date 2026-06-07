@@ -34,9 +34,11 @@
   <div class="site-shell production-layout">
     <article class="prose production-copy">
       {{ .Content }}
-{{ with .Site.GetPage "content/refund-policy.md" }}
-      {{ .Content }}
-  {{ end }}
+{{ with site.GetPage "/refund" }}
+  <section class="refund-policy">
+    {{ .Content }}
+  </section>
+{{ end }}
     </article>
 
     <aside class="production-sidebar">
