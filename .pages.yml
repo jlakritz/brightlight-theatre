@@ -1,0 +1,152 @@
+media:
+input: static/uploads
+output: /uploads
+
+content:
+
+Productions
+
+- name: productions
+  label: Productions
+  type: collection
+  path: content/productions
+  
+  filename: "{fields.title}.md"
+  
+  view:
+  fields:
+  - title
+  - status
+  - show_dates
+  
+  fields:
+  
+  - name: title
+    label: Show Title
+    type: string
+    required: true
+  
+  - name: status
+    label: Status
+    type: select
+    options:
+    values:
+    - current
+    - upcoming
+    - archive
+    default: upcoming
+  
+  - name: onsale
+    label: Tickets On Sale
+    type: boolean
+    default: false
+  
+  - name: author
+    label: Author
+    type: string
+  
+  - name: venue
+    label: Venue
+    type: string
+  
+  - name: details
+    label: Performance Details
+    type: string
+  
+  - name: price
+    label: Ticket Price
+    type: string
+  
+  - name: booking_url
+    label: Booking URL
+    type: string
+  
+  - name: show_logo
+    label: Show Logo
+    type: image
+  
+  - name: cover_image
+    label: Cover Image
+    type: image
+  
+  - name: show_dates
+    label: Performance Dates
+    type: list
+    default: []
+  
+  - name: body
+    label: Page Content
+    type: rich-text
+
+News
+
+- name: news
+  label: News
+  type: collection
+  path: content/news
+  
+  filename: "{fields.title}.md"
+  
+  fields:
+  
+  - name: title
+    label: Title
+    type: string
+    required: true
+  
+  - name: date
+    label: Publish Date
+    type: date
+  
+  - name: image
+    label: Header Image
+    type: image
+  
+  - name: body
+    label: Content
+    type: rich-text
+
+About Page
+
+- name: about
+  label: About Us
+  type: file
+  path: content/about.md
+  
+  fields:
+  
+  - name: title
+    type: string
+  
+  - name: body
+    type: rich-text
+
+Join Us Page
+
+- name: join_us
+  label: Join Us
+  type: file
+  path: content/join-us.md
+  
+  fields:
+  
+  - name: title
+    type: string
+  
+  - name: body
+    type: rich-text
+
+Contact Page
+
+- name: contact
+  label: Contact
+  type: file
+  path: content/contact.md
+  
+  fields:
+  
+  - name: title
+    type: string
+  
+  - name: body
+    type: rich-text
