@@ -101,6 +101,10 @@ content:
         type: image
         list: true
 
+      - name: body
+        label: Content
+        type: rich-text
+
   - name: news
     label: News
     type: collection
