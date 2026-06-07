@@ -1,6 +1,6 @@
 ---
 title: Entertaining Angels
-status: current
+status: archive
 onsale: true
 date: 2026-06-07
 author: by Richard Everett
