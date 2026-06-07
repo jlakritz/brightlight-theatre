@@ -18,10 +18,10 @@
       {{ end }}
     </div>
   </div>
-  <div class="production-hero__media" style="background-image:url('{{ .Params.cover_image }}')">
+  <div class="production-hero__media" style="background-image:url('{{ .Params.cover_image | relURL }}')">
     <div class="production-hero__veil"></div>
     {{ with .Params.show_logo }}
-      <img class="production-hero__logo" src="{{ . }}" alt="{{ $.Title }} logo">
+      <img class="production-hero__logo" src="{{ . | relURL}}" alt="{{ $.Title }} logo">
     {{ else }}
       <div class="production-hero__fallback">{{ $.Title }}</div>
     {{ end }}
