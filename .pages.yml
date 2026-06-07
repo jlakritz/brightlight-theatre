@@ -3,130 +3,122 @@ media:
   output: /uploads
 
 content:
-  collections: # Added the required collections key
-
-    # --- Productions ---
-    - name: productions
-      label: Productions
-      type: collection
-      path: content/productions
-      filename: "{fields.title}.md"
-      view:
-        fields: # Fixed indentation for the list view columns
-          - title
-          - status
-          - show_dates
+  - name: productions
+    label: Productions
+    type: collection
+    path: content/productions
+    filename: "{slug}.md"
+    view:
       fields:
-        - name: title
-          label: Show Title
-          type: string
-          required: true
+        - title
+        - status
+        - show_dates
+    fields:
+      - name: title
+        label: Show Title
+        type: string
+        required: true
 
-        - name: status
-          label: Status
-          type: select
-          options: # Fixed the dropdown options syntax
-            - current
-            - upcoming
-            - archive
-          default: upcoming
+      - name: status
+        label: Status
+        type: select
+        options:
+          - current
+          - upcoming
+          - archive
+        default: upcoming
 
-        - name: onsale
-          label: Tickets On Sale
-          type: boolean
-          default: false
+      - name: onsale
+        label: Tickets On Sale
+        type: boolean
+        default: false
 
-        - name: author
-          label: Author
-          type: string
+      - name: author
+        label: Author
+        type: string
 
-        - name: venue
-          label: Venue
-          type: string
+      - name: venue
+        label: Venue
+        type: string
 
-        - name: details
-          label: Performance Details
-          type: string
+      - name: details
+        label: Performance Details
+        type: string
 
-        - name: price
-          label: Ticket Price
-          type: string
+      - name: price
+        label: Ticket Price
+        type: string
 
-        - name: booking_url
-          label: Booking URL
-          type: string
+      - name: booking_url
+        label: Booking URL
+        type: string
 
-        - name: show_logo
-          label: Show Logo
-          type: image
+      - name: show_logo
+        label: Show Logo
+        type: image
 
-        - name: cover_image
-          label: Cover Image
-          type: image
+      - name: cover_image
+        label: Cover Image
+        type: image
 
-        - name: show_dates
-          label: Performance Dates
-          type: list
-          default: []
+      - name: show_dates
+        label: Performance Dates
+        type: list
+        default: []
 
-        - name: body
-          label: Page Content
-          type: rich-text
+      - name: body
+        label: Page Content
+        type: rich-text
 
-    # --- News ---
-    - name: news
-      label: News
-      type: collection
-      path: content/news
-      filename: "{fields.title}.md"
-      fields:
-        - name: title
-          label: Title
-          type: string
-          required: true
+  - name: news
+    label: News
+    type: collection
+    path: content/news
+    filename: "{slug}.md"
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
 
-        - name: date
-          label: Publish Date
-          type: date
+      - name: date
+        label: Publish Date
+        type: date
 
-        - name: image
-          label: Header Image
-          type: image
+      - name: image
+        label: Header Image
+        type: image
 
-        - name: body
-          label: Content
-          type: rich-text
+      - name: body
+        label: Content
+        type: rich-text
 
-    # --- About Page ---
-    - name: about
-      label: About Us
-      type: file
-      path: content/about.md
-      fields:
-        - name: title
-          type: string
-        - name: body
-          type: rich-text
+  - name: about
+    label: About Us
+    type: file
+    path: content/about.md
+    fields:
+      - name: title
+        type: string
+      - name: body
+        type: rich-text
 
-    # --- Join Us Page ---
-    - name: join_us
-      label: Join Us
-      type: file
-      path: content/join-us.md
-      fields:
-        - name: title
-          type: string
-        - name: body
-          type: rich-text
+  - name: join_us
+    label: Join Us
+    type: file
+    path: content/join-us.md
+    fields:
+      - name: title
+        type: string
+      - name: body
+        type: rich-text
 
-    # --- Contact Page ---
-    - name: contact
-      label: Contact
-      type: file
-      path: content/contact.md
-      fields:
-        - name: title
-          type: string
-        - name: body
-          type: rich-text
-
+  - name: contact
+    label: Contact
+    type: file
+    path: content/contact.md
+    fields:
+      - name: title
+        type: string
+      - name: body
+        type: rich-text
