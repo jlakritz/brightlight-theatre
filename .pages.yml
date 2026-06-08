@@ -43,6 +43,10 @@ content:
         label: Author
         type: string
 
+      - name: hero-details
+        label: Hero Details
+        type: string
+
       - name: details
         label: Performance Details
         type: string
