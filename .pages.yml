@@ -190,3 +190,11 @@ content:
     fields:
       - name: body
         type: rich-text
+
+  - name: brand-statement
+    label: Brand Statement
+    type: file
+    path: content/brand-statement.md
+    fields:
+      - name: body
+        type: rich-text
