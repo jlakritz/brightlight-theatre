@@ -20,11 +20,16 @@
   box-sizing:border-box;
 }
 
+* {
+  font-family: inherit;
+  font-size: inherit;
+}
+
 html{
   scroll-behavior:smooth;
 }
 
-body{
+body {
   margin:0;
   background:var(--bg);
   color:var(--text);
@@ -165,7 +170,7 @@ em {
   max-width:70ch;
 
   font-family:"Alfa Slab One", serif;
-  font-size:clamp(1.8rem, 3vw, 2rem);
+  font-size:clamp(1.6rem, 3vw, 2rem);
   line-height:1.15;
   text-align:center;
 
@@ -464,7 +469,7 @@ text-decoration: underline var(--yellow) 5px;
 }
 
 .card__title{
-  margin:0 0 .45rem;
+  margin:.45rem 0 .45rem;
   font-size:1.5rem;
 }
 
