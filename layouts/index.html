@@ -21,6 +21,37 @@
   </section>
 {{ end }}
 
+
+{{ with site.GetPage "/brand-statement" }}
+  <section class="brand-statement">
+    <div class="site-shell">
+      <p>
+        {{ .Content }}
+      </p>
+    </div>
+  </section>
+{{ end }}
+
+
+
+
+<section class="section">
+  <div class="site-shell intro-panel">
+    <div>
+      <p class="eyebrow">About Brightlight</p>
+      <h2>Small company feel. Big stage presence.</h2>
+    </div>
+    <p>
+      Brightlight Theatre creates thoughtful, intimate productions with bold visuals and strong performances.
+      The site is driven entirely from markdown, so each production becomes its own landing page.
+    </p>
+    <div class="hero-split__actions">
+      <a class="btn btn--solid" href="{{ "/about/" | relURL }}">About us</a>
+      <a class="btn btn--ghost" href="{{ "/contact/" | relURL }}">Get in touch</a>
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="site-shell">
     {{ partial "site-section-heading.html" (dict "kicker" "More from Brightlight" "title" "More productions" "text" "Theatre that moves from one season to the next.") }}
@@ -55,20 +86,4 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="site-shell intro-panel">
-    <div>
-      <p class="eyebrow">About Brightlight</p>
-      <h2>Small company feel. Big stage presence.</h2>
-    </div>
-    <p>
-      Brightlight Theatre creates thoughtful, intimate productions with bold visuals and strong performances.
-      The site is driven entirely from markdown, so each production becomes its own landing page.
-    </p>
-    <div class="hero-split__actions">
-      <a class="btn btn--solid" href="{{ "/about/" | relURL }}">About us</a>
-      <a class="btn btn--ghost" href="{{ "/contact/" | relURL }}">Get in touch</a>
-    </div>
-  </div>
-</section>
 {{ end }}

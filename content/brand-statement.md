@@ -1,7 +1,3 @@
 ---
 ---
----
-
----
-
-Award-winning theatre in Surrey ++creating intimate productions++ that surprise, challenge and entertain.
+Award-winning theatre in Surrey _creating intimate productions_ that surprise, challenge and entertain.
