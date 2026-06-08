@@ -4,8 +4,7 @@
     <h1>{{ .Title }}</h1>
     {{ with .Params.author }}<p class="hero-split__author">{{ . }}</p>{{ end }}
     <div class="hero-split__meta">
-      {{ with .Params.details }}<p>{{ . }}</p>{{ end }}
-      {{ with .Params.price }}<p>{{ . }}</p>{{ end }}
+      {{ with .Params.hero_details }}<p>{{ . }}</p>{{ end }}
     </div>
     <div class="hero-split__actions">
       {{ with .Params.booking_url }}
