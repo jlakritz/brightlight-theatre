@@ -5,9 +5,14 @@
     <h1>{{ .Title }}</h1>
     {{ with .Params.author }}<p class="production-hero__author">{{ . }}</p>{{ end }}
     <div class="production-hero__meta">
+      {{ with .Params.details }}<p>{{ . }}</p>{{ end }}
       {{ with .Params.price }}<p>{{ . }}</p>{{ end }}
+      {{ with .Params.venue }}<p>{{ . }}</p>{{ end }}
     </div>
     <div class="hero-split__actions">
+      {{ with .Params.booking_url }}
+        <a class="btn btn--solid" href="{{ . }}" target="_blank" rel="noopener">Book Tickets</a>
+      {{ end }}
       {{ with .Params.booking_text }}
         <span class="ticket-note">{{ . }}</span>
       {{ end }}
