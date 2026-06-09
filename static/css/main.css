@@ -196,7 +196,7 @@ text-decoration: underline var(--yellow) 5px;
 }*/
 
 .engage-section{
-  padding:4rem 0;
+  padding:1rem 0;
 }
 
 .section-heading--center{
@@ -211,7 +211,7 @@ text-decoration: underline var(--yellow) 5px;
 
   padding:clamp(1.5rem,3vw,2.5rem);
 
-  margin:2rem auto 3rem;
+  margin:2rem auto 1rem;
 
   max-width:800px;
 
@@ -220,7 +220,7 @@ text-decoration: underline var(--yellow) 5px;
 
 .mailing-card h3{
   margin:0 0 .75rem;
-  font-size:clamp(1.8rem,3vw,2.8rem);
+  font-size:clamp(1.6rem, 3vw, 1.8rem);
 }
 
 .mailing-card p{
