@@ -204,77 +204,70 @@ text-decoration: underline var(--yellow) 5px;
   justify-items:center;
 }
 
-.engage-grid{
-  display:grid;
-  grid-template-columns:2fr 1fr 1fr 1fr;
-  gap:1rem;
-  margin-top:2rem;
-}
+.mailing-card{
+  background:var(--yellow);
 
-.engage-card{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-
-  padding:1.75rem;
-
-  background:var(--surface);
-  border:1px solid var(--border);
   border-radius:var(--radius);
 
-  box-shadow:var(--shadow);
+  padding:clamp(1.5rem,3vw,2.5rem);
+
+  margin:2rem auto 3rem;
+
+  max-width:800px;
+
+  text-align:center;
+}
+
+.mailing-card h3{
+  margin:0 0 .75rem;
+  font-size:clamp(1.8rem,3vw,2.8rem);
+}
+
+.mailing-card p{
+  margin:0 auto 1.5rem;
+  max-width:40ch;
+  color:rgba(0,0,0,.75);
+}
+
+.engage-links{
+  max-width:800px;
+  margin:0 auto;
+}
+
+.engage-link{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  padding:1.25rem 0;
+
+  border-top:1px solid var(--border);
+
+  font-family:"Alfa Slab One", serif;
+  font-size:clamp(1.25rem,2vw,1.8rem);
 
   transition:
-    transform .2s ease,
-    box-shadow .2s ease;
-
-  min-height:220px;
+    padding-left .2s ease,
+    color .2s ease;
 }
 
-.engage-card:hover{
-  transform:translateY(-4px);
-  box-shadow:0 24px 60px rgba(17,17,17,.14);
+.engage-link:last-child{
+  border-bottom:1px solid var(--border);
 }
 
-.engage-card__icon{
-  font-size:2rem;
-  margin-bottom:1rem;
-}
-
-.engage-card h3{
-  margin:0 0 .75rem;
-  font-size:1.5rem;
-}
-
-.engage-card p{
-  margin:0;
-  color:var(--muted);
-  line-height:1.5;
-}
-
-.engage-card__cta{
-  margin-top:1.25rem;
-  font-weight:700;
+.engage-link:hover{
+  padding-left:.5rem;
   color:var(--pink);
 }
 
-.engage-card--featured{
-  background:var(--yellow);
-  border:none;
+.engage-link__arrow{
+  font-family:inherit;
+  transition:transform .2s ease;
 }
 
-.engage-card--featured h3{
-  font-size:2rem;
+.engage-link:hover .engage-link__arrow{
+  transform:translateX(6px);
 }
-
-.engage-card--featured p{
-  color:var(--text);
-}
-
-.engage-card--featured .engage-card__cta{
-  color:var(--text);
-}
-
 
 .hero-split,
 .production-hero{
