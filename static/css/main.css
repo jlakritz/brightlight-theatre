@@ -196,8 +196,10 @@ text-decoration: underline var(--yellow) 5px;
 }*/
 
 .engage-section{
-  padding:1rem 0;
+  padding:0 0 1rem 0
 }
+
+
 
 .section-heading--center{
   text-align:center;
@@ -229,7 +231,7 @@ text-decoration: underline var(--yellow) 5px;
   color:rgba(0,0,0,.75);
 }
 
-.engage-links{
+.tengage-links{
   max-width:800px;
   margin:0 auto;
 }
@@ -251,7 +253,7 @@ text-decoration: underline var(--yellow) 5px;
     color .2s ease;
 }
 
-.engage-link{
+.tengage-link{
   display:inline-flex;
   align-items:center;
   gap:.5rem;
@@ -264,23 +266,109 @@ text-decoration: underline var(--yellow) 5px;
   border-radius:999px;
 }
 
-.engage-link:last-child{
+.tengage-link:last-child{
   border-bottom:1px solid var(--border);
 }
 
-.engage-link:hover{
+.tengage-link:hover{
   padding-left:.5rem;
   color:var(--pink);
 }
 
-.engage-link__arrow{
+.tengage-link__arrow{
   font-family:inherit;
   transition:transform .2s ease;
 }
 
-.engage-link:hover .engage-link__arrow{
+.tengage-link:hover .engage-link__arrow{
   transform:translateX(6px);
 }
+
+
+.hero-split__logo,
+.production-hero__logo{
+    opacity:0;
+    transform:translateY(20px);
+
+    animation:logoReveal .8s ease-out forwards;
+    animation-delay:.5s;
+}
+
+
+.thero-split__text *,
+.tproduction-hero__text *{
+    opacity:0;
+    transform:translateY(20px);
+
+    animation:logoReveal .8s ease-out forwards;
+    animation-delay:.8s;
+}
+
+
+
+@keyframes logoReveal{
+
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+
+.hero-split__bg{
+    opacity:0;
+    animation:bgReveal 1s ease-out forwards;
+}
+
+@keyframes bgReveal{
+    from{
+        opacity:0;
+        transform:scale(1.05);
+    }
+    to{
+        opacity:1;
+        transform:scale(1.03);
+    }
+}
+
+
+
+.engage-links{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:.75rem;
+ font-family:"Alfa Slab One", serif;
+    font-size:1.1rem;
+    margin-top:1.5rem;
+    text-decoration: underline var(--yellow) 5px;
+    font-size:1rem;
+}
+
+.engage-links a{
+    color:var(--text);
+
+    transition:color .2s ease;
+}
+
+.engage-links a:hover{
+    color:var(--pink);
+}
+
+.engage-divider{
+    color:rgba(0,0,0,.25);
+}
+
+
+
+
+
 
 .hero-split,
 .production-hero{
