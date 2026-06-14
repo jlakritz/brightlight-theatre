@@ -231,58 +231,6 @@ text-decoration: underline var(--yellow) 5px;
   color:rgba(0,0,0,.75);
 }
 
-.tengage-links{
-  max-width:800px;
-  margin:0 auto;
-}
-
-.tengage-link{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-
-  padding:1.25rem 0;
-
-  border-top:1px solid var(--border);
-
-  font-family:"Alfa Slab One", serif;
-  font-size:clamp(1.25rem,2vw,1.8rem);
-
-  transition:
-    padding-left .2s ease,
-    color .2s ease;
-}
-
-.tengage-link{
-  display:inline-flex;
-  align-items:center;
-  gap:.5rem;
-
-  padding:.4rem .8rem;
-
-  font-family:"Alfa Slab One", serif;
-  font-size:1rem;
-
-  border-radius:999px;
-}
-
-.tengage-link:last-child{
-  border-bottom:1px solid var(--border);
-}
-
-.tengage-link:hover{
-  padding-left:.5rem;
-  color:var(--pink);
-}
-
-.tengage-link__arrow{
-  font-family:inherit;
-  transition:transform .2s ease;
-}
-
-.tengage-link:hover .engage-link__arrow{
-  transform:translateX(6px);
-}
 
 
 .hero-split__logo,
@@ -295,14 +243,6 @@ text-decoration: underline var(--yellow) 5px;
 }
 
 
-.thero-split__text *,
-.tproduction-hero__text *{
-    opacity:0;
-    transform:translateY(20px);
-
-    animation:logoReveal .8s ease-out forwards;
-    animation-delay:.8s;
-}
 
 
 
@@ -351,13 +291,13 @@ text-decoration: underline var(--yellow) 5px;
     font-size:1rem;
 }
 
-.engage-links a{
+.engage-links a, more-link{
     color:var(--text);
 
     transition:color .2s ease;
 }
 
-.engage-links a:hover{
+.engage-links a:hover, more-link:hover{
     color:var(--pink);
 }
 
@@ -366,7 +306,7 @@ text-decoration: underline var(--yellow) 5px;
 }
 
 
-.engage-links a::after{
+.engage-links a::after, more-link::after{
     content:" ↗";
     color:var(--pink);
     font-size:.9em;

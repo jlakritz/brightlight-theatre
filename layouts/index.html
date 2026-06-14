@@ -68,7 +68,7 @@
 
 <section class="section section--alt">
   <div class="site-shell">
-    {{ partial "site-section-heading.html" (dict "kicker" "News" "title" "Latest from Brightlight" "text" "Behind-the-scenes updates, announcements and stories.") }}
+    {{ partial "site-section-heading.html" (dict "kicker" "News" "title" "In the spotlight" "text" "Behind-the-scenes updates, announcements and stories.") }}
     <div class="content-grid content-grid--news">
       {{ range $news }}
         {{ partial "news-card.html" . }}
@@ -78,12 +78,13 @@
         </div>
       {{ end }}
     </div>
+    <a href="news" class="more-link">See more</a>
   </div>
 </section>
 
 <section class="section">
   <div class="site-shell">
-    {{ partial "site-section-heading.html" (dict "kicker" "More from Brightlight" "title" "More productions" "text" "Theatre that moves from one season to the next.") }}
+    {{ partial "site-section-heading.html" (dict "kicker" "Past productions" "title" "Our Journey So Far" "text" "Every season brings new stories to life. Explore the shows, characters, and unforgettable moments that have shaped the Brightlight stage.") }}
     <div class="content-grid">
       {{ range $upcoming }}
         {{ partial "production-card.html" . }}
@@ -96,7 +97,7 @@
         {{ end }}
       {{ end }}
     </div>
-    <a href="productions">See more</a>
+    <a href="productions" class="more-link">See more</a>
   </div>
 </section>
 
