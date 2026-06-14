@@ -1,7 +1,7 @@
 ---
 title: Entertaining Angels
 status: archive
-onsale: true
+onsale: false
 date: 2026-06-07
 author: by Richard Everett
 details: 18th and 25th April at St. Peter's Church Hall, Frimley
@@ -38,3 +38,4 @@ Tickets are £10 (£8 for under-16s & over-60s).
 As with all Brightlight productions, at least 10% of ticket sales will be donated to local cancer charity, [KatCanDo](https://www.katcando.org.uk/) in support of the amazing work they do for our community.
 
 ---
+
