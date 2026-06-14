@@ -366,7 +366,11 @@ text-decoration: underline var(--yellow) 5px;
 }
 
 
-
+.engage-links a::after{
+    content:" ↗";
+    color:var(--pink);
+    font-size:.9em;
+}
 
 
 
