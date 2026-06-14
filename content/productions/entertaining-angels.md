@@ -1,7 +1,7 @@
 ---
 title: Entertaining Angels
 status: archive
-onsale: false
+onsale: true
 date: 2026-06-07
 author: by Richard Everett
 details: 18th and 25th April at St. Peter's Church Hall, Frimley
