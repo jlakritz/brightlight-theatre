@@ -1,3 +1,7 @@
 ---
 ---
-Award-winning theatre in Surrey *creating magical productions* that surprise, delight and entertain.
+---
+
+---
+
+Award-winning theatre in Surrey *creating extraordinary productions* that thrill, captivate and inspire.
