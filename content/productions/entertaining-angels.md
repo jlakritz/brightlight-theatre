@@ -9,6 +9,8 @@ price: £10 adult (£8 concessions)
 venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://www.trybooking.com/uk/events/landing/100784?&track=web&utm_source=web
 booking_text: Only 50 seats remaining!
+show_logo: uploads/EA-Logo.png
+cover_image: uploads/EA-Cover.jpg
 dates:
   - Saturday 18th April 2026, 7.30pm
   - Saturday 25th April 2026, 2.00pm
