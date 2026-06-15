@@ -284,6 +284,40 @@ text-decoration: underline var(--yellow) 5px;
   }
 }
 
+
+
+
+.headline-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.headline-item {
+  display: block;
+  padding: 0.9rem 0.75rem;
+  border: 1px solid var(--colour-border, #e5e5e5);
+  border-radius: 10px;
+
+  text-decoration: none;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.headline-item:hover {
+  transform: translateX(2px);
+  border-color: #bbb;
+}
+
+.headline-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+
+
+
+
 .engage-section{
   padding:0 0 1rem 0
 }

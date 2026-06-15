@@ -86,26 +86,23 @@
         {{ end }}
       </div>
 
-      <div class="news-home__headlines">
+<div class="news-home__headlines">
 
-        <h3>Latest Headlines</h3>
+  <h3>More headlines</h3>
 
-        <ul>
-          {{ range $headlineNews }}
-            <li>
-              <a href="{{ .RelPermalink }}">
-                {{ .Title }}
-              </a>
-            </li>
-          {{ end }}
-        </ul>
+  <div class="headline-stack">
+    {{ range $headlineNews }}
+      <a class="headline-item" href="{{ .RelPermalink }}">
+        <span class="headline-title">{{ .Title }}</span>
+      </a>
+    {{ end }}
+  </div>
 
-        <a class="section-link" href="/news/">
-          View all news →
-        </a>
+  <a class="section-link" href="/news/">
+    View all news →
+  </a>
 
-      </div>
-
+</div>
     </div>
 
   </div>
