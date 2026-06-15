@@ -6,7 +6,7 @@
   {{ $badge = "Upcoming" }}
 {{ end }}
 <a class="card" href="{{ $p.RelPermalink }}">
-  <div class="card__image" style="background-image:url('{{ $p.Params.cover_image }}')">
+  <div class="card__image" style="background-image:url('{{ $p.Params.cover_image | relURL}}')">
     <span class="badge">{{ $badge }}</span>
   </div>
   <div class="card__body">

@@ -23,16 +23,22 @@
   </div>
 </section>
 
-{{ partial "booking-banner.html" . }}
+
+{{ if eq .Params.onsale true }}
+  {{ partial "booking-banner.html" . }}
+{{ end }}
+
 
 <section class="section">
   <div class="site-shell production-layout">
     <article class="prose production-copy">
       {{ .Content }}
+{{ if eq .Params.onsale true }}
 {{ with site.GetPage "/refund" }}
   <section class="refund-policy">
     {{ .Content }}
   </section>
+{{ end }}
 {{ end }}
     </article>
 
