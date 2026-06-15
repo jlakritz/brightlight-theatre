@@ -1,6 +1,11 @@
 {{ $p := . }}
 <a class="card card--news" href="{{ $p.RelPermalink }}">
-  <div class="card__image card__image--news" style="background-image:url('{{ with $p.Params.image }}{{ . }}{{ else }}{{ $p.Params.cover_image }}{{ end }}')"></div>
+  <div class="card__image card__image--news" style="background-image:url('{{ with $p.Params.image }}{{ . }}{{ else }}{{ $p.Params.cover_image }}{{ end }}')">
+
+
+    <span class="badge">Featured Article</span>
+
+</div>
   <div class="card__body">
     <h3 class="card__title">{{ $p.Title }}</h3>
     {{ with $p.Summary }}<p class="card__meta">{{ . | plainify | truncate 120 }}</p>{{ end }}
