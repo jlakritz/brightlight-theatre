@@ -1,6 +1,6 @@
 {{ $p := . }}
 <a class="card card--news" href="{{ $p.RelPermalink }}">
-  <div class="card__image card__image--news" style="background-image:url('{{ with $p.Params.image }}{{ . }}{{ else }}{{ $p.Params.cover_image }}{{ end }}')">
+  <div class="card__image card__image--news" style="background-image:url('{{ with $p.Params.image }}{{ . }}{{ else }}{{ $p.Params.cover_image | relURL}}{{ end }}')">
 
 
     <span class="badge">Featured Article</span>
