@@ -409,16 +409,28 @@ text-decoration: underline var(--yellow) 5px;
 }
 
 
-/* Previous Productions */
-
-.archive-carousel {
+/* UPCOMING GRID (optional explicit styling) */
+.content-grid--upcoming {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
+  margin-bottom: 3rem;
 }
 
-/* Mobile swipe carousel */
+/* ARCHIVE DESKTOP */
+.archive-carousel {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
 
+/* IMPORTANT: prevent grid squashing */
+.archive-carousel > * {
+  min-width: 0;
+}
+
+/* MOBILE SWIPE */
 @media (max-width: 768px) {
 
   .archive-carousel {
@@ -431,6 +443,7 @@ text-decoration: underline var(--yellow) 5px;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
 
+    width: 100%;
     margin-right: -1rem;
     padding-right: 1rem;
 
@@ -452,7 +465,6 @@ text-decoration: underline var(--yellow) 5px;
     flex: 0 0 1rem;
   }
 }
-
 
 .eyebrow{
   display:inline-flex;
