@@ -520,6 +520,8 @@ text-decoration: underline var(--yellow) 5px;
   min-width: 0;
 }
 
+.carousel-more {display:none}
+
 /* MOBILE SWIPE */
 @media (max-width: 768px) {
 
@@ -539,6 +541,8 @@ text-decoration: underline var(--yellow) 5px;
 
     scrollbar-width: none;
   }
+
+.carousel-more {display: inherit}
 
   .archive-carousel::-webkit-scrollbar {
     display: none;
