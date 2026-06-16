@@ -299,7 +299,7 @@ text-decoration: underline var(--yellow) 5px;
 
 /* card */
 .headline-item {
-  display: inline;
+  display: grid;
   justify-content: space-between;
   align-items: center;
 
