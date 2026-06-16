@@ -102,7 +102,7 @@
   {{ end }}
 -->
   {{ range $headlineNews }}
-<a class="card card--news" href="{{ $p.RelPermalink }}">
+<a class="card card--news" href="{{ .RelPermalink }}">
   <div class="card__body">
     <h3 class="card__title">{{ .Title }}</h3>
    {{ with .Date }}<p class="page__date">{{ .Format "2 January 2006" }}</p>{{ end }}
