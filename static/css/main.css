@@ -542,7 +542,7 @@ text-decoration: underline var(--yellow) 5px;
     scrollbar-width: none;
   }
 
-.carousel-more {display: inherit}
+.tcarousel-more {display: inherit}
 
   .archive-carousel::-webkit-scrollbar {
     display: none;
