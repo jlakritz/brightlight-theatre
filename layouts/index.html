@@ -89,7 +89,7 @@
 <div class="headline-stack">
 
   <h3>More news</h3>
-
+<!--
   {{ range $headlineNews }}
     <a class="headline-item" href="{{ .RelPermalink }}">
       <span class="headline-title">{{ .Title }}</span>
@@ -100,6 +100,15 @@
       <span class="headline-arrow">→</span>
     </a>
   {{ end }}
+-->
+  {{ range $headlineNews }}
+  <div class="card__body">
+    <h3 class="card__title">{{ .Title }}</h3>
+   {{ with .Date }}<p class="page__date">{{ .Format "2 January 2006" }}</p>{{ end }}
+{{ with .Summary }}<p class="card__meta">{{ . | plainify | truncate 120 }}</p>{{ end }}
+  </div>
+  {{ end }}
+
 
   <a class="section-link" href="news/">
     View all news →
