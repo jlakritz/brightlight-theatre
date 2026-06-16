@@ -93,6 +93,10 @@
   {{ range $headlineNews }}
     <a class="headline-item" href="{{ .RelPermalink }}">
       <span class="headline-title">{{ .Title }}</span>
+   {{ with .Date }}<p class="page__date">{{ .Format "2 January 2006" }}</p>{{ end }}
+{{ with .Summary }}<p class="card__meta">{{ . | plainify | truncate 120 }}</p>{{ end }}
+
+
       <span class="headline-arrow">→</span>
     </a>
   {{ end }}

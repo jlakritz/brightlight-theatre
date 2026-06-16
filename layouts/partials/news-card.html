@@ -8,6 +8,7 @@
 </div>
   <div class="card__body">
     <h3 class="card__title">{{ $p.Title }}</h3>
-    {{ with $p.Summary }}<p class="card__meta">{{ . | plainify | truncate 120 }}</p>{{ end }}
+   {{ with $p.Date }}<p class="page__date">{{ .Format "2 January 2006" }}</p>{{ end }}    
+{{ with $p.Summary }}<p class="card__meta">{{ . | plainify | truncate 120 }}</p>{{ end }}
   </div>
 </a>
