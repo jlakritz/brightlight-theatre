@@ -106,7 +106,7 @@
   <div class="card__body">
     <h3 class="card__title">{{ .Title }}</h3>
    {{ with .Date }}<p class="page__date">{{ .Format "2 January 2006" }}</p>{{ end }}
-{{ with .Summary }}<p class="card__meta">{{ . | plainify | truncate 120 }}</p>{{ end }}
+{{ with .Summary }}<p class="card__meta">{{ . | plainify  | htmlUnescape | truncate 120 }}</p>{{ end }}
   </div>
 </a>
   {{ end }}
