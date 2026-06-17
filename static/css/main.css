@@ -196,6 +196,42 @@ text-decoration: underline var(--yellow) 5px;
 }*/
 
 
+.pull-quote{
+  text-align:center;
+}
+
+.pull-quote__text{
+  margin:0;
+  border:none;
+
+  font-family:"Alfa Slab One", serif;
+  font-size:clamp(1.8rem,3vw,3rem);
+  line-height:1.2;
+}
+
+.pull-quote__attribution{
+  display:block;
+  margin-top:1.5rem;
+
+  font-style:normal;
+  font-size:.95rem;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+
+  color:var(--muted);
+}
+
+
+.pull-quote__attribution span{
+  display:block;
+  margin-top:.35rem;
+
+  font-size:.8rem;
+  letter-spacing:.12em;
+  opacity:.75;
+}
+
+
 .section-footer {
   margin-top: 2rem;
   text-align: center;

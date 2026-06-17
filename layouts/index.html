@@ -125,14 +125,22 @@
 </section>
 
 {{ with site.GetPage "/pull-quote" }}
-  <section class="brand-statement">
-    <div class="site-shell">
-      <p>
-        {{ .Content }}
-      </p>
-    </div>
-  </section>
-{{ end }}
+<section class="brand-statement pull-quote">
+  <div class="site-shell">
+
+    <blockquote class="pull-quote__text">
+      {{ .Params.quote }}
+    </blockquote>
+
+    <cite class="pull-quote__attribution">
+      {{ .Params.attribution }}
+      {{ with .Params.role }}
+        <span>{{ . }}</span>
+      {{ end }}
+    </cite>
+
+  </div>
+</section>{{ end }}
 
 
 <section class="section">
