@@ -204,9 +204,9 @@ content:
     type: file
     path: content/pull-quote.md
     fields:
-      - name: quote
-        type: rich-text
       - name: attribution
         type: rich-text
       - name: role
+        type: rich-text
+      - name: body
         type: rich-text
