@@ -11,7 +11,7 @@
   </div>
   <div class="card__body">
     <h3 class="card__title">{{ $p.Title }}</h3>
-    {{ with $p.Params.details }}<p class="card__meta">{{ . }}</p>{{ end }}
     {{ with $p.Params.author }}<p class="card__meta card__meta--muted">{{ . }}</p>{{ end }}
+    {{ with $p.Params.details }}<p class="card__meta">{{ . }}</p>{{ end }}
   </div>
 </a>
