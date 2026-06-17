@@ -198,3 +198,15 @@ content:
     fields:
       - name: body
         type: rich-text
+
+  - name: pull-quote
+    label: Pull Quote
+    type: file
+    path: content/pull-quote.md
+    fields:
+      - name: quote
+        type: rich-text
+      - name: attribution
+        type: rich-text
+      - name: role
+        type: rich-text
