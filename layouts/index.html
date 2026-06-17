@@ -124,6 +124,15 @@
   </div>
 </section>
 
+{{ with site.GetPage "/pull-quote" }}
+  <section class="brand-statement">
+    <div class="site-shell">
+      <p>
+        {{ .Content }}
+      </p>
+    </div>
+  </section>
+{{ end }}
 
 
 <section class="section">
