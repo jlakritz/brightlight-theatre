@@ -13,6 +13,7 @@
         <span class="ticket-note">{{ . }}</span>
       {{ end }}
     </div>
+   </div>
   </div>
   <div class="production-hero__media" style="background-image:url('{{ .Params.cover_image | absURL }}')">
     <div class="production-hero__veil"></div>
@@ -22,7 +23,6 @@
       <div class="production-hero__fallback">{{ $.Title }}</div>
     {{ end }}
    </div>
-  </div>
 </section>
 
 
