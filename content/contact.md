@@ -1,9 +1,12 @@
 ---
-title: "We'd love to hear from you!"
-description: "How to reach Brightlight Theatre."
-eyebrow: "Get in touch"
+title: We'd love to hear from you!
+description: How to reach Brightlight Theatre.
+eyebrow: Get in touch
 ---
+Thinking about joining? Curious about a show? Just want to say hello?
 
-Email us at [info@brightlight-theatre.co.uk](mailto:info@brightlight-theatre.co.uk).
+Drop us an email — we’d love to hear from you.
 
-You can also follow our announcements through the site news section.
+**Email:** [info@brightlight-theatre.co.uk](mailto:info@brightlight-theatre.co.uk)
+
+We’ll reply as soon as we can and help you find the best way to get involved.
