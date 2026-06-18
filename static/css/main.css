@@ -1200,3 +1200,11 @@ text-decoration: underline var(--yellow) 5px;
     grid-template-rows:220px auto;
   }
 }
+
+.seo-section {
+  padding-top: 0 !important;
+}
+
+.seo-section p {
+  padding-top: 0.5rem;
+}
