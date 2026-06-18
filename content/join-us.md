@@ -2,6 +2,7 @@
 title: Get some drama in your life!
 description: Get involved with Brightlight Theatre.
 eyebrow: Join Us
+cover_image: uploads/480486502_950513507188442_9156837619946054348_n-1.jpg
 ---
 Brightlight welcomes anyone aged 18 or over, whether you're an experienced theatre-maker or completely new to the stage. Come along, meet the company and discover how you'd like to get involved.
 
