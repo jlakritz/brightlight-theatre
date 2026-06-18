@@ -3,12 +3,16 @@ title: Bold stories. Talented people. Exceptional community theatre.
 eyebrow: About Us
 cover_image: uploads/463862659_18253976032260673_5526833606779440787_n-1.jpg
 ---
-Brightlight Theatre is an award-winning community theatre company based on the Surrey–Hampshire border. We create ambitious, entertaining productions that bring people together—on stage, behind the scenes and in the audience.
+Brightlight Theatre is an *award-winning theatre* company based in Frimley on the Surrey and Hampshire border. We create ambitious productions that challenge, entertain and surprise audiences, combining high production standards with the energy and creativity of community theatre.
 
-Our members come from all walks of life and levels of experience. Some join us to perform, others to direct, design, build, operate, write or support our productions. What unites us is a shared love of theatre and a belief that great productions are built by great teams.
+In recent years, our work has been recognised at some of the UK's leading drama festivals, earning awards for acting, directing, stage presentation and new writing, as well as consecutive invitations to perform at the National Drama Festival. From original plays to inventive reinterpretations of established work, we believe theatre should be exciting, thought-provoking and unforgettable - and we've got a national reputation for it.
 
-We present a varied programme of comedies, mysteries, dramas and new writing, alongside smaller studio projects that allow us to experiment, develop skills and explore different ways of telling stories. In recent years our work has earned recognition at some of the UK's leading one-act drama festivals, culminating in back-to-back invitations to represent the region at the National Drama Festival.
+**But Brightlight is about more than the shows we produce.**
 
-We rehearse in Ash and stage three main productions each year at St Peter's Church Hall in Frimley. Whether you're looking to join a production, learn something new or simply enjoy an evening of live theatre, you'll find a warm welcome at Brightlight.
+Our members come from all walks of life and levels of experience. Some join us to perform. Others direct, write, design, build, operate, organise and support our productions. What unites us is a shared belief that *remarkable theatre is created by people working together with imagination and commitment*. And theatre brings moments of magic to our community.
+
+We stage three main productions each year at St Peter's Church Hall in Frimley, alongside festival work, workshops, new writing projects and opportunities to develop skills both on and off stage. Whether you're taking your first steps into theatre or looking for your next creative challenge, you'll find a company that is ambitious, welcoming and always moving forward.
 
 A percentage of every ticket sold is donated to KatCanDo, supporting local cancer patients and their families.
+
+If this sounds like the kind of theatre you'd like to be part of, come and meet us. [Get some drama in your life](/contact/)
