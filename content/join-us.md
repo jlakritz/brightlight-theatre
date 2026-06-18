@@ -28,9 +28,9 @@ Alongside our productions, we regularly run workshops covering acting, directing
 
 Most importantly, you don't need to audition to become a member. Come along, meet us, see what we're about and decide whether we're the right fit for you.
 
-![](</uploads/BL1 (1).jpg>)
-
 **Theatre brings moments of magic to our community. We can't do it without people like you. So get some drama in your life.**
+
+![](</uploads/BL1 (1).jpg>)
 
 ### Practical details
 
