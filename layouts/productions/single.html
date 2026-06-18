@@ -1,6 +1,7 @@
 {{ define "main" }}
 <section class="production-hero">
   <div class="production-hero__text">
+   <div class="hero-split__text-inner">
     <p class="eyebrow">Show Details</p>
     <h1>{{ .Title }}</h1>
     {{ with .Params.author }}<p class="production-hero__author">{{ . }}</p>{{ end }}
@@ -20,6 +21,7 @@
     {{ else }}
       <div class="production-hero__fallback">{{ $.Title }}</div>
     {{ end }}
+   </div>
   </div>
 </section>
 
