@@ -234,7 +234,7 @@ text-decoration: underline var(--yellow) 5px;
 
 .section-footer {
   margin-top: 2rem;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .section-link {
