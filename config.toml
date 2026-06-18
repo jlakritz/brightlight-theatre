@@ -4,6 +4,7 @@ title = "Brightlight Theatre"
 enableRobotsTXT = true
 paginate = 12
 summaryLength = 30
+canonifyURLs = true
 
 [params]
   description = "Award-winning theatre in Surrey creating extraordinary productions that thrill, captivate and inspire."
