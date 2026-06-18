@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ .Site.Params.description | default .Summary }}">
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-  <link href="{{ uploads/favicon.ico | relURL }}" rel="icon" type="image/x-icon">
+  <link href="{{ "uploads/favicon.ico" | relURL }}" rel="icon" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alan+Sans:wght@300..900&display=swap" rel="stylesheet">
