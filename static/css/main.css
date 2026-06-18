@@ -535,6 +535,13 @@ text-decoration: underline var(--yellow) 5px;
 }
 
 
+.hero-split__text-inner {
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /* UPCOMING GRID (optional explicit styling) */
 .content-grid--upcoming {
   display: grid;
