@@ -218,3 +218,12 @@ content:
     fields:
       - name: body
         type: rich-text
+
+
+  - name: seo-statement
+    label: SEO Statement
+    type: file
+    path: content/seo-statement.md
+    fields:
+      - name: body
+        type: rich-text

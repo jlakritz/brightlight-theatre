@@ -190,4 +190,18 @@
 
   </div>
 </section>
+
+{{ with site.GetPage "/seo-statement" }}
+  <section class="section">
+    <div class="site-shell">
+      <p>
+        {{ .Content }}
+      </p>
+    </div>
+  </section>
+{{ end }}
+
+
+
+
     {{ end }}
