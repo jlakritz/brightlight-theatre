@@ -3,7 +3,7 @@
   <div class="card__image card__image--news" style="background-image:url('{{ with $p.Params.image | absURL }}{{ . }}{{ else }}{{ $p.Params.cover_image | absURL}}{{ end }}')">
 
 
-    <span class="badge">Featured Article</span>
+   {{ if .IsHome }} <span class="badge">Featured Article</span> {{ end }}
 
 </div>
   <div class="card__body">
