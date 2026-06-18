@@ -1,9 +1,8 @@
 ---
 title: Bold stories. Talented people. Exceptional community theatre.
 eyebrow: About Us
+cover_image: uploads/463862659_18253976032260673_5526833606779440787_n.jpg
 ---
-
-
 Brightlight Theatre is an award-winning community theatre company based on the Surrey–Hampshire border. We create ambitious, entertaining productions that bring people together—on stage, behind the scenes and in the audience.
 
 Our members come from all walks of life and levels of experience. Some join us to perform, others to direct, design, build, operate, write or support our productions. What unites us is a shared love of theatre and a belief that great productions are built by great teams.
