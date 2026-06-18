@@ -1,5 +1,6 @@
 <section class="hero-split">
   <div class="hero-split__text">
+   <div class="hero-split__text-inner">
     <p class="eyebrow">{{ default "Our Next Show" .Params.eyebrow }}</p>
     <h1>{{ .Title }}</h1>
     {{ with .Params.author }}<p class="hero-split__author">{{ . }}</p>{{ end }}
@@ -12,6 +13,7 @@
       {{ end }}
       <a class="btn btn--ghost" href="{{ .RelPermalink }}">Show Details</a>
     </div>
+   </div>
   </div>
 
   <a class="hero-split__media" href="{{ .RelPermalink }}" aria-label="Read more about {{ .Title }}">
