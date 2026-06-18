@@ -1203,6 +1203,7 @@ text-decoration: underline var(--yellow) 5px;
 
 .seo-section {
   padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 .seo-section p {
