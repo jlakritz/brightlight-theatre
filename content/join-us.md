@@ -8,7 +8,7 @@ Brightlight welcomes anyone aged 18 or over, whether you're an experienced theat
 
 **No experience required. No auditions required. Just enthusiasm.**
 
-![](/uploads/480486502_950513507188442_9156837619946054348_n-1.jpg)
+![]("/uploads/480486502_950513507188442_9156837619946054348_n-1.jpg")
 
 Whether you dream of stepping into the spotlight, creating theatre behind the scenes, or simply meeting a great group of people, there's a place for you at Brightlight.
 
