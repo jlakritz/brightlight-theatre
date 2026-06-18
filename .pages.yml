@@ -146,6 +146,10 @@ content:
       - name: eyebrow
         type: string
 
+      - name: cover_image
+        label: Cover Image
+        type: image
+
       - name: body
         type: rich-text
 
@@ -162,6 +166,10 @@ content:
 
       - name: eyebrow
         type: string
+        
+      - name: cover_image
+        label: Cover Image
+        type: image
 
       - name: body
         type: rich-text
@@ -179,6 +187,10 @@ content:
 
       - name: eyebrow
         type: string
+        
+      - name: cover_image
+        label: Cover Image
+        type: image
 
       - name: body
         type: rich-text
