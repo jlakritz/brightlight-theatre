@@ -210,3 +210,11 @@ content:
         type: rich-text
       - name: body
         type: rich-text
+
+  - name: footer
+    label: Footer
+    type: file
+    path: content/footer.md
+    fields:
+      - name: body
+        type: rich-text
