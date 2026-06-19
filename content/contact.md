@@ -2,7 +2,7 @@
 title: We'd love to hear from you!
 description: How to reach Brightlight Theatre.
 eyebrow: Get in touch
-cover_image: uploads/39steps2 (1).jpg
+cover_image: uploads/39-contact.jpg
 ---
 Thinking about joining? Curious about a show? Just want to say hello?
 
