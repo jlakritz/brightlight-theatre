@@ -2,11 +2,11 @@
 headline: "Get some drama in your life"
 
 buttons:
-  - text: "Join the company"
+  - text: "Join the Company"
     url: "join/"
     style: "dark"
 
-  - text: "Join the mailing list"
+  - text: "Join the Mailing List"
     url: "http://eepurl.com/h9mOL5"
     style: "ghost"
 ---

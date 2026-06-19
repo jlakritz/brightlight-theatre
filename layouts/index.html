@@ -1,4 +1,4 @@
-]{{ define "main" }}
+{{ define "main" }}
 {{ $productions := where .Site.RegularPages "Section" "productions" }}
 {{ $current := where $productions "Params.status" "current" }}
 {{ $upcoming := where $productions "Params.status" "upcoming" }}
@@ -147,7 +147,7 @@
 <section class="section">
   <div class="site-shell">
 
-    {{ partial "site-section-heading.html" (dict "kicker" "Past productions" "title" "Our journey so far" "text" "Every season brings new stories to life. Explore the shows, characters, and unforgettable moments that have shaped the Brightlight stage.") }}
+    {{ partial "site-section-heading.html" (dict "kicker" "Past productions" "title" "Our Journey So Far" "text" "Every season brings new stories to life. Explore the shows, characters, and unforgettable moments that have shaped the Brightlight stage.") }}
 
     {{ if $upcoming }}
       <div class="content-grid content-grid--upcoming">
