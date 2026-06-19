@@ -269,3 +269,5 @@ content:
                   label: Ghost
                 - name: solid
                   label: Solid
+      - name: body
+        type: rich-text
