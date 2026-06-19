@@ -1,6 +1,7 @@
 ---
 title: 200 - We need your story!
 date: 2026-02-13
+image: uploads/200-news.jpg
 ---
 St Peter's Church in Frimley turns 200 this year - and we want to mark it with something nobody else could write.
 
