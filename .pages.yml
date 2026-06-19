@@ -239,3 +239,29 @@ content:
     fields:
       - name: body
         type: rich-text
+
+content:
+  - name: "headline"
+    label: "Headline"
+    type: string
+
+  - name: "buttons"
+    label: "Buttons"
+    type: object
+    list: true
+    fields:
+      - name: "text"
+        label: "Button Text"
+        type: string
+
+      - name: "url"
+        label: "Button URL"
+        type: string
+
+      - name: "style"
+        label: "Button Style"
+        type: select
+        options:
+          - solid
+          - dark
+          - ghost
