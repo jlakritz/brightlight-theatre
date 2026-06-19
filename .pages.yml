@@ -251,23 +251,25 @@ content:
       - name: buttons
         label: Buttons
         type: list
-        fields:
-          - name: text
-            label: Button Text
-            type: string
-          - name: url
-            label: Button URL
-            type: string
-          - name: style
-            label: Button Style
-            type: select
-            options:
-              values:
-                - name: dark
-                  label: Dark
-                - name: ghost
-                  label: Ghost
-                - name: solid
-                  label: Solid
+        block:
+          type: object
+          fields:
+            - name: text
+              label: Button Text
+              type: string
+            - name: url
+              label: Button URL
+              type: string
+            - name: style
+              label: Button Style
+              type: select
+              options:
+                values:
+                  - name: dark
+                    label: Dark
+                  - name: ghost
+                    label: Ghost
+                  - name: solid
+                    label: Solid
       - name: body
         type: rich-text
