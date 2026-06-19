@@ -1,7 +1,7 @@
 ---
 title: We're going to the National Drama Festival
 date: 2026-06-14
-image: uploads/Aviary1x2.jpg
+image: uploads/Aviary1x2-1.jpg
 ---
 We are thrilled to announce that Brightlight Theatre has been selected by the National Drama Festivals Association (NDFA) to perform **The Aviary** at this year's National Drama Festival — the UK's premier celebration of amateur theatre. This marks the second consecutive year Brightlight has earned an invitation to the nationals, *confirming our place among the finest community theatre companies in the country*.
 
