@@ -239,29 +239,33 @@ content:
     fields:
       - name: body
         type: rich-text
-
-content:
-  - name: "headline"
-    label: "Headline"
-    type: string
-
-  - name: "buttons"
-    label: "Buttons"
-    type: object
-    list: true
+  
+  - name: join-box
+    label: Join Box
+    type: file
+    path: content/join-box.md
     fields:
-      - name: "text"
-        label: "Button Text"
+      - name: headline
+        label: Headline
         type: string
-
-      - name: "url"
-        label: "Button URL"
-        type: string
-
-      - name: "style"
-        label: "Button Style"
-        type: select
-        options:
-          - solid
-          - dark
-          - ghost
+      - name: buttons
+        label: Buttons
+        type: list
+        fields:
+          - name: text
+            label: Button Text
+            type: string
+          - name: url
+            label: Button URL
+            type: string
+          - name: style
+            label: Button Style
+            type: select
+            options:
+              values:
+                - name: dark
+                  label: Dark
+                - name: ghost
+                  label: Ghost
+                - name: solid
+                  label: Solid
