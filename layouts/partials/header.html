@@ -15,6 +15,29 @@
 {{ end }}
 
 
+{{ $productions := where .Site.RegularPages "Section" "productions" }}
+{{ $onSaleShows := where (where $productions "Params.status" "current") "Params.onsale" true }}
+
+{{ $headerButtonURL := "" }}
+{{ $headerButtonText := "" }}
+
+{{ if eq (len $onSaleShows) 1 }}
+  {{ range $onSaleShows }}
+    {{ $headerButtonURL = .Params.booking_url }}
+    {{ $headerButtonText = "Book Tickets" }}
+  {{ end }}
+{{ else if gt (len $onSaleShows) 1 }}
+  {{ $headerButtonURL = "/productions/" | relURL }}
+  {{ $headerButtonText = "Book Tickets" }}
+{{ end }}
+
+<div class="site-header__actions">
+  {{ if $headerButtonURL }}
+    <a class="btn-header-ticket" href="{{ $headerButtonURL }}" {{ if eq (len $onSaleShows) 1 }}target="_blank" rel="noopener"{{ end }}>
+      <span>{{ $headerButtonText }}</span>
+    </a>
+  {{ end }}
+
     <input class="nav-toggle" type="checkbox" id="nav-toggle">
     <label class="nav-toggle__button" for="nav-toggle" aria-label="Toggle menu">
 <svg width="70%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -29,5 +52,6 @@
         <a class="site-nav__link" href="{{ .URL | relURL }}">{{ .Name }}</a>
       {{ end }}
     </nav>
+   </div>
   </div>
 </header>

@@ -139,6 +139,51 @@ em {
   padding:.8rem 0;
 }
 
+.site-header__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.btn-header-ticket {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--pink);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn-header-ticket:hover {
+  background: #e0026f;
+  transform: scale(1.02);
+}
+
+@media (max-width: 375px) {
+  .btn-header-ticket {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+  .btn-header-ticket span::after {
+    content: "";
+  }
+  .btn-header-ticket span {
+    font-size: 0;
+  }
+  .btn-header-ticket span::before {
+    content: "Tickets";
+    font-size: 0.8rem;
+  }
+}
+
+
 .brand{
   display:flex;
   align-items:flex-end;
@@ -1159,7 +1204,7 @@ em {
   }
 }
 
-@media (max-width: 700px){
+@media (max-width: 800px){
 
   .engage-grid{
     grid-template-columns:1fr;
