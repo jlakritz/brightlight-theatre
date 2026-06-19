@@ -877,7 +877,6 @@ em {
 }
 
 .card__image--news{
-  aspect-ratio: 2 / 1;
   min-height:auto;
 }
 
