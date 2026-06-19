@@ -3,7 +3,7 @@ title: We're going to the National Drama Festival
 date: 2026-06-14
 image: uploads/Aviary.jpg
 ---
-We are thrilled to announce that Brightlight Theatre has been selected by the National Drama Festivals Association (NDFA) to perform **The Aviary** at this year's National Drama Festival — the UK's premier celebration of amateur theatre. This marks the second consecutive year Brightlight has earned an invitation to the nationals, confirming our place among the finest community theatre companies in the country.
+We are thrilled to announce that Brightlight Theatre has been selected by the National Drama Festivals Association (NDFA) to perform **The Aviary** at this year's National Drama Festival — the UK's premier celebration of amateur theatre. This marks the second consecutive year Brightlight has earned an invitation to the nationals, *confirming our place among the finest community theatre companies in the country*.
 
 ## The Road to the Nationals
 
@@ -19,8 +19,9 @@ Buoyed by that success, we took the production to the **91st Welwyn Drama Festiv
 - **Runners Up**
 - **Best Stage Presentation**
 - **Best Actress** for Megan Kaliniak
-- **Best Director** for Judy Price
-With nominations for Best Actor (Liam Badcoe), Best Actress (Becky Griffiths) and Best New Play.
+- **Best Director** for Judy Price  
+
+— With nominations for Best Actor (Liam Badcoe), Best Actress (Becky Griffiths) and Best New Play.
 
 ## About The Aviary
 
