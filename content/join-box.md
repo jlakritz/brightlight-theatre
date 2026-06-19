@@ -3,7 +3,7 @@ headline: "Get some drama in your life"
 
 buttons:
   - text: "Join the company"
-    url: "join/"
+    url: "join-us/"
     style: "dark"
 
   - text: "Join the mailing list"
