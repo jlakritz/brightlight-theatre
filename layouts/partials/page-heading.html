@@ -1,0 +1,8 @@
+{{ $kicker := .kicker }}
+{{ $title := .title }}
+{{ $text := .text }}
+<div class="section-heading">
+  {{ with $kicker }}<p class="eyebrow">{{ . }}</p>{{ end }}
+  <h1>{{ $title }}</h1>
+  {{ with $text }}<p class="section-heading__text">{{ . }}</p>{{ end }}
+</div>

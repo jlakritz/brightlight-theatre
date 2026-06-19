@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="page">
   <div class="site-shell">
-    {{ partial "site-section-heading.html" (dict "kicker" "News" "title" .Title "text" .Params.description) }}
+    {{ partial "page-heading.html" (dict "kicker" "News" "title" .Title "text" .Params.description) }}
     <div class="content-grid content-grid--news">
       {{ range .Pages.ByDate.Reverse }}
         {{ partial "news-card.html" . }}

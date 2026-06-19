@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="page page--listing">
   <div class="site-shell">
-    {{ partial "site-section-heading.html" (dict "kicker" (.Section | humanize) "title" .Title "text" .Params.description) }}
+    {{ partial "page-heading.html" (dict "kicker" (.Section | humanize) "title" .Title "text" .Params.description) }}
     <div class="content-grid">
       {{ range .Pages.ByWeight.ByDate.Reverse }}
         {{ if eq .Section "news" }}

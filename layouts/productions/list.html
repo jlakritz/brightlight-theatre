@@ -6,7 +6,7 @@
 
 <section class="page">
   <div class="site-shell">
-    {{ partial "site-section-heading.html" (dict "kicker" "All our productions" "title" "Productions" "text" .Params.description) }}
+    {{ partial "page-heading.html" (dict "kicker" "All our productions" "title" "Productions" "text" .Params.description) }}
 
     {{ with index $current 0 }}
     <div class="featured-block">
