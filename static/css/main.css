@@ -648,6 +648,11 @@ em {
   text-transform:uppercase;
  }
 
+.hero-split__text-inner .eyebrow {
+  transform: scale(0.9);
+  transform-origin: center left;
+}
+
 .eyebrow--dark{
   background:var(--text);
   color:#fff;
