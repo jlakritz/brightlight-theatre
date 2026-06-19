@@ -614,8 +614,7 @@ text-decoration: underline var(--yellow) 5px;
   line-height:1;
   letter-spacing:.08em;
   text-transform:uppercase;
-  margin:0;
-}
+ }
 
 .eyebrow--dark{
   background:var(--text);
