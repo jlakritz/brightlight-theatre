@@ -66,9 +66,18 @@ p{
 }
 
 em {
-  text-decoration: underline var(--yellow) 5px;
+/*  text-decoration: underline var(--yellow) 5px;*/
   font-style: normal;
+  background: linear-gradient(to bottom, transparent 62%, #ffe820  63%, #ffe820  94%,transparent 95%) center center/0% 75% no-repeat;
+  animation: underline 2s ease 0.5s forwards;
 }
+
+@keyframes underline {
+  from   {background-size: 0% 100%;}
+  to {background-size: 100% 100%;}
+}
+
+
 
 .skip-link{
   position:absolute;
