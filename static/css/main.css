@@ -343,7 +343,7 @@ text-decoration: underline var(--yellow) 5px;
 }
 
 /* card */
-.headline-item, engage-links a {
+.headline-item, .engage-links a {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -360,7 +360,7 @@ text-decoration: underline var(--yellow) 5px;
 }
 
 /* hover lift */
-.headline-item:hover, engage-links a:hover {
+.headline-item:hover, .engage-links a:hover {
   transform: translateY(-2px);
   border-color: #ccc;
   box-shadow: 0 6px 18px rgba(0,0,0,0.06);
