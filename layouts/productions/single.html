@@ -7,8 +7,12 @@
     {{ with .Params.author }}<p class="production-hero__author">{{ . }}</p>{{ end }}
     <div class="production-hero__meta">
       {{ with .Params.price }}<p>{{ . }}</p>{{ end }}
+      {{ with $.Params.details }}<p>{{ . }}</p>{{ end }}
     </div>
     <div class="hero-split__actions">
+      {{ with .Params.booking_url }}
+      <a class="btn btn--solid btn--full" href="{{ . }}" target="_blank" rel="noopener">Book Tickets</a>
+      {{ end }}
       {{ with .Params.booking_text }}
         <span class="ticket-note">{{ . }}</span>
       {{ end }}
@@ -26,12 +30,8 @@
 </section>
 
 
-{{ if eq .Params.onsale true }}
-  {{ partial "booking-banner.html" . }}
-{{ end }}
 
-
-<section class="section">
+<section class="section section--production">
   <div class="site-shell production-layout">
     <article class="prose production-copy">
       {{ .Content }}
