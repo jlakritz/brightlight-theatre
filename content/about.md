@@ -1,7 +1,7 @@
 ---
 title: Bold stories. Talented people. Exceptional community theatre.
 eyebrow: About Us
-cover_image: uploads/463862659_18253976032260673_5526833606779440787_n-1.jpg
+cover_image: uploads/Woking-win.jpg
 ---
 Brightlight Theatre is an *award-winning theatre* company based in Frimley on the Surrey and Hampshire border. We create ambitious productions that challenge, entertain and surprise audiences, combining high production standards with the energy and creativity of community theatre.
 
