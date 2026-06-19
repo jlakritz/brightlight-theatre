@@ -1,7 +1,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ .Site.Params.description | default .Summary }}">
+
+{{ if .Description }}
+  <meta name="description" content="{{ .Description }}">
+{{ else if .Summary }}
+  <meta name="description" content="{{ .Summary | plainify | truncate 160 }}">
+{{ else }}
+  <meta name="description" content="Brightlight Theatre Company - Award-winning community theatre group in Surrey.">
+{{ end }}
+
+
   <title>{{ if .IsHome }}{{ .Site.Title }} | Community Theatre in Frimley {{ else }}{{ .Title }} | {{ .Site.Title }} | Community Theatre in Frimley{{ end }}</title>
   <link href="{{ "uploads/favicon.ico" | relURL }}" rel="icon" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">

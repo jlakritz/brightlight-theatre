@@ -18,7 +18,10 @@ content:
         label: Show Title
         type: string
         required: true
-
+      - name: description
+        label: SEO Meta Description (Max 160 chars)
+        type: string
+        required: false
       - name: status
         label: Status
         type: select
@@ -119,6 +122,11 @@ content:
         label: Title
         type: string
         required: true
+
+      - name: description
+        label: SEO Meta Description (Max 160 chars)
+        type: string
+        required: false
 
       - name: date
         label: Publish Date
