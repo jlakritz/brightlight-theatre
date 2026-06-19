@@ -38,36 +38,35 @@
 {{ end }}
 
 
-
+{{ with site.GetPage "/join-box" }}
 <section class="engage-section">
   <div class="site-shell">
-<nav class="engage-links">
 
-  <a href="about/">About Us</a>
+    <div class="join-card">
 
-  <span class="engage-divider">|</span>
+      <h3>
+        {{ .Params.headline | default "Get some drama in your life" }}
+      </h3>
 
-  <a href="join-us/">Join Us</a>
+      <div class="join-card__content">
+        {{ .Content }}
+      </div>
 
-  <span class="engage-divider">|</span>
+      {{ with .Params.buttons }}
+      <div class="join-card__actions">
+        {{ range . }}
+          <a href="{{ .url | relURL }}" class="btn btn--{{ .style }}">
+            {{ .text }}
+          </a>
+        {{ end }}
+      </div>
+      {{ end }}
 
-  <a href="contact/">Contact Us</a>
-
-</nav>
-    <div class="mailing-card">
-      <h3>Join our mailing list</h3>
-
-      <p>
-        Be first to hear about new productions, auditions,
-        ticket launches and company news.
-      </p>
-
-      <a href="http://eepurl.com/h9mOL5" class="btn btn--dark">
-        Join Mailing List
-      </a>
     </div>
+
   </div>
 </section>
+{{ end }}
 
 
 <section class="section section--alt">

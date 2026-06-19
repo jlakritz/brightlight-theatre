@@ -400,31 +400,50 @@ text-decoration: underline var(--yellow) 5px;
   justify-items:center;
 }
 
-.mailing-card{
+.join-card{
   background:var(--yellow);
-
   border-radius:var(--radius);
-
   padding:clamp(1.5rem,3vw,2.5rem);
-
   margin:2rem auto 1rem;
-
   max-width:800px;
-
   text-align:center;
 }
 
-.mailing-card h3{
+.join-card h3{
   margin:0 0 .75rem;
   font-size:clamp(1.6rem, 3vw, 1.8rem);
 }
 
-.mailing-card p{
+.join-card p{
   margin:0 auto 1.5rem;
-  max-width:40ch;
+  max-width:50ch;
   color:rgba(0,0,0,.75);
 }
 
+.join-card__content p:last-child {
+  margin-bottom: 0;
+}
+
+.join-card__actions {
+  display:flex;
+  gap:1rem;
+  flex-wrap:wrap;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+
+@media (max-width: 600px) {
+  .join-card__actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .join-card__actions .btn {
+    width: 100%;
+    max-width: 320px;
+  }
+}
 
 
 .hero-split__logo,
