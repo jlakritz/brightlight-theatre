@@ -1,6 +1,8 @@
 ---
 title: We'd love to hear from you!
-description: How to reach Brightlight Theatre.
+description: Got a question, an idea, or just curious? Brightlight Theatre's
+  Frimley-based team would love to hear from you. Come along and see what we're
+  about.
 eyebrow: Get in touch
 cover_image: uploads/39-contact.jpg
 ---
