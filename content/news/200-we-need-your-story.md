@@ -2,7 +2,7 @@
 title: 200 - We need your story!
 date: 2026-02-13
 image: uploads/200-news.jpg
-image-alt: The number 200, made out of sparkling stars, against a red backdrop
+image_alt: The number 200, made out of sparkling stars, against a red backdrop
   to promote Brightlight Theatre's upcoming production of, 200.
 ---
 St Peter's Church in Frimley turns 200 this year - and we want to mark it with something nobody else could write.

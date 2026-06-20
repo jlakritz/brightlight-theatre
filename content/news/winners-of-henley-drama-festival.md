@@ -2,7 +2,7 @@
 title: Winners of Henley Drama Festival
 date: 2026-05-09
 image: uploads/Henley-win.jpg
-image-alt: Three members of Brightlight Theatre accept awards for winning Henley
+image_alt: Three members of Brightlight Theatre accept awards for winning Henley
   Drama Festival.
 ---
 What a weekend.
