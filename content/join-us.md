@@ -7,6 +7,8 @@ eyebrow: Join Us
 cover_image: uploads/EA-Web.jpg
 image_alt: A scene from Brightlight Theatre's production of Entertaining Angels.
   A man wears a plant pot as a fez like hat.
+aliases:
+  - /p/join-us.html
 ---
 Brightlight welcomes anyone aged 18 or over, whether you're an experienced theatre-maker or completely new to the stage. Come along, meet the company and discover how you'd like to get involved.
 
