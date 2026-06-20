@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: http://www.google.com
 show_logo: uploads/WelcomeToOurVillagePleaseInvadeCarefullyLogo.png
 cover_image: uploads/WelcomeToOurVillagePleaseInvadeCarefullyCover.jpg
+aliases:
+  - /2018/05/welcome-to-our-village-please-invade.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

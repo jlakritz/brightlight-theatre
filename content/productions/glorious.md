@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://www.trybooking.com/uk/EEGR
 show_logo: uploads/GloriousLogo.png
 cover_image: uploads/GloriousCover.jpg
+aliases:
+  - /2024/11/glorious.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

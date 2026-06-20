@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: 
 show_logo: uploads/AgathaChristiesAMurderIsAnnouncedLogo.jpg
 cover_image: uploads/AgathaChristiesAMurderIsAnnouncedCover.jpg
+aliases:
+  - /2017/10/agatha-christies-murder-is-announced.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

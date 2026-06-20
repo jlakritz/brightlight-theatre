@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: 
 show_logo: uploads/MurderedToDeathLogo.jpg
 cover_image: uploads/MurderedToDeathCover.jpg
+aliases:
+  - /2016/06/murdered-to-death.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

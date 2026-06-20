@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://www.trybooking.com/uk/ETOP
 show_logo: uploads/FarndaleAvenueMurderMysteryLogo.png
 cover_image: uploads/FarndaleAvenueMurderMysteryCover.jpg
+aliases:
+  - /2025/04/farndale-avenue-murder-mystery.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

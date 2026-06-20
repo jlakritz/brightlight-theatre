@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://www.trybooking.co.uk/BRTP
 show_logo: uploads/TheImportanceOfBeingEarnestLogo.png
 cover_image: uploads/TheImportanceOfBeingEarnestCover.jpg
+aliases:
+  - /2022/06/the-importance-of-being-earnest.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

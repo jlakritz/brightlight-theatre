@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://www.trybooking.com/uk/DIYC
 show_logo: uploads/BlitheSpiritLogo.png
 cover_image: uploads/BlitheSpiritCover.jpg
+aliases:
+  - /2024/04/blithe-spirit.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

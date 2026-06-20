@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://www.trybooking.co.uk/BYGE
 show_logo: uploads/ItsAWonderfulLifeALiveRadioPlayLogo.png
 cover_image: uploads/ItsAWonderfulLifeALiveRadioPlayCover.jpg
+aliases:
+  - /2022/10/its-wonderful-life-live-radio-play.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

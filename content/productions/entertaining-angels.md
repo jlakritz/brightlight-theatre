@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://www.trybooking.com/uk/events/landing/100784?&track=web&utm_source=web
 show_logo: uploads/EntertainingAngelsLogo.png
 cover_image: uploads/EntertainingAngelsCover.jpg
+aliases:
+  - /2025/12/entertaining-angels.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

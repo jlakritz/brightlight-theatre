@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: 
 show_logo: uploads/Songkeeper2025Logo.png
 cover_image: uploads/Songkeeper2025Cover.jpg
+aliases:
+  - /2025/07/songkeeper.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

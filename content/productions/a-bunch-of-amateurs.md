@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://www.ticketsignite.com/event/1683/a-bunch-of-amateurs
 show_logo: uploads/ABunchOfAmateursLogo.png
 cover_image: uploads/ABunchOfAmateursCover.jpg
+aliases:
+  - /2019/07/a-bunch-of-amateurs.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

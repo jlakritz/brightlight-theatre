@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: 
 show_logo: uploads/MurderOnTheNileLogo.jpg
 cover_image: uploads/MurderOnTheNileCover.jpg
+aliases:
+  - /2015/04/murder-on-nile.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

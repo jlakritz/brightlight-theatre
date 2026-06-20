@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: 
 show_logo: uploads/TheGreatChristmasCrackerHeistLogo.jpg
 cover_image: uploads/TheGreatChristmasCrackerHeistCover.jpg
+aliases:
+  - /2016/08/the-great-christmas-cracker-heist.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

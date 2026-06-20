@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://www.trybooking.com/uk/DXVR
 show_logo: uploads/HollyIvyLogo.png
 cover_image: uploads/HollyIvyCover.jpg
+aliases:
+  - /2024/09/holly-ivy.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

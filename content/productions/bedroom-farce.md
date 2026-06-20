@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: 
 show_logo: uploads/BedroomFarceLogo.jpg
 cover_image: uploads/BedroomFarceCover.jpg
+aliases:
+  - /2017/02/bedroom-farce.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

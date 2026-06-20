@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://www.trybooking.com/uk/events/landing/93094?&track=web
 show_logo: uploads/AlmostHolmesLogo.png
 cover_image: uploads/AlmostHolmesCover.jpg
+aliases:
+  - /2025/09/almost-holmes.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

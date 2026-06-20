@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://www.trybooking.co.uk/CTZB
 show_logo: 
 cover_image: uploads/MurderAtMistletoeManorCover.jpg
+aliases:
+  - /2023/10/murder-at-mistletoe-manor.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

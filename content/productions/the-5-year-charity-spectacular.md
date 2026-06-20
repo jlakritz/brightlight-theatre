@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: 
 show_logo: uploads/The5YearCharitySpectacularLogo.png
 cover_image: uploads/The5YearCharitySpectacularCover.jpg
+aliases:
+  - /2018/05/the-5-year-charity-spectacular.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

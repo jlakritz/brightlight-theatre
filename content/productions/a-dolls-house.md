@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: 
 show_logo: uploads/ADollsHouseLogo.png
 cover_image: uploads/ADollsHouseCover.jpg
+aliases:
+  - /2017/12/a-dolls-house.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

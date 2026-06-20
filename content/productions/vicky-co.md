@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://www.ticketsignite.com/event/2101/vicky---co
 show_logo: uploads/VickyCoLogo.png
 cover_image: uploads/VickyCoCover.jpg
+aliases:
+  - /2019/10/vicky-co.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: 
 show_logo: uploads/TheStartOfSomething2016Logo.jpg
 cover_image: uploads/TheStartOfSomething2016Cover.jpg
+aliases:
+  - /2016/08/the-start-of-something-woking-drama.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

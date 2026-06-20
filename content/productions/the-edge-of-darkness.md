@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://www.trybooking.co.uk/BOIO
 show_logo: uploads/TheEdgeOfDarknessLogo.png
 cover_image: uploads/TheEdgeOfDarknessCover.jpg
+aliases:
+  - /2019/10/the-edge-of-darkness.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

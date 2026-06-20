@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: http://seaty.co.uk/TheGamesAfoot
 show_logo: uploads/KenLudwigsTheGamesAfootLogo.png
 cover_image: uploads/KenLudwigsTheGamesAfootCover.jpg
+aliases:
+  - /2018/11/ken-ludwigs-games-afoot.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

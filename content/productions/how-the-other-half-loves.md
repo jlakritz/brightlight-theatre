@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://www.trybooking.co.uk/CNJX
 show_logo: uploads/HowTheOtherHalfLovesLogo.png
 cover_image: uploads/HowTheOtherHalfLovesCover.jpg
+aliases:
+  - /2023/07/how-other-half-loves.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

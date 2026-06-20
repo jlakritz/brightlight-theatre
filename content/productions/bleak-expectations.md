@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://www.trybooking.co.uk/CEYR
 show_logo: uploads/BleakExpectationsLogo.png
 cover_image: uploads/BleakExpectationsCover.jpg
+aliases:
+  - /2023/02/bleak-expectations.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

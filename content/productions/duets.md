@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://seaty.co.uk/duets
 show_logo: uploads/DuetsLogo.png
 cover_image: uploads/DuetsCover.jpg
+aliases:
+  - /2019/03/duets.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

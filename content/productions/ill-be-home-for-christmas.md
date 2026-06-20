@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: 
 show_logo: uploads/IllBeHomeForChristmasLogo.jpg
 cover_image: uploads/IllBeHomeForChristmasCover.jpg
+aliases:
+  - /2015/10/ill-be-home-for-christmas.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: 
 show_logo: uploads/DirtyBusinessLogo.jpg
 cover_image: uploads/DirtyBusinessCover.jpg
+aliases:
+  - /2017/07/dirty-business.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

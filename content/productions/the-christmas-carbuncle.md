@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: 
 show_logo: uploads/TheChristmasCarbuncleLogo.png
 cover_image: uploads/TheChristmasCarbuncleCover.jpg
+aliases:
+  - /2015/03/the-christmas-carbuncle.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

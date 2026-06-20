@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://www.trybooking.com/uk/CWYV
 show_logo: uploads/LadiesDayLogo.png
 cover_image: uploads/LadiesDayCover.jpg
+aliases:
+  - /2023/11/ladies-day.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

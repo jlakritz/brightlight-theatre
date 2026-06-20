@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: 
 show_logo: 
 cover_image: 
+aliases:
+  - /2021/11/the-vicar-of-dibley_02024517459.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

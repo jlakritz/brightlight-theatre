@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: https://sessami.co/events/69aece5d-61cd-48fc-9b74-02be56125c1f?refSrc=website
 show_logo: uploads/TheStartOfSomething2023Logo.png
 cover_image: uploads/TheStartOfSomething2023Cover.jpg
+aliases:
+  - /2017/02/the-start-of-something.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

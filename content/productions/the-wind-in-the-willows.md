@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: 
 show_logo: uploads/TheWindInTheWillowsLogo.jpg
 cover_image: uploads/TheWindInTheWillowsCover.jpg
+aliases:
+  - /2016/01/the-wind-in-willows.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/

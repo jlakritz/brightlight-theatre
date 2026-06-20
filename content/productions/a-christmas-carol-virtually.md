@@ -12,6 +12,8 @@ venue: St. Peter's Church Hall, Frimley, GU16 7AQ
 booking_url: 
 show_logo: uploads/AChristmasCarolVirtuallyLogo.png
 cover_image: uploads/AChristmasCarolVirtuallyCover.jpg
+aliases:
+  - /2020/11/a-christmas-carol-virtually.html
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/
