@@ -11,7 +11,7 @@ aliases:
   - /p/donate.html
 ---
 
-# Make a donation to Brightlight Theatre
+## Make a donation to Brightlight Theatre
 
 We hope you enjoyed our production of A Christmas Carol, Virtually!
 
