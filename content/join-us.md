@@ -18,7 +18,7 @@ We're an award-winning community theatre company based on the Surrey–Hampshire
 
 Brightlight is a welcoming company made up of people from all walks of life and levels of experience. Some members arrive with years of theatre experience. Others walk through the door having never set foot on a stage. Both are equally welcome.
 
-![](/uploads/464174643_18254442304260673_6723658534562070606_n.jpg)
+![An actor looks up in awe at a flying bird puppet during Brightlight Theatre's production of Songkeeper.](/uploads/464174643_18254442304260673_6723658534562070606_n.jpg)
 
 **You don't need to be an actor to join us.**
 
@@ -30,7 +30,7 @@ Most importantly, you don't need to audition to become a member. Come along, mee
 
 **Theatre brings moments of magic to our community. We can't do it without people like you. So get some drama in your life.**
 
-![](</uploads/BL1 (1).jpg>)
+![Two actors enjoy rehearsing a scene with Brightlight Theatre.](</uploads/BL1 (1).jpg>)
 
 ### Practical details
 
