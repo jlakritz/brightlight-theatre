@@ -771,6 +771,11 @@ em {
   text-decoration:none;
 }
 
+.btn:active {
+  transform: scale(0.97);
+  transition: transform .08s ease;
+}
+
 .btn--solid{
   background:var(--yellow);
   color:var(--text);
