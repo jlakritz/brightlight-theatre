@@ -26,12 +26,12 @@
   {{ range $onSaleShows }}
     {{ $headerButtonURL = .Params.booking_url }}
     {{ $headerButtonText = "Book Tickets" }}
-    {{ $showTitle := .Params.Title }}
+    {{ $showTitle = .Params.Title }}
   {{ end }}
 {{ else if gt (len $onSaleShows) 1 }}
   {{ $headerButtonURL = "/productions/" | relURL }}
   {{ $headerButtonText = "Book Tickets" }}
-  {{ $showTitle := "MULTIPLE" }}
+  {{ $showTitle = "MULTIPLE" }}
 {{ end }}
 
 <div class="site-header__actions">
