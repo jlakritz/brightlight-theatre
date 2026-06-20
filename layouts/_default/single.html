@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="page">
   <div class="site-shell prose">
-      <img class="news-hero__media" src="{{ .Params.cover_image | relURL }}"/> 
+      <img class="news-hero__media" src="{{ .Params.cover_image | relURL }}" alt="{{ .Params.image-alt }}"/> 
    <p class="eyebrow">{{ default .Title .Params.eyebrow }}</p>
     <h1>{{ .Title }}</h1>
     <p>{{ .Content }}</p>

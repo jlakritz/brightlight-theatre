@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="page">
   <article class="site-shell prose">
-      <img class="news-hero__media" src="{{ .Params.image | absURL }}"/>
+      <img class="news-hero__media" src="{{ .Params.image | absURL }}" alt="{{ .Params.image-alt }}"/>
     <p class="eyebrow">News</p>
     <h1>{{ .Title }}</h1>
     {{ with .Date }}<p class="page__date">{{ .Format "2 January 2006" }}</p>{{ end }}
