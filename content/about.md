@@ -5,6 +5,8 @@ description: "We aren't your traditional am-dram group. Meet Brightlight
   for exceptional theatre."
 eyebrow: About Us
 cover_image: uploads/Woking-win.jpg
+image-alt: The cast and crew of Brightlight Theatre's production of Songkeeper
+  being presented with the award for winning Woking Festival.
 ---
 Brightlight Theatre is an *award-winning theatre* company based in Frimley on the Surrey and Hampshire border. We create ambitious productions that challenge, entertain and surprise audiences, combining high production standards with the energy and creativity of community theatre.
 
