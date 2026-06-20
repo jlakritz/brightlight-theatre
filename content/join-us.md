@@ -1,6 +1,8 @@
 ---
 title: Get some drama in your life!
-description: Get involved with Brightlight Theatre.
+description: No experience required. No auditions required. Just enthusiasm.
+  Find your place on stage or backstage with an award-winning theatre company in
+  Frimley.
 eyebrow: Join Us
 cover_image: uploads/EA-Web.jpg
 ---
