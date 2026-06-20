@@ -8,8 +8,6 @@ Brightlight welcomes anyone aged 18 or over, whether you're an experienced theat
 
 **No experience required. No auditions required. Just enthusiasm.**
 
-![]("/uploads/480486502_950513507188442_9156837619946054348_n-1.jpg")
-
 Whether you dream of stepping into the spotlight, creating theatre behind the scenes, or simply meeting a great group of people, there's a place for you at Brightlight.
 
 We're an award-winning community theatre company based on the Surrey–Hampshire border, producing three main productions a year alongside festival work, workshops, social events and new writing projects. In recent years our productions have earned recognition at some of the UK's leading drama festivals, including consecutive invitations to perform at the National Drama Festival.
