@@ -136,7 +136,7 @@ content:
         label: Header Image
         type: image
 
-      - name: image-alt
+      - name: image_alt
         label: Header image alt text
         type: string
 
@@ -162,7 +162,7 @@ content:
         label: Cover Image
         type: image
 
-      - name: image-alt
+      - name: image_alt
         label: Cover image alt text
         type: string
 
@@ -187,7 +187,7 @@ content:
         label: Cover Image
         type: image
 
-      - name: image-alt
+      - name: image_alt
         label: Cover image alt text
         type: string
 
@@ -212,7 +212,7 @@ content:
         label: Cover Image
         type: image
 
-      - name: image-alt
+      - name: image_alt
         label: Cover image alt text
         type: string
 
