@@ -8,13 +8,13 @@
       {{ with .Params.hero_details }}<p>{{ . }}</p>{{ end }}
     </div>
     <div class="hero-split__actions">
-      <a class="btn btn--solid" href="{{ .Params.booking_url }}" target="_blank" rel="noopener" data-umami-event="Book Tickets" data-umami-event-production="{{ .Title }}"  data-umami-event-location="{{ $.RelPermalink }}">Book Tickets</a>
-      <a class="btn btn--ghost" href="{{ .RelPermalink }}" data-umami-event="Show Details Click" data-umami-event-production="{{ .Title  }}"  data-umami-event-location="{{ $.RelPermalink }}">Show Details</a>
+      <a class="btn btn--solid" href="{{ .Params.booking_url }}" target="_blank" rel="noopener" data-umami-event="Book Tickets" data-umami-event-production="{{ .Title }}"  data-umami-event-location="">Book Tickets</a>
+      <a class="btn btn--ghost" href="{{ .RelPermalink }}" data-umami-event="Show Details Click" data-umami-event-production="{{ .Title  }}"  data-umami-event-location="">Show Details</a>
     </div>
    </div>
   </div>
 
-  <a class="hero-split__media" href="{{ .RelPermalink }}" aria-label="Read more about {{ .Title }}" data-umami-event="Hero Image Click" data-umami-event-production="{{ .Title  }}"  data-umami-event-location="{{ $.RelPermalink }}">
+  <a class="hero-split__media" href="{{ .RelPermalink }}" aria-label="Read more about {{ .Title }}" data-umami-event="Hero Image Click" data-umami-event-production="{{ .Title  }}"  data-umami-event-location="{{ .Page.Store.Get "renderUrl" }}">
     <div class="hero-split__bg" style="background-image:url('{{ .Params.cover_image | absURL }}')"></div>
     <div class="hero-split__veil"></div>
     {{ with .Params.show_logo }}

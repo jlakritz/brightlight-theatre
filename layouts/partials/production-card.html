@@ -5,7 +5,7 @@
 {{ else if eq $p.Params.status "upcoming" }}
   {{ $badge = "Upcoming" }}
 {{ end }}
-<a class="card" href="{{ $p.RelPermalink }}" data-umami-event="View Production" data-umami-event-production="{{ $p.Title  }}"  data-umami-event-location="{{ $.RelPermalink }}">
+<a class="card" href="{{ $p.RelPermalink }}" data-umami-event="View Production" data-umami-event-production="{{ $p.Title  }}"  data-umami-event-location="">
   <div class="card__image" style="background-image:url('{{ $p.Params.cover_image | absURL}}')">
     <span class="badge">{{ $badge }}</span>
   </div>

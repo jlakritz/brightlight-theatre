@@ -8,4 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
   els.forEach(el => obs.observe(el));
 });
 
+  document.addEventListener("DOMContentLoaded", function() {
+    // Finds only the elements where the location is explicitly left empty
+    document.querySelectorAll('[data-umami-event-location=""]').forEach(function(el) {
+      el.setAttribute('data-umami-event-location', window.location.pathname);
+    });
+  });
+
 </script>

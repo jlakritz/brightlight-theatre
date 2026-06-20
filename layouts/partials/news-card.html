@@ -1,5 +1,5 @@
 {{ $p := . }}
-<a class="card card--news" href="{{ $p.RelPermalink }}" data-umami-event="Read News" data-umami-event-article="{{ $p.Title  }}"  data-umami-event-location="{{ $.RelPermalink }}">
+<a class="card card--news" href="{{ $p.RelPermalink }}" data-umami-event="Read News" data-umami-event-article="{{ $p.Title  }}"  data-umami-event-location="">
   <div class="card__image card__image--news" style="background-image:url('{{ with $p.Params.image | absURL }}{{ . }}{{ else }}{{ $p.Params.cover_image | absURL}}{{ end }}')">
 
 
