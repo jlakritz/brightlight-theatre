@@ -5,6 +5,8 @@ description: Got a question, an idea, or just curious? Brightlight Theatre's
   about.
 eyebrow: Get in touch
 cover_image: uploads/39-contact.jpg
+image-alt: A scene from Brightlight Theatre's production of The 39 Steps. A
+  couple kiss whilst two shocked policemen watch.
 ---
 Thinking about joining? Curious about a show? Just want to say hello?
 
