@@ -9,6 +9,7 @@
       {{ with .Params.price }}<p>{{ . }}</p>{{ end }}
       {{ with $.Params.details }}<p>{{ . }}</p>{{ end }}
     </div>
+  {{ if eq .Params.onsale true }}
     <div class="hero-split__actions">
       {{ with .Params.booking_url }}
       <a class="btn btn--solid btn--full" href="{{ . }}" target="_blank" rel="noopener">Book Tickets</a>
@@ -17,6 +18,7 @@
         <span class="ticket-note">{{ . }}</span>
       {{ end }}
     </div>
+  {{ end }}
    </div>
   </div>
   <div class="production-hero__media" style="background-image:url('{{ .Params.cover_image | absURL }}')">
