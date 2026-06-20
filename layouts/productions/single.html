@@ -12,7 +12,7 @@
   {{ if eq .Params.onsale true }}
     <div class="hero-split__actions">
       {{ with .Params.booking_url }}
-      <a class="btn btn--solid btn--full" href="{{ . }}" target="_blank" rel="noopener">Book Tickets</a>
+      <a class="btn btn--solid btn--full" href="{{ . }}" target="_blank" rel="noopener" data-umami-event="Book Tickets" data-umami-event-production="{{ .Title  }}"  data-umami-event-location="{{ $.RelPermalink }}">Book Tickets</a>
       {{ end }}
       {{ with .Params.booking_text }}
         <span class="ticket-note">{{ . }}</span>
@@ -82,7 +82,7 @@
       <div class="info-panel">
         <h2>Charity partner</h2>
         <p>
-          {{ .name }} — {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .url }}</a>{{ end }}
+          {{ .name }} — {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener" data-umami-event="Charity Partner Click" data-umami-partner="{{ .name  }}"  data-umami-event-location="{{ $.RelPermalink }}">{{ .url }}</a>{{ end }}
         </p>
       </div>
       {{ end }}

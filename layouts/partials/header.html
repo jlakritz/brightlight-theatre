@@ -3,13 +3,13 @@
 
 {{ if .IsHome }}
 <h1 class="brand-wrapper">
-  <a class="brand" href="{{ "/" | relURL }}" aria-label="Brightlight Theatre home">
+  <a class="brand" href="{{ "/" | relURL }}" aria-label="Brightlight Theatre home" data-umami-event="Header Logo Click"  data-umami-event-location="{{ $.RelPermalink }}">
     <img src="{{ "images/black-logo.svg" | relURL }}" class="brand-logo" alt="Brightlight Theatre Company Logo"/>
     <span class="sr-only">Brightlight Theatre Company - Community Theatre in Frimley on the Surrey & Hampshire border</span>
   </a>
 </h1>
 {{ else }}
-  <a class="brand" href="{{ "/" | relURL }}" aria-label="Brightlight Theatre home">
+  <a class="brand" href="{{ "/" | relURL }}" aria-label="Brightlight Theatre home" data-umami-event="Header Logo Click"  data-umami-event-location="{{ $.RelPermalink }}">
     <img src="{{ "images/black-logo.svg" | relURL }}" class="brand-logo" alt="Brightlight Theatre Company Logo"/>
   </a>
 {{ end }}
@@ -20,20 +20,23 @@
 
 {{ $headerButtonURL := "" }}
 {{ $headerButtonText := "" }}
+{{ $showTitle := "" }}
 
 {{ if eq (len $onSaleShows) 1 }}
   {{ range $onSaleShows }}
     {{ $headerButtonURL = .Params.booking_url }}
     {{ $headerButtonText = "Book Tickets" }}
+    {{ $showTitle := .Params.Title }}
   {{ end }}
 {{ else if gt (len $onSaleShows) 1 }}
   {{ $headerButtonURL = "/productions/" | relURL }}
   {{ $headerButtonText = "Book Tickets" }}
+  {{ $showTitle := "MULTIPLE" }}
 {{ end }}
 
 <div class="site-header__actions">
   {{ if $headerButtonURL }}
-    <a class="btn-header-ticket" href="{{ $headerButtonURL }}" {{ if eq (len $onSaleShows) 1 }}target="_blank" rel="noopener"{{ end }}>
+    <a class="btn-header-ticket" href="{{ $headerButtonURL }}" {{ if eq (len $onSaleShows) 1 }}target="_blank" rel="noopener"{{ end }} data-umami-event="Book Tickets" data-umami-event-production="{{ $showTitle  }}" data-umami-event-location="Header">
       <span>{{ $headerButtonText }}</span>
     </a>
   {{ end }}
@@ -49,7 +52,7 @@
 
     <nav class="site-nav" aria-label="Main navigation">
       {{ range .Site.Menus.main }}
-        <a class="site-nav__link" href="{{ .URL | relURL }}">{{ .Name }}</a>
+        <a class="site-nav__link" href="{{ .URL | relURL }}" data-umami-event="Header Menu Click" data-umami-event-target="{{ .Name  }}"  data-umami-event-location="{{ $.RelPermalink }}">{{ .Name }}</a>
       {{ end }}
     </nav>
    </div>

@@ -6,7 +6,7 @@
 {{ $allNews := where .Site.RegularPages "Section" "news" }}
 {{ $featuredNews := first 1 $allNews }}
 {{ $headlineNews := first 3 (after 1 $allNews) }}
-
+{{ $currentPage := $.RelPermalink }}
 
 {{ range $current }}
   {{ partial "hero-current-show.html" . }}
@@ -55,7 +55,7 @@
       {{ with .Params.buttons }}
       <div class="join-card__actions">
         {{ range . }}
-          <a href="{{ .url | relURL }}" class="btn btn--{{ .style }}">
+          <a href="{{ .url | relURL }}" class="btn btn--{{ .style }}" data-umami-event="Join Box Click" data-umami-event-intent="{{ .text }}" data-umami-event-location="{{ $currentPage }}">
             {{ .text }}
           </a>
         {{ end }}
@@ -90,7 +90,7 @@
 <div class="headline-stack">
 
   {{ range $headlineNews }}
-    <a class="headline-item" href="{{ .RelPermalink }}">
+    <a class="headline-item" href="{{ .RelPermalink }}" data-umami-event="Read News" data-umami-event-article="{{ .Title }}" data-umami-event-location="{{ $currentPage }}">
       <span><span class="headline-title">{{ .Title }}</span>
    {{ with .Date }}<p class="page__date">{{ .Format "2 January 2006" }}</p>{{ end }}
 {{ with .Summary }}<p class="card__meta">{{ . | plainify | htmlUnescape | truncate 120 }}</p>{{ end }}
@@ -112,7 +112,7 @@
 
 -->
 
-  <a class="section-link" href="news/">
+  <a class="section-link" href="news/" data-umami-event="View All News Click" data-umami-event-location="{{ $currentPage }}">
     View all news →
   </a>
 
@@ -176,7 +176,7 @@
       </div>
 
       <div class="section-footer">
-        <a href="productions/" class="section-link">
+        <a href="productions/" class="section-link" data-umami-event="View All Productions Click" data-umami-event-location="{{ $currentPage }}">
           Explore our full production archive →
         </a>
       </div>
