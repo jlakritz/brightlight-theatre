@@ -72,6 +72,8 @@ em {
   animation: underline 2s ease 0.5s forwards;
 }
 
+
+
 @keyframes underline {
   from   {background-size: 0% 100%;}
   to {background-size: 100% 100%;}
@@ -96,6 +98,10 @@ em {
 .reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.reveal.is-visible em {
+ animation: underline 2s ease 0.5s forwards;
 }
 
 .skip-link{
