@@ -5,6 +5,8 @@ description: No experience required. No auditions required. Just enthusiasm.
   Frimley.
 eyebrow: Join Us
 cover_image: uploads/EA-Web.jpg
+image-alt: A scene from Brightlight Theatre's production of Entertaining Angels.
+  A man wears a plant pot as a fez like hat.
 ---
 Brightlight welcomes anyone aged 18 or over, whether you're an experienced theatre-maker or completely new to the stage. Come along, meet the company and discover how you'd like to get involved.
 
