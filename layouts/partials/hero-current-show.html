@@ -14,7 +14,7 @@
    </div>
   </div>
 
-  <a class="hero-split__media" href="{{ .RelPermalink }}" aria-label="Read more about {{ .Title }}" data-umami-event="Hero Image Click" data-umami-event-production="{{ .Title  }}"  data-umami-event-location="{{ .Page.Store.Get "renderUrl" }}">
+  <a class="hero-split__media" href="{{ .RelPermalink }}" aria-label="Read more about {{ .Title }}" data-umami-event="Hero Image Click" data-umami-event-production="{{ .Title  }}"  data-umami-event-location="">
     <div class="hero-split__bg" style="background-image:url('{{ .Params.cover_image | absURL }}')"></div>
     <div class="hero-split__veil"></div>
     {{ with .Params.show_logo }}
