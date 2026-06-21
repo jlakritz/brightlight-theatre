@@ -51,6 +51,24 @@ content:
       - name: eyebrow
         label: Eyebrow
         type: string
+      - name: running_time
+        label: Running Time
+        type: string
+        default: TBC
+      - name: licence
+        label: Performance Licence
+        type: string
+      - name: performances
+        label: Performance Dates & Times
+        type: object
+        list: true
+        fields:
+          - name: date
+            label: Date
+            type: date
+          - name: time
+            label: Time (24hr, e.g. 19:30)
+            type: string
       - name: price
         label: Ticket Price (display text)
         type: string
@@ -103,21 +121,6 @@ content:
       - name: cover_image
         label: Cover Image
         type: image
-      - name: running_time
-        label: Running Time
-        type: string
-        default: TBC
-      - name: performances
-        label: Performance Dates & Times
-        type: object
-        list: true
-        fields:
-          - name: date
-            label: Date
-            type: date
-          - name: time
-            label: Time (24hr, e.g. 19:30)
-            type: string
       - name: charity
         label: Charity
         type: object
@@ -130,12 +133,17 @@ content:
             label: Charity URL
             type: string
             default: https://www.katcando.org.uk/
-      - name: licence
-        label: Performance Licence
-        type: string
       - name: gallery
         label: Photo Gallery
         type: image
+        list: true
+      - name: cast
+        label: Cast
+        type: string
+        list: true
+      - name: crew
+        label: Crew
+        type: string
         list: true
       - name: body
         label: Content
