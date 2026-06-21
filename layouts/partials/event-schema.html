@@ -1,0 +1,41 @@
+{{ $page := . }}
+{{ range $i, $perf := .Params.performances }}
+{{ $startDateTime := printf "%sT%s:00" $perf.date $perf.time }}
+{{ $schema := dict
+  "@context" "https://schema.org"
+  "@type" "TheaterEvent"
+  "name" $page.Title
+  "description" $page.Params.author
+  "startDate" $startDateTime
+  "duration" $page.Params.running_time
+  "eventAttendanceMode" "https://schema.org/OfflineEventAttendanceMode"
+  "eventStatus" "https://schema.org/EventScheduled"
+  "image" (slice (printf "%s%s" $page.Site.BaseURL $page.Params.cover_image))
+  "location" (dict
+    "@type" "Place"
+    "name" $page.Params.venue
+    "address" (dict
+      "@type" "PostalAddress"
+      "streetAddress" $page.Params.venue_address.street
+      "addressLocality" $page.Params.venue_address.locality
+      "addressRegion" $page.Params.venue_address.region
+      "postalCode" $page.Params.venue_address.postcode
+      "addressCountry" "GB"
+    )
+  )
+  "performer" (dict "@type" "TheaterGroup" "name" "Brightlight Theatre")
+  "organizer" (dict "@type" "TheaterGroup" "name" "Brightlight Theatre" "url" $page.Site.BaseURL)
+  "offers" (dict
+    "@type" "AggregateOffer"
+    "url" $page.Params.booking_url
+    "lowPrice" $page.Params.price_concession
+    "highPrice" $page.Params.price_adult
+    "priceCurrency" $page.Params.currency
+    "availability" (cond (eq $page.Params.onsale true) "https://schema.org/InStock" "https://schema.org/SoldOut")
+    "validFrom" ($page.Date.Format "2006-01-02")
+  )
+}}
+<script type="application/ld+json">
+{{ $schema | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{ end }}
