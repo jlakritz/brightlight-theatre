@@ -39,18 +39,22 @@ content:
       - name: date
         label: Publish Date
         type: date
+        description: Used to order productions on homepage
       - name: author
         label: Author
         type: string
       - name: hero_details
         label: Hero Details
         type: string
+        description: Shown on homepage under the author.
       - name: details
         label: Performance Details
         type: string
+        description: Shown on the production page, e.g. 18th and 25th April at St. Peter's Church Hall, Frimley
       - name: eyebrow
         label: Eyebrow
         type: string
+        description: Shown above the show title.
       - name: running_time
         label: Running Time
         type: string
@@ -58,6 +62,7 @@ content:
       - name: licence
         label: Performance Licence
         type: string
+        description: Legal licence disclaimers etc
       - name: performances
         label: Performance Dates & Times
         type: object
@@ -85,6 +90,7 @@ content:
         label: Currency Code
         type: string
         default: GBP
+        hidden: true
       - name: venue
         label: Venue (display text)
         type: string
@@ -115,6 +121,7 @@ content:
       - name: booking_text
         label: Booking Text
         type: string
+        description: Shown on booking page under the booking link
       - name: show_logo
         label: Show Logo
         type: image
