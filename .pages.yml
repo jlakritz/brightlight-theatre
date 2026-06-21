@@ -54,7 +54,7 @@ content:
       - name: price
         label: Ticket Price (display text)
         type: string
-        default: £10 adult (£8 concessions)
+        default: £11 adult (£9 concessions)
       - name: price_adult
         label: Adult Price (numeric, e.g. 10.00)
         default: 10.00
