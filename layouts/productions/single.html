@@ -54,6 +54,19 @@
       </div>
       {{ end }}
 
+{{ with .Params.performances }}
+<div class="info-panel">
+  <h2>Dates</h2>
+  <ul class="info-list">
+    {{ range . }}
+    {{ $dt := printf "%sT%s:00" .date .time }}
+    {{ $parsed := time.AsTime $dt }}
+    <li>{{ $parsed.Format "Monday 2 January" }} at {{ $parsed.Format "3:04pm" }}</li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
+
       {{ with .Params.cast }}
       <div class="info-panel">
         <h2>Cast</h2>
