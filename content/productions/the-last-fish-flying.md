@@ -1,30 +1,58 @@
 ---
 title: "The Last Fish Flying"
 status: current
+date: 2026-06-06
 onsale: true
-author: "by Richard Everett"
-details: "18th and 25th April at St. Peter's Church Hall, Frimley"
-price: "£10 adult (£8 concessions)"
-venue: "St. Peter's Church Hall, Frimley, GU16 7AQ"
-running_time: "Approx. 2 hours"
-booking_url: "https://www.trybooking.com/uk/events/landing/100784?&track=web&utm_source=web"
-show_logo: "https://lh3.googleusercontent.com/d/1AcDFD4REGVoE-PHoreCr0FPlXWxJ2wjv"
-cover_image: "https://lh3.googleusercontent.com/d/1NBy8w2y81dbFnaFJfQuVjTAcwd63ir9f"
+author: by Richard Everett
+hero_details: 29th Aug and 5th Sept
+details: 18th and 25th April at St. Peter's Church Hall, Frimley
+price: £10 adult (£8 concessions)
+venue: St. Peter's Church Hall, Frimley, GU16 7AQ
+running_time: Approx. 2 hours
+booking_url: https://www.trybooking.com/uk/events/landing/100784?&track=web&utm_source=web
+show_logo: uploads/AlmostHolmesLogo.png
+cover_image: uploads/AlmostHolmesCover.png
 dates:
   - "Saturday 18th April, 7:30pm"
   - "Saturday 25th April, 2:00pm"
   - "Saturday 25th April, 7:30pm"
 gallery:
-  - "https://lh3.googleusercontent.com/d/1NBy8w2y81dbFnaFJfQuVjTAcwd63ir9f"
-  - "https://lh3.googleusercontent.com/d/1NBy8w2y81dbFnaFJfQuVjTAcwd63ir9f"
+  - uploads/AlmostHolmesLogo.png
+  - uploads/DuetsLogo.png
+  - uploads/GloriousLogo.png
+  - uploads/HollyIvyLogo.png
+  - uploads/AlmostHolmesLogo.png
+  - uploads/DuetsLogo.png
+  - uploads/GloriousLogo.png
+  - uploads/HollyIvyLogo.png
+  - uploads/AlmostHolmesLogo.png
+  - uploads/DuetsLogo.png
+  - uploads/GloriousLogo.png
+  - uploads/HollyIvyLogo.png
+  - uploads/AlmostHolmesLogo.png
+  - uploads/DuetsLogo.png
+  - uploads/GloriousLogo.png
+  - uploads/HollyIvyLogo.png
+  - uploads/AlmostHolmesLogo.png
+  - uploads/DuetsLogo.png
+  - uploads/GloriousLogo.png
+  - uploads/HollyIvyLogo.png
+  - uploads/AlmostHolmesLogo.png
+  - uploads/DuetsLogo.png
+  - uploads/GloriousLogo.png
+  - uploads/HollyIvyLogo.png
+
+
+
+
 cast:
-  - "Grace"
+  - "Grace: Andrea Walsh"
   - "Bardolph"
 crew:
   - "Director: Jamie Lakritz"
 charity:
   name: "KatCanDo"
-  website: "http://www.katcando.org.uk/"
+  url: "http://www.katcando.org.uk/"
 ---
 ## Since I began parish life, I've boiled 7,000 gallons of water and poured 200,000 cups of tea. I've also baked 4,600 medium sized quiches and personally made 2 tons of shortcrust pastry
 

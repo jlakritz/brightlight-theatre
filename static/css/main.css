@@ -612,6 +612,7 @@ em {
   flex-direction:column;
   justify-content:center;
   gap:0.6rem;
+  direction: ltr !important;
 }
 .hero-split__text h1,
 .production-hero__text h1 {
