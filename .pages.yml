@@ -12,7 +12,7 @@ content:
       fields:
         - title
         - status
-        - dates
+        - date
     fields:
       - name: title
         label: Show Title
@@ -33,60 +33,91 @@ content:
               label: Upcoming
             - name: archive
               label: Archive
-
       - name: onsale
         label: Tickets On Sale
         type: boolean
-
       - name: date
-        label: Date
+        label: Publish Date
         type: date
-
       - name: author
         label: Author
         type: string
-
       - name: hero_details
         label: Hero Details
         type: string
-
       - name: details
         label: Performance Details
         type: string
-
       - name: eyebrow
         label: Eyebrow
         type: string
-
       - name: price
-        label: Ticket Price
+        label: Ticket Price (display text)
         type: string
-
+        default: £10 adult (£8 concessions)
+      - name: price_adult
+        label: Adult Price (numeric, e.g. 10.00)
+        default: 10.00
+        type: number
+      - name: price_concession
+        label: Concession Price (numeric, e.g. 8.00)
+        default: 8.00
+        type: number
+      - name: currency
+        label: Currency Code
+        type: string
+        default: GBP
       - name: venue
-        label: Venue
+        label: Venue (display text)
         type: string
-
+        default: St. Peter's Church Hall, Frimley, GU16 7AQ
+      - name: venue_address
+        label: Venue Address (structured)
+        type: object
+        fields:
+          - name: street
+            label: Street / Building Name
+            type: string
+            default: St. Peter's Church Hall
+          - name: locality
+            label: Town / City
+            type: string
+            default: Frimley
+          - name: region
+            label: County
+            type: string
+            default: Surrey
+          - name: postcode
+            label: Postcode
+            type: string
+            default: GU16 7AQ
       - name: booking_url
         label: Booking URL
         type: string
-
       - name: booking_text
         label: Booking Text
         type: string
-
       - name: show_logo
         label: Show Logo
         type: image
-
       - name: cover_image
         label: Cover Image
         type: image
-
-      - name: dates
-        label: Performance Dates
+      - name: running_time
+        label: Running Time
         type: string
+        default: TBC
+      - name: performances
+        label: Performance Dates & Times
+        type: object
         list: true
-
+        fields:
+          - name: date
+            label: Date
+            type: date
+          - name: time
+            label: Time (24hr, e.g. 19:30)
+            type: string
       - name: charity
         label: Charity
         type: object
@@ -94,20 +125,18 @@ content:
           - name: name
             label: Charity Name
             type: string
-
+            default: KatCanDo
           - name: url
             label: Charity URL
             type: string
-
+            default: https://www.katcando.org.uk/
       - name: licence
         label: Performance Licence
         type: string
-
       - name: gallery
         label: Photo Gallery
         type: image
         list: true
-
       - name: body
         label: Content
         type: rich-text
