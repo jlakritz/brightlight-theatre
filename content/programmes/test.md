@@ -105,25 +105,25 @@ crew:
 
 rehearsal_gallery:
   - type: photo
-    image: "uploads/rehearsal/ea-rehearsal-01.jpg"
+    image: "uploads/EA-Web.jpg"
     caption: "The garden gate — John Pibworth's set taking shape in week three."
   - type: photo
-    image: "uploads/rehearsal/ea-rehearsal-02.jpg"
+    image: "uploads/39-contact.jpg"
     caption: "Andrea Walsh and Sylvia Wilkins working through the garden scene."
   - type: photo
-    image: "uploads/rehearsal/ea-rehearsal-03.jpg"
+    image: "uploads/464174643_18254442304260673_6723658534562070606_n.jpg"
     caption: "The notorious shopping trolley makes its debut in rehearsal."
   - type: video
-    embed_url: "https://www.youtube-nocookie.com/embed/REPLACE_WITH_REAL_ID"
+    embed_url: "https://www.youtube.com/embed/fF1VW65qH5U?rel=0"
     caption: "A sneak peek at the vicarage garden coming to life."
   - type: photo
-    image: "uploads/rehearsal/ea-rehearsal-04.jpg"
+    image: "uploads/EA-Web.jpg"
     caption: ""
   - type: photo
-    image: "uploads/rehearsal/ea-rehearsal-05.jpg"
+    image: "uploads/BL1 (1).jpg"
     caption: "Directors Kate Gould and Laureen Rees mid-notes."
   - type: photo
-    image: "uploads/rehearsal/ea-rehearsal-06.jpg"
+    image: "uploads/Woking-win.jpg"
     caption: "The full company — final dress rehearsal."
 
 rehearsal_pull_quote:
