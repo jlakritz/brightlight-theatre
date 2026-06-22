@@ -126,7 +126,7 @@
           <article class="cast-card">
             <div class="cast-card__media">
               {{ with .image }}
-              <img src="{{ . | absURL }}" alt="{{ $.role }}" loading="lazy">
+              <img src="{{ . | absURL }}" alt="{{ .role }}" loading="lazy">
               {{ else }}
               <div class="cast-card__placeholder">
                 <span>{{ substr .name 0 1 }}</span>
