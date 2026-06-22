@@ -194,10 +194,17 @@
   transition: background 0.15s ease, color 0.15s ease;
 }
 
-.prog-nav__links a:hover,
+/* Only highlight active elements, or items hovered with a real mouse/pointer */
 .prog-nav__links a.is-active {
   background: var(--yellow);
   color: #111;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .prog-nav__links a:hover {
+    background: var(--yellow);
+    color: #111;
+  }
 }
 
 /* ================================================================
