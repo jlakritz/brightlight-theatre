@@ -118,6 +118,7 @@ content:
       - name: booking_url
         label: Booking URL
         type: string
+        description: Full TryBooking URL e.g. https://www.trybooking.com/uk/events/landing/111739- do not include tracking query parameters
       - name: booking_text
         label: Booking Text
         type: string
