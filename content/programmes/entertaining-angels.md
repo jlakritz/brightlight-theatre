@@ -1,5 +1,7 @@
 ---
 title: "Entertaining Angels"
+sitemap:
+  disable: true
 production_url: "/productions/entertaining-angels/"
 tagline: "Grace has a lot to live for. If only her late husband would leave her alone."
 cover_image: "uploads/EAProg.jpg"
