@@ -34,36 +34,36 @@ synopsis: |
 playwright:
   name: "Richard Everett"
   bio: "Richard Everett's plays have been performed extensively by theatre companies across the UK. Entertaining Angels has become a favourite of community and repertory theatre alike for its perfect balance of sharp wit and emotional truth."
-  image: ""
+  image: "https://www.guildburys.com/wp-content/uploads/photo-gallery/imported_from_media_libray/121B6936-2.jpg?bwg=1727690385"
 
 cast:
   - role: "Grace"
     name: "Andrea Walsh"
-    image: ""
+    image: "https://images.squarespace-cdn.com/content/v1/673850e7ce5dff636bb137bf/c34943b8-989a-4024-ba2a-5d73451c2d0a/Actor-Headshot+83.jpg"
     bio: "Andrea has been a member of Brightlight Theatre for over a decade, bringing warmth and precision to every role she takes on. Audiences will remember her as the quietly devastating lead in our 2023 production of Still Life. Playing Grace — a woman who has held herself together so long she's forgotten what falling apart looks like — has been one of the most rewarding challenges of her theatre career."
     credits: "Previous Brightlight: Still Life, Farndale Avenue Murder Mystery"
 
   - role: "Ruth"
     name: "Sylvia Wilkins"
-    image: ""
+    image: "https://images.squarespace-cdn.com/content/v1/624f4bb135fbf60489e1bccf/c9ba8deb-7981-49d4-b7ec-49c1230a5057/Actress+Headshot+Los+Angeles.jpg"
     bio: "Sylvia joined Brightlight three years ago and has rapidly become one of the company's most reliably brilliant character performers. Her gift for finding the exact right note — comic without sacrificing truth — is on full display as the spectacularly unsuited Ruth. She is also a stalwart of the backstage team and an enthusiastic recruiter of new members."
     credits: "Previous Brightlight: Almost Holmes, The Aviary"
 
   - role: "Jo"
     name: "Collette Cooper"
-    image: ""
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuinKKzTYM2ZYEIVH_8f0AmXMLPYlt9fIQUliSIPvgpA&s=10"
     bio: "Entertaining Angels marks Collette's first main-stage production with Brightlight, having made her acting debut in Almost Holmes last December. In the short time since, she has become a genuinely exciting presence in rehearsals — instinctive, surprising, and funny in ways that seem completely effortless but absolutely aren't."
     credits: "Previous Brightlight: Almost Holmes (debut)"
 
   - role: "Sarah"
     name: "Ellen Pickford"
-    image: ""
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhQvJA5ONsoSX9IiKujaLRAIBFEv9EMOA6hsnIsm8uoA&s=10"
     bio: "Ellen has been performing with amateur and community theatre groups across Surrey for nearly fifteen years, and her experience shows in the best possible way. Her portrayal of Sarah — all surface competence and barely concealed anxiety — is a masterclass in doing two things at once. She is also, off stage, one of the most enthusiastic tea-makers the green room has ever known."
     credits: "Previous Brightlight: Farndale Avenue Murder Mystery, The Aviary"
 
   - role: "Bardolph"
     name: "Andy Oldham"
-    image: ""
+    image: "https://headshotcompany.co.uk/wp-content/uploads/2025/04/The-Ultimate-Guide-To-Actors-Headshots.jpg"
     bio: "Andy made his acting debut with Brightlight in Almost Holmes last December, taking to the stage for the first time with a confidence that belied his newcomer status. He brings the same quality to Bardolph — a character who exists at the exact intersection of well-meaning and catastrophically unhelpful — and makes it look easy. It isn't."
     credits: "Previous Brightlight: Almost Holmes (debut)"
 
@@ -92,7 +92,7 @@ crew:
 interviews:
   - person: "John Pibworth"
     subject: "Set Design & Build"
-    image: ""
+    image: "uploads/EA-Web.jpg"
     q_and_a:
       - q: "A vicarage garden feels like a very specific world to recreate on a stage. Where did you start?"
         a: "I started with the gate, actually. There's something about a garden gate — the threshold between the private world and the public-facing one — that felt central to the whole play. Once I had the gate right, the rest of the garden grew around it. The ironwork design became almost a character in itself, something rooted and decorative and slightly overgrown. Everything in this garden has been there a long time."
@@ -103,7 +103,7 @@ interviews:
 
   - person: "Kate Gould"
     subject: "Director"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/71e-yuqhnTL._AC_UF894,1000_QL80_.jpg"
     q_and_a:
       - q: "What drew you to directing Entertaining Angels?"
         a: "The fact that it's funnier than it has any right to be, and sadder than it pretends to be. Those two things in tension are what the best comedy does — it earns the emotional moments because you've been laughing too hard to see them coming. Grace is one of those characters who breaks your heart precisely because she won't let herself be broken. I found that irresistible."
