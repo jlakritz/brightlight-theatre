@@ -39,11 +39,8 @@
         <a href="#the-story" role="listitem">The Story</a>
         <a href="#cast" role="listitem">Cast</a>
         <a href="#crew" role="listitem">Crew</a>
-        {{ with .Params.rehearsal_gallery }}<a href="#rehearsal" role="listitem">In Rehearsal</a>{{ end }}
         {{ with .Params.interviews }}<a href="#interviews" role="listitem">Interviews</a>{{ end }}
-        {{ with .Params.pull_quotes }}<a href="#voices" role="listitem">Voices</a>{{ end }}
         {{ with .Params.charity }}<a href="#charity" role="listitem">Charity</a>{{ end }}
-        {{ with .Params.next_show }}<a href="#next-show" role="listitem">What's Next</a>{{ end }}
         <a href="#get-involved" role="listitem">Get Involved</a>
       </div>
     </div>
@@ -64,12 +61,6 @@
         <div class="prog-welcome__layout">
           <div class="prog-welcome__text prose">
             {{ .text | markdownify }}
-            {{/* Inline pull quote — optional, sits mid-note for rhythm */}}
-            {{ with .pull_quote }}
-            <blockquote class="prog-pull-quote prog-pull-quote--inline">
-              <p>{{ . }}</p>
-            </blockquote>
-            {{ end }}
           </div>
           <aside class="prog-welcome__sig">
             <div class="prog-welcome__sig-names">
@@ -103,13 +94,6 @@
               {{ . }}
             </div>
             {{ end }}
-            {{/* Story pull quote — appears between synopsis and body */}}
-            {{ with .Params.story_pull_quote }}
-            <blockquote class="prog-pull-quote prog-pull-quote--story">
-              <p>{{ .text }}</p>
-              {{ with .attribution }}<cite>— {{ . }}</cite>{{ end }}
-            </blockquote>
-            {{ end }}
           </div>
           {{ with .Params.playwright }}
           <aside class="prog-story__playwright">
@@ -139,7 +123,7 @@
         </div>
         <div class="prog-cast__grid">
           {{ range . }}
-          {{ $member := . }}
+          {{ $member := . }} 
           <article class="cast-card">
             <div class="cast-card__media">
               {{ with .image }}
@@ -165,13 +149,6 @@
           </article>
           {{ end }}
         </div>
-        {{/* Cast pull quote — adjudicator or director comment on the company */}}
-        {{ with $.Params.cast_pull_quote }}
-        <blockquote class="prog-pull-quote prog-pull-quote--cast">
-          <p>{{ .text }}</p>
-          {{ with .attribution }}<cite>— {{ . }}</cite>{{ end }}
-        </blockquote>
-        {{ end }}
       </div>
     </section>
     {{ end }}
@@ -199,67 +176,6 @@
     {{ end }}
 
     {{/* ============================================================
-         REHEARSAL GALLERY
-         ============================================================ */}}
-    {{ with .Params.rehearsal_gallery }}
-    <section class="prog-section prog-rehearsal" id="rehearsal">
-      <div class="site-shell">
-        <div class="prog-section__header">
-          <p class="eyebrow">Inside the Rehearsal Room</p>
-          <h2>Making the magic</h2>
-        </div>
-      </div>
-      <div class="prog-rehearsal__grid" id="rehearsal-grid">
-        {{ range . }}
-        <figure class="rehearsal-item rehearsal-item--{{ .type | default "photo" }}">
-          {{ if eq .type "video" }}
-            {{ if .embed_url }}
-            {{/* Embedded video (YouTube/Vimeo) */}}
-            <div class="rehearsal-item__video-wrap">
-              <iframe
-                src="{{ .embed_url }}"
-                title="{{ .caption | default "Rehearsal video" }}"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-                loading="lazy">
-              </iframe>
-            </div>
-            {{ else if .src }}
-            {{/* Self-hosted video */}}
-            <div class="rehearsal-item__video-wrap">
-              <video controls preload="none" {{ with .poster }}poster="{{ . | absURL }}"{{ end }}>
-                <source src="{{ .src | absURL }}">
-              </video>
-            </div>
-            {{ end }}
-          {{ else }}
-          {{/* Photo */}}
-          <img
-            src="{{ .image | absURL }}"
-            alt="{{ .caption | default "Rehearsal photo" }}"
-            loading="lazy"
-            class="rehearsal-item__img">
-          {{ end }}
-          {{ with .caption }}
-          <figcaption class="rehearsal-item__caption">{{ . }}</figcaption>
-          {{ end }}
-        </figure>
-        {{ end }}
-      </div>
-      {{/* Rehearsal pull quote — sits below the gallery */}}
-      {{ with $.Params.rehearsal_pull_quote }}
-      <div class="site-shell">
-        <blockquote class="prog-pull-quote prog-pull-quote--rehearsal">
-          <p>{{ .text }}</p>
-          {{ with .attribution }}<cite>— {{ . }}</cite>{{ end }}
-        </blockquote>
-      </div>
-      {{ end }}
-    </section>
-    {{ end }}
-
-    {{/* ============================================================
          INTERVIEWS
          ============================================================ */}}
     {{ with .Params.interviews }}
@@ -270,7 +186,7 @@
           <h2>The people behind the production</h2>
         </div>
         {{ range . }}
-        {{ $interview := . }}
+        {{ $interview := . }} 
         <article class="prog-interview">
           <header class="prog-interview__header">
             {{ with .image }}
@@ -295,39 +211,8 @@
             </div>
             {{ end }}
           </div>
-          {{/* Optional pull quote to break up longer interviews */}}
-          {{ with .pull_quote }}
-          <blockquote class="prog-pull-quote prog-pull-quote--interview">
-            <p>{{ . }}</p>
-          </blockquote>
-          {{ end }}
         </article>
         {{ end }}
-      </div>
-    </section>
-    {{ end }}
-
-    {{/* ============================================================
-         VOICES — standalone pull quotes (audience, press, adjudicators)
-         ============================================================ */}}
-    {{ with .Params.pull_quotes }}
-    <section class="prog-section prog-voices" id="voices">
-      <div class="site-shell">
-        <div class="prog-section__header">
-          <p class="eyebrow">What they said</p>
-          <h2>Voices</h2>
-        </div>
-        <div class="prog-voices__grid">
-          {{ range . }}
-          <blockquote class="prog-voice-card">
-            <p>{{ .text }}</p>
-            <footer>
-              <cite class="prog-voice-card__name">{{ .name }}</cite>
-              {{ with .role }}<span class="prog-voice-card__role">{{ . }}</span>{{ end }}
-            </footer>
-          </blockquote>
-          {{ end }}
-        </div>
       </div>
     </section>
     {{ end }}
@@ -358,44 +243,6 @@
     {{ end }}
 
     {{/* ============================================================
-         NEXT SHOW — key marketing moment
-         ============================================================ */}}
-    {{ with .Params.next_show }}
-    <section class="prog-section prog-next" id="next-show">
-      <div class="site-shell">
-        <div class="prog-next__layout">
-          {{ with .cover_image }}
-          <div class="prog-next__media">
-            <img src="{{ . | absURL }}" alt="{{ $.Params.next_show.title }}" loading="lazy">
-          </div>
-          {{ end }}
-          <div class="prog-next__text">
-            <p class="eyebrow">Coming up next</p>
-            <h2 class="prog-next__title">{{ .title }}</h2>
-            {{ with .author }}<p class="prog-next__author">{{ . }}</p>{{ end }}
-            {{ with .description }}<p class="prog-next__desc">{{ . }}</p>{{ end }}
-            <div class="prog-next__meta">
-              {{ with .dates }}<p>📅 {{ . }}</p>{{ end }}
-              {{ with .venue }}<p>📍 {{ . }}</p>{{ end }}
-              {{ with .price }}<p>🎟 {{ . }}</p>{{ end }}
-            </div>
-            <div class="prog-next__actions">
-              {{ with .booking_url }}
-              <a class="btn btn--solid" href="{{ . }}" target="_blank" rel="noopener">
-                {{ $.Params.next_show.booking_text | default "Book Tickets" }}
-              </a>
-              {{ end }}
-              {{ with .production_url }}
-              <a class="btn btn--ghost" href="{{ . }}">Show Details</a>
-              {{ end }}
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    {{ end }}
-
-    {{/* ============================================================
          GET INVOLVED / JOIN
          ============================================================ */}}
     <section class="prog-section prog-join" id="get-involved">
@@ -405,15 +252,15 @@
           <h2>Get some drama in your life</h2>
           <div class="prog-join__options">
             <p>
-              → Join an award-winning theatre company, meet brilliant people, and help create remarkable productions.
+              <strong>→</strong>→ Join an award-winning theatre company, meet brilliant people, and help create remarkable productions.
             </p>
             <p>
-              → Simply stay in touch to be the first to hear about new shows, auditions and events.
+              <strong>→</strong>→ Or, simply stay in touch to be the first to hear about new shows, auditions and events.
             </p>
           </div>
           <div class="prog-join__actions">
-            <a class="btn btn--solid" href="/join-us/">Become a Member</a>
-            <a class="btn btn--ghost" href="http://eepurl.com/h9mOL5" target="_blank" rel="noopener">Join the Mailing List</a>
+            <a class="btn btn--solid" href="/join-us/">Join the company</a>
+            <a class="btn btn--ghost" href="http://eepurl.com/h9mOL5" target="_blank" rel="noopener">Join the mailing list</a>
           </div>
         </div>
       </div>
@@ -440,16 +287,22 @@
   // Active nav link highlight on scroll
   var sections = document.querySelectorAll('[id]');
   var navLinks = document.querySelectorAll('.prog-nav__links a');
-  var isClicking = false;
+  var isClicking = false; // Flag to prevent scroll-spy fighting with manual clicks
   var clickTimeout;
 
+  // Helper function to manage the active class and the horizontal scroll
   function setActiveLink(targetId) {
     navLinks.forEach(function (a) {
       var isTarget = a.getAttribute('href') === '#' + targetId;
+      
       if (isTarget) {
         if (!a.classList.contains('is-active')) {
           a.classList.add('is-active');
-          a.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
+          a.scrollIntoView({
+            behavior: 'smooth',
+            block: 'nearest',
+            inline: 'nearest'
+          });
         }
       } else {
         a.classList.remove('is-active');
@@ -458,68 +311,39 @@
   }
 
   if (navLinks.length && window.IntersectionObserver) {
+    // 1. Listen to the scroll intersection
     var secObs = new IntersectionObserver(function (entries) {
+      // If we are currently handling a manual click, ignore scroll-spy updates
       if (isClicking) return;
+
       entries.forEach(function (e) {
-        if (e.isIntersecting) { setActiveLink(e.target.id); }
+        if (e.isIntersecting) {
+          setActiveLink(e.target.id);
+        }
       });
     }, { rootMargin: '-50% 0px -50% 0px' });
 
     sections.forEach(function (s) { secObs.observe(s); });
 
+    // 2. Intercept nav clicks to force a clean transition
     navLinks.forEach(function (link) {
-      link.addEventListener('click', function () {
-        link.blur();
+      link.addEventListener('click', function (e) {
+        // Remove focus outline behavior immediately if desired
+        link.blur(); 
+        
         isClicking = true;
         clearTimeout(clickTimeout);
-        setActiveLink(link.getAttribute('href').replace('#', ''));
-        clickTimeout = setTimeout(function () { isClicking = false; }, 800);
+
+        var targetId = link.getAttribute('href').replace('#', '');
+        setActiveLink(targetId);
+
+        // Allow enough time for the smooth scroll jump to finish before resuming scroll tracking
+        clickTimeout = setTimeout(function () {
+          isClicking = false;
+        }, 800); 
       });
     });
   }
-
-  // Rehearsal gallery — lightbox for photos
-  var galleryItems = document.querySelectorAll('.rehearsal-item--photo .rehearsal-item__img');
-  if (galleryItems.length) {
-    var lightbox = document.createElement('div');
-    lightbox.className = 'prog-lightbox';
-    lightbox.setAttribute('role', 'dialog');
-    lightbox.setAttribute('aria-modal', 'true');
-    lightbox.setAttribute('aria-label', 'Photo lightbox');
-    lightbox.innerHTML = '<button class="prog-lightbox__close" aria-label="Close">&times;</button><img class="prog-lightbox__img" src="" alt=""><p class="prog-lightbox__caption"></p>';
-    document.body.appendChild(lightbox);
-
-    var lbImg = lightbox.querySelector('.prog-lightbox__img');
-    var lbCap = lightbox.querySelector('.prog-lightbox__caption');
-
-    function openLightbox(img) {
-      lbImg.src = img.src;
-      lbImg.alt = img.alt;
-      var caption = img.closest('figure').querySelector('.rehearsal-item__caption');
-      lbCap.textContent = caption ? caption.textContent : '';
-      lightbox.classList.add('is-open');
-      document.body.style.overflow = 'hidden';
-      lightbox.querySelector('.prog-lightbox__close').focus();
-    }
-
-    function closeLightbox() {
-      lightbox.classList.remove('is-open');
-      document.body.style.overflow = '';
-    }
-
-    galleryItems.forEach(function (img) {
-      img.style.cursor = 'zoom-in';
-      img.addEventListener('click', function () { openLightbox(img); });
-      img.addEventListener('keydown', function (e) { if (e.key === 'Enter') openLightbox(img); });
-      img.setAttribute('tabindex', '0');
-      img.setAttribute('role', 'button');
-    });
-
-    lightbox.querySelector('.prog-lightbox__close').addEventListener('click', closeLightbox);
-    lightbox.addEventListener('click', function (e) { if (e.target === lightbox) closeLightbox(); });
-    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeLightbox(); });
-  }
-
 })();
 </script>
 
