@@ -115,7 +115,7 @@ interviews:
 charity:
   name: "KatCanDo"
   url: "https://www.katcando.org.uk/"
-  image: "uploads/katcando-logo.png"
+  image: "https://katcando.org.uk/wp-content/uploads/2023/07/KatCanDo-Header-Logo-1536x314.jpg"
   description: |
     As with every Brightlight production, at least 10% of tonight's ticket sales will be donated to KatCanDo — a local charity doing extraordinary work for cancer patients and their families across our community.
 
