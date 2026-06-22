@@ -36,7 +36,7 @@
 
 <div class="site-header__actions">
   {{ if $headerButtonURL }}
-    <a class="btn-header-ticket" href="{{ $headerButtonURL }}" {{ if eq (len $onSaleShows) 1 }}target="_blank" rel="noopener"{{ end }} data-umami-event="Book Tickets" data-umami-event-production="{{ $showTitle  }}" data-umami-event-location="Header">
+    <a class="btn-header-ticket" href="{{ printf "%s?track=web-header&utm_source=website&utm_medium=referral&utm_campaign=%s&utm_content=header" $headerButtonURL ($showTitle | urlize) }}" {{ if eq (len $onSaleShows) 1 }}target="_blank" rel="noopener"{{ end }} data-umami-event="Book Tickets" data-umami-event-production="{{ $showTitle  }}" data-umami-event-location="Header">
       <span>{{ $headerButtonText }}</span>
     </a>
   {{ end }}

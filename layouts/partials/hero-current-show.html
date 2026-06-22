@@ -8,7 +8,7 @@
       {{ with .Params.hero_details }}<p>{{ . }}</p>{{ end }}
     </div>
     <div class="hero-split__actions">
-      <a class="btn btn--solid" href="{{ .Params.booking_url }}" target="_blank" rel="noopener" data-umami-event="Book Tickets" data-umami-event-production="{{ .Title }}"  data-umami-event-location="">Book Tickets</a>
+      <a class="btn btn--solid" href="{{ printf "%s?track=web-hero&utm_source=website&utm_medium=referral&utm_campaign=%s&utm_content=hero" .Params.booking_url (.Title | urlize) }}" target="_blank" rel="noopener" data-umami-event="Book Tickets" data-umami-event-production="{{ .Title }}"  data-umami-event-location="">Book Tickets</a>
       <a class="btn btn--ghost" href="{{ .RelPermalink }}" data-umami-event="Show Details Click" data-umami-event-production="{{ .Title  }}"  data-umami-event-location="">Show Details</a>
     </div>
    </div>
