@@ -1,3 +1,6 @@
+---
+headless: true
+---
 ### Community theatre in Surrey and Hampshire
 
 Brightlight Theatre Company is an award-winning community theatre group based in Frimley, serving audiences and members across Camberley, Farnborough, Ash and the surrounding area.

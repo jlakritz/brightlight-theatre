@@ -9,6 +9,7 @@ buttons:
   - text: "Join the mailing list"
     url: "https://mailchi.mp/3930322cd36a/join-our-mailing-list"
     style: "ghost"
+headless: true
 ---
 → Join an award-winning theatre company, meet brilliant people, and help create remarkable productions.
 
