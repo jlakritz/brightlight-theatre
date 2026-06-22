@@ -140,7 +140,7 @@
 
 .prog-nav {
   position: sticky;
-  top: 0;
+  top: 75px;
   z-index: 200;
   background: rgba(255,253,248,0.94);
   backdrop-filter: blur(14px);
