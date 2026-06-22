@@ -6,6 +6,8 @@ paginate = 12
 summaryLength = 30
 canonifyURLs = false
 
+disableKinds = ["taxonomy", "term"]
+
 [params]
   description = "Not your average am-dram group. Brightlight Theatre stages bold, award-winning shows in Frimley with a national reputation. Get some drama in your life."
   email = "info@brightlight-theatre.co.uk"
