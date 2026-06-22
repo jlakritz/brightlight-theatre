@@ -1,0 +1,871 @@
+/* ================================================================
+   BRIGHTLIGHT THEATRE — DIGITAL PROGRAMME
+   programme.css  |  companion to main.css
+
+   Inherits all CSS custom properties from main.css.
+   Pink updated to #E40173 for 2026.
+   ================================================================ */
+
+.programme {
+  --pink: #E40173;
+}
+
+/* ================================================================
+   HERO
+   ================================================================ */
+
+.prog-hero {
+  position: relative;
+  height: 100svh;
+  min-height: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+}
+
+.prog-hero__bg {
+  position: absolute;
+  inset: 0;
+  background-image: var(--hero-bg);
+  background-size: cover;
+  background-position: center top;
+  animation: heroReveal 1.4s ease-out forwards;
+}
+
+@keyframes heroReveal {
+  from { transform: scale(1.06); opacity: 0.5; }
+  to   { transform: scale(1.0);  opacity: 1; }
+}
+
+.prog-hero__veil {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.15) 0%,
+    rgba(0,0,0,0.5)  55%,
+    rgba(0,0,0,0.82) 100%
+  );
+}
+
+.prog-hero__content {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  max-width: 760px;
+  animation: heroContent 1s ease-out 0.3s both;
+}
+
+@keyframes heroContent {
+  from { transform: translateY(16px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+.prog-hero__logo {
+  max-width: min(400px, 80vw);
+  margin-bottom: 1.4rem;
+  filter: drop-shadow(0 4px 24px rgba(0,0,0,0.55));
+}
+
+.prog-hero__wordmark {
+  font-family: "Alfa Slab One", serif;
+  font-size: clamp(3.5rem, 14vw, 8rem);
+  color: #fff;
+  margin: 0 0 0.4rem;
+  line-height: 1;
+  text-shadow: 0 4px 40px rgba(0,0,0,0.55);
+}
+
+.prog-hero__tagline {
+  font-size: clamp(1rem, 2.5vw, 1.35rem);
+  font-style: italic;
+  margin: 0 0 1.2rem;
+  opacity: 0.88;
+  text-shadow: 0 2px 14px rgba(0,0,0,0.4);
+}
+
+.prog-hero__dates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  opacity: 0.82;
+  margin-bottom: 1.4rem;
+}
+
+.prog-hero__dot { opacity: 0.45; }
+
+.prog-hero__badge {
+  display: inline-block;
+  background: var(--yellow);
+  color: #111;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.32rem 0.9rem;
+  border-radius: 999px;
+}
+
+.prog-hero__scroll {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255,255,255,0.65);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  animation: scrollBounce 2.2s ease-in-out 2s infinite;
+}
+
+.prog-hero__scroll:hover { color: var(--yellow); }
+
+@keyframes scrollBounce {
+  0%,100% { transform: translateX(-50%) translateY(0); }
+  50%      { transform: translateX(-50%) translateY(7px); }
+}
+
+/* ================================================================
+   STICKY SECTION NAV
+   ================================================================ */
+
+.prog-nav {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background: rgba(255,253,248,0.94);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 3px solid var(--yellow);
+  transition: box-shadow 0.2s ease;
+}
+
+.prog-nav.is-scrolled {
+  box-shadow: 0 4px 28px rgba(17,17,17,0.12);
+}
+
+.prog-nav__inner {
+  display: flex;
+  align-items: center;
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+  gap: 1.5rem;
+}
+
+.prog-nav__show {
+  font-family: "Alfa Slab One", serif;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+  color: var(--text);
+}
+
+.prog-nav__links {
+  display: flex;
+  gap: 0.2rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.prog-nav__links::-webkit-scrollbar { display: none; }
+
+.prog-nav__links a {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--text);
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 0.38rem 0.85rem;
+  border-radius: 999px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.prog-nav__links a:hover,
+.prog-nav__links a.is-active {
+  background: var(--yellow);
+  color: #111;
+}
+
+/* ================================================================
+   GENERIC SECTION SCAFFOLD
+   ================================================================ */
+
+.prog-section {
+  padding: clamp(3.5rem, 7vw, 7rem) 0;
+}
+
+.prog-section__header {
+  margin-bottom: clamp(2rem, 4vw, 3.5rem);
+}
+
+.prog-section__header h2 {
+  font-family: "Alfa Slab One", serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin: 0.4rem 0 0;
+  line-height: 1.15;
+}
+
+/* ================================================================
+   DIRECTOR'S NOTE / WELCOME
+   ================================================================ */
+
+.prog-welcome {
+  background: var(--surface-alt);
+  border-top: 5px solid var(--yellow);
+}
+
+.prog-welcome__layout {
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  gap: clamp(2.5rem, 5vw, 5rem);
+  align-items: start;
+}
+
+/* Drop-cap on the first paragraph of the director's note */
+.prog-welcome__text > p:first-child::first-letter {
+  font-family: "Alfa Slab One", serif;
+  font-size: 3.8em;
+  line-height: 0.8;
+  float: left;
+  margin: 0.05em 0.1em 0 0;
+  color: var(--pink);
+}
+
+.prog-welcome__text {
+  font-size: 1.05rem;
+  line-height: 1.78;
+}
+
+.prog-welcome__sig {
+  background: var(--surface);
+  border-radius: var(--radius-sm);
+  border-left: 4px solid var(--yellow);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  margin-top: 1rem;
+}
+
+.prog-welcome__sig-names p {
+  font-family: "Alfa Slab One", serif;
+  font-size: 1.05rem;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.prog-welcome__sig-role {
+  margin: 0.6rem 0 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ================================================================
+   THE STORY
+   ================================================================ */
+
+.prog-story {
+  background: var(--bg);
+}
+
+.prog-story__layout {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: clamp(2rem, 5vw, 5rem);
+  align-items: start;
+}
+
+.prog-story__synopsis {
+  font-size: 1.05rem;
+  line-height: 1.72;
+}
+
+.prog-story__body {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.prog-story__playwright {
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  position: sticky;
+  top: 80px;
+}
+
+.prog-story__playwright-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+.prog-story__playwright-info {
+  padding: 1.4rem 1.5rem 1.6rem;
+}
+
+.prog-story__playwright-info h3 {
+  font-family: "Alfa Slab One", serif;
+  font-size: 1.25rem;
+  margin: 0.4rem 0 0.75rem;
+}
+
+.prog-story__playwright-info p {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* ================================================================
+   CAST
+   ================================================================ */
+
+.prog-cast {
+  background: var(--surface-alt);
+}
+
+.prog-cast__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 1.4rem;
+}
+
+.cast-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.cast-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 28px 60px rgba(17,17,17,0.14);
+}
+
+.cast-card__media {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.cast-card__media img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+.cast-card__placeholder {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  background: linear-gradient(135deg, var(--surface-alt) 0%, #f0e8d8 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cast-card__placeholder span {
+  font-family: "Alfa Slab One", serif;
+  font-size: 4rem;
+  color: var(--border);
+}
+
+.cast-card__role {
+  position: absolute;
+  bottom: 0.7rem;
+  left: 0.7rem;
+  background: var(--yellow);
+  color: #111;
+  font-size: 0.67rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.22rem 0.65rem;
+  border-radius: 999px;
+  margin: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.cast-card__info {
+  padding: 1.2rem 1.4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.cast-card__name {
+  font-family: "Alfa Slab One", serif;
+  font-size: 1.1rem;
+  margin: 0 0 0.75rem;
+  line-height: 1.2;
+}
+
+.cast-card__bio {
+  font-size: 0.875rem;
+  line-height: 1.65;
+  color: var(--muted);
+  flex: 1;
+}
+
+.cast-card__bio p { margin: 0; }
+
+.cast-card__credits {
+  font-size: 0.78rem;
+  color: var(--pink);
+  font-weight: 600;
+  margin: 0.75rem 0 0;
+  letter-spacing: 0.03em;
+}
+
+/* ================================================================
+   CREATIVE TEAM / CREW
+   ================================================================ */
+
+.prog-crew {
+  background: var(--bg);
+}
+
+.prog-crew__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  border-top: 2px solid var(--border);
+}
+
+.prog-crew__item {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 1rem 2rem;
+  padding: 1.1rem 1.5rem 1.1rem 0;
+  border-bottom: 1px solid var(--border);
+  align-items: baseline;
+}
+
+.prog-crew__item:nth-child(odd) {
+  padding-right: 3rem;
+  border-right: 1px solid var(--border);
+}
+
+.prog-crew__item:nth-child(even) {
+  padding-left: 3rem;
+}
+
+.prog-crew__item dt {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0;
+}
+
+.prog-crew__item dd {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text);
+  margin: 0;
+}
+
+/* ================================================================
+   INTERVIEWS
+   ================================================================ */
+
+.prog-interviews {
+  background: #111111;
+  color: #fff;
+}
+
+.prog-interviews .prog-section__header h2 {
+  color: #fff;
+}
+
+.prog-interviews .prog-section__header .eyebrow {
+  background: var(--yellow);
+  color: #111;
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  border-radius: 999px;
+}
+
+.prog-interview + .prog-interview {
+  margin-top: 4rem;
+  padding-top: 4rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.prog-interview__header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.prog-interview__portrait {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 3px solid var(--yellow);
+  flex-shrink: 0;
+}
+
+.prog-interview__name {
+  font-family: "Alfa Slab One", serif;
+  font-size: 1.6rem;
+  color: #fff;
+  margin: 0 0 0.25rem;
+  line-height: 1.15;
+}
+
+.prog-interview__subject {
+  margin: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--yellow);
+  font-weight: 700;
+}
+
+.prog-interview__qa {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+
+.qa-item__q,
+.qa-item__a {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr;
+  gap: 1.2rem;
+  align-items: start;
+}
+
+.qa-marker {
+  font-family: "Alfa Slab One", serif;
+  font-size: 2.8rem;
+  line-height: 1;
+  display: block;
+  padding-top: 0.1em;
+}
+
+.qa-marker--q { color: var(--yellow); }
+.qa-marker--a { color: var(--pink); }
+
+.qa-item__q {
+  margin-bottom: 0.6rem;
+}
+
+.qa-item__q p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.qa-item__a p {
+  color: rgba(255,255,255,0.78);
+  font-size: 1rem;
+  line-height: 1.75;
+  margin: 0;
+}
+
+/* ================================================================
+   CHARITY
+   ================================================================ */
+
+.prog-charity {
+  background: var(--surface-alt);
+  border-top: 5px solid var(--yellow);
+}
+
+.prog-charity__layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: clamp(2rem, 5vw, 5rem);
+  align-items: center;
+}
+
+.prog-charity__logo-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prog-charity__logo {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+.prog-charity__text h2 {
+  font-family: "Alfa Slab One", serif;
+  font-size: clamp(1.7rem, 3.5vw, 2.6rem);
+  margin: 0.4rem 0 1.1rem;
+  line-height: 1.15;
+}
+
+.prog-charity__text .prose {
+  margin-bottom: 1.5rem;
+}
+
+/* ================================================================
+   GET INVOLVED / JOIN
+   ================================================================ */
+
+.prog-join {
+  background: var(--pink);
+  color: #fff;
+  text-align: center;
+}
+
+.prog-join .eyebrow {
+  background: var(--yellow);
+  color: #111;
+  display: inline-block;
+  padding: 0.22rem 0.8rem;
+  border-radius: 999px;
+  margin-bottom: 0.75rem;
+}
+
+.prog-join__inner {
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+.prog-join__inner h2 {
+  font-family: "Alfa Slab One", serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  color: #fff;
+  margin: 0.3rem 0 1.5rem;
+  line-height: 1.15;
+}
+
+.prog-join__options {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.prog-join__options p {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  opacity: 0.92;
+  margin: 0 0 0.9rem;
+}
+
+.prog-join__options strong {
+  font-size: 1.1rem;
+  margin-right: 0.3rem;
+}
+
+.prog-join__actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+}
+
+/* Button overrides for pink background */
+.prog-join .btn--solid {
+  background: var(--yellow);
+  color: #111;
+  border-color: var(--yellow);
+}
+
+.prog-join .btn--solid:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #111;
+  transform: translateY(-3px);
+}
+
+.prog-join .btn--ghost {
+  border-color: rgba(255,255,255,0.65);
+  color: #fff;
+}
+
+.prog-join .btn--ghost:hover {
+  background: rgba(255,255,255,0.15);
+  border-color: #fff;
+  transform: translateY(-3px);
+}
+
+/* ================================================================
+   FOOTER / BACK LINK
+   ================================================================ */
+
+.prog-footer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 3rem;
+  align-items: start;
+  padding: 2.5rem 0 3rem;
+  border-top: 2px solid var(--border);
+}
+
+.prog-footer__back {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--text);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.15s ease;
+  padding-top: 0.1rem;
+}
+
+.prog-footer__back:hover { color: var(--pink); }
+
+.prog-footer__brand {
+  text-align: right;
+}
+
+.prog-footer__wordmark {
+  font-family: "Alfa Slab One", serif;
+  font-size: 1rem;
+  color: var(--text);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.prog-footer__charity,
+.prog-footer__reg {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 0.2rem 0 0;
+  line-height: 1.5;
+}
+
+.prog-footer__charity a {
+  color: var(--pink);
+  font-weight: 600;
+}
+
+/* ================================================================
+   MOBILE
+   ================================================================ */
+
+@media (max-width: 768px) {
+
+  .prog-nav__show { display: none; }
+
+  .prog-nav__links { justify-content: flex-start; }
+
+  .prog-hero__tagline { display: none; }
+
+  .prog-welcome__layout,
+  .prog-story__layout,
+  .prog-charity__layout {
+    grid-template-columns: 1fr;
+  }
+
+  .prog-story__playwright {
+    position: static;
+    max-width: 280px;
+  }
+
+  .prog-welcome__sig {
+    margin-top: 0;
+  }
+
+  /* Drop-cap smaller on mobile */
+  .prog-welcome__text > p:first-child::first-letter {
+    font-size: 2.8em;
+  }
+
+  .prog-crew__list {
+    grid-template-columns: 1fr;
+  }
+
+  .prog-crew__item {
+    grid-template-columns: 140px 1fr;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-right: none !important;
+  }
+
+  .prog-cast__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.9rem;
+  }
+
+  .cast-card__role { font-size: 0.6rem; }
+
+  .qa-item__q,
+  .qa-item__a {
+    grid-template-columns: 2.4rem 1fr;
+    gap: 0.8rem;
+  }
+
+  .qa-marker { font-size: 2rem; }
+
+  .prog-join__actions {
+    flex-direction: column;
+  }
+
+  .prog-join .btn {
+    width: 100%;
+  }
+
+  .prog-footer {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .prog-footer__brand {
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .prog-cast__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ================================================================
+   ACCESSIBILITY — reduced motion
+   ================================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  .prog-hero__bg,
+  .prog-hero__content,
+  .prog-hero__scroll {
+    animation: none;
+  }
+
+  .cast-card,
+  .prog-nav__links a,
+  .btn {
+    transition: none;
+  }
+}
