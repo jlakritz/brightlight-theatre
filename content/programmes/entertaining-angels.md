@@ -2,8 +2,8 @@
 title: "Entertaining Angels"
 production_url: "/productions/entertaining-angels/"
 tagline: "Grace has a lot to live for. If only her late husband would leave her alone."
-cover_image: "uploads/EACover.jpg"
-show_logo: "uploads/EALogo.png"
+cover_image: "uploads/EntertainingAngelsCover.jpg"
+show_logo: "uploads/EntertainingAngelsLogo.png"
 performance_dates: "18 & 25 April 2026"
 venue: "St Peter's Church Hall, Frimley"
 
