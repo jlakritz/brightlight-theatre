@@ -305,7 +305,20 @@
       entries.forEach(function (e) {
         if (e.isIntersecting) {
           navLinks.forEach(function (a) {
-            a.classList.toggle('is-active', a.getAttribute('href') === '#' + e.target.id);
+            var isTarget = a.getAttribute('href') === '#' + e.target.id;
+            
+            // Only trigger scroll changes if the link is shifting to active
+            if (isTarget && !a.classList.contains('is-active')) {
+              a.classList.add('is-active');
+              // Smoothly bring the active item into the horizontal view
+              a.scrollIntoView({
+                behavior: 'smooth',
+                block: 'nearest',   // Prevents vertical page jumping
+                inline: 'nearest'   // Centers or brings it to the edge horizontally
+              });
+            } else if (!isTarget) {
+              a.classList.remove('is-active');
+            }
           });
         }
       });
