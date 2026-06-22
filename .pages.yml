@@ -16,7 +16,7 @@ content:
     fields:
       - name: title
         label: Show Title
-        type: string
+        type: text
         required: true
       - name: description
         label: SEO Meta Description (Max 160 chars)
