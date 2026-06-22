@@ -300,30 +300,62 @@
   // Active nav link highlight on scroll
   var sections = document.querySelectorAll('[id]');
   var navLinks = document.querySelectorAll('.prog-nav__links a');
+  var isClicking = false; // Flag to prevent scroll-spy fighting with manual clicks
+  var clickTimeout;
+
+  // Helper function to manage the active class and the horizontal scroll
+  function setActiveLink(targetId) {
+    navLinks.forEach(function (a) {
+      var isTarget = a.getAttribute('href') === '#' + targetId;
+      
+      if (isTarget) {
+        if (!a.classList.contains('is-active')) {
+          a.classList.add('is-active');
+          a.scrollIntoView({
+            behavior: 'smooth',
+            block: 'nearest',
+            inline: 'nearest'
+          });
+        }
+      } else {
+        a.classList.remove('is-active');
+      }
+    });
+  }
+
   if (navLinks.length && window.IntersectionObserver) {
+    // 1. Listen to the scroll intersection
     var secObs = new IntersectionObserver(function (entries) {
+      // If we are currently handling a manual click, ignore scroll-spy updates
+      if (isClicking) return;
+
       entries.forEach(function (e) {
         if (e.isIntersecting) {
-          navLinks.forEach(function (a) {
-            var isTarget = a.getAttribute('href') === '#' + e.target.id;
-            
-            // Only trigger scroll changes if the link is shifting to active
-            if (isTarget && !a.classList.contains('is-active')) {
-              a.classList.add('is-active');
-              // Smoothly bring the active item into the horizontal view
-              a.scrollIntoView({
-                behavior: 'smooth',
-                block: 'nearest',   // Prevents vertical page jumping
-                inline: 'nearest'   // Centers or brings it to the edge horizontally
-              });
-            } else if (!isTarget) {
-              a.classList.remove('is-active');
-            }
-          });
+          setActiveLink(e.target.id);
         }
       });
     }, { rootMargin: '-50% 0px -50% 0px' });
+
     sections.forEach(function (s) { secObs.observe(s); });
+
+    // 2. Intercept nav clicks to force a clean transition
+    navLinks.forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        // Remove focus outline behavior immediately if desired
+        link.blur(); 
+        
+        isClicking = true;
+        clearTimeout(clickTimeout);
+
+        var targetId = link.getAttribute('href').replace('#', '');
+        setActiveLink(targetId);
+
+        // Allow enough time for the smooth scroll jump to finish before resuming scroll tracking
+        clickTimeout = setTimeout(function () {
+          isClicking = false;
+        }, 800); 
+      });
+    });
   }
 })();
 </script>
