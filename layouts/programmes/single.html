@@ -186,10 +186,11 @@
           <h2>The People Behind the Production</h2>
         </div>
         {{ range . }}
+        {{ $interview := . }} 
         <article class="prog-interview">
           <header class="prog-interview__header">
             {{ with .image }}
-            <img class="prog-interview__portrait" src="{{ . | absURL }}" alt="{{ $.person }}" loading="lazy">
+            <img class="prog-interview__portrait" src="{{ . | absURL }}" alt="{{ $interview.person }}" loading="lazy">
             {{ end }}
             <div>
               <h3 class="prog-interview__name">{{ .person }}</h3>
