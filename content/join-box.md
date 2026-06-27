@@ -11,6 +11,6 @@ buttons:
     style: "ghost"
 headless: true
 ---
-→ Join an award-winning community theatre company, meet brilliant people, and help create remarkable productions.
+→ Join an award-winning community theatre group, meet brilliant people, and help create remarkable productions.
 
 → Or simply stay in touch to be the first to hear about new shows, auditions and events.
