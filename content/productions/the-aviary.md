@@ -2,7 +2,7 @@
 title: The Aviary
 status: current
 onsale: true
-date: 2025-11-01
+date: 2026-07-18
 author: by Jamie Lakritz
 hero_details: Saturday 18th July | St. Peter’s Church Hall, Frimley
 details: Saturday 18th July at St. Peter’s Church Hall, Frimley
@@ -24,6 +24,9 @@ venue_address:
 booking_url: https://www.trybooking.com/uk/events/landing/117730
 booking_text: Tickets include a free drink (wine, beer or soft drink).
 cover_image: uploads/Aviary1x2-1.jpg
+charity:
+  name: KatCanDo
+  url: https://www.katcando.org.uk/
 ---
 In the cul-de-sac of The Aviary, the bird-people residents are trapped in the branches of the Parapara - a bird-catcher tree, whose sweet seeds and sticky sap bind its captives. Over the course of a single day, a peacock preens for invisible followers, a messenger bird trades in gossip, an ostrich drowns in a flood she refuses to acknowledge, and a timid parrot edges toward the cage door. A choral verse-play in the tradition of Under Milk Wood, The Aviary is a dark comedy about performance, paralysis, and the trap that sings us to sleep.
 
