@@ -23,6 +23,7 @@ venue_address:
   postcode: GU16 7AQ
 booking_url: https://www.trybooking.com/uk/events/landing/117730
 booking_text: Tickets include a free drink (wine, beer or soft drink).
+show_logo: uploads/1783371490146.png
 cover_image: uploads/Aviary1x2-1.jpg
 cast:
   - Liam Badcoe
@@ -41,3 +42,7 @@ In the cul-de-sac of The Aviary, the bird-people residents are trapped in the br
 
 
 Our multi award-winning play, The Aviary, is heading to the National Drama Festival in Bromsgrove this August - but you don’t have to travel to see it! We’re performing it for one night only, right here in Frimley at St. Peter’s Church Hall.
+
+
+
+Run time: 50 minutes
