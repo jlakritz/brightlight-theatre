@@ -10,7 +10,9 @@
 
     {{ with $current }}
     <div class="featured-block">
-      {{ partial "hero-current-show.html" . }}
+      {{ range . }}
+        {{ partial "hero-current-show.html" . }}
+      {{ end }}   
     </div>
     {{ end }}
 
