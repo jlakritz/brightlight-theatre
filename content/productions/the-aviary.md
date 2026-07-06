@@ -23,7 +23,6 @@ venue_address:
   postcode: GU16 7AQ
 booking_url: https://www.trybooking.com/uk/events/landing/117730
 booking_text: Tickets include a free drink (wine, beer or soft drink).
-show_logo: uploads/1783371490146 (1).png
 cover_image: uploads/Aviary1x2-1.jpg
 cast:
   - Liam Badcoe
