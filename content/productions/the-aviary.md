@@ -2,9 +2,11 @@
 title: The Aviary
 status: current
 onsale: true
-date: 2026-06-01
+date: 2026-05-01
 author: by Jamie Lakritz
 hero_details: Saturday 18th July | St. Peter’s Church Hall, Frimley
+details: Saturday 18th July at St. Peter’s Church Hall, Frimley
+eyebrow: One Night Only
 running_time: 50 minutes
 price: £7.50 Includes a free drink (wine, beer or soft drink).
 price_adult: 7.5
