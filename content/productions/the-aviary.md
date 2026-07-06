@@ -18,4 +18,12 @@ venue_address:
   postcode: GU16 7AQ
 booking_url: https://www.trybooking.com/uk/events/landing/117730
 booking_text: Tickets include a free drink (wine, beer or soft drink).
+charity:
+  name: KatCanDo
+  url: https://www.katcando.org.uk/
 ---
+In the cul-de-sac of The Aviary, the bird-people residents are trapped in the branches of the Parapara - a bird-catcher tree, whose sweet seeds and sticky sap bind its captives. Over the course of a single day, a peacock preens for invisible followers, a messenger bird trades in gossip, an ostrich drowns in a flood she refuses to acknowledge, and a timid parrot edges toward the cage door. A choral verse-play in the tradition of Under Milk Wood, The Aviary is a dark comedy about performance, paralysis, and the trap that sings us to sleep.
+
+
+
+Our multi award-winning play, The Aviary, is heading to the National Drama Festival in Bromsgrove this August - but you don’t have to travel to see it! We’re performing it for one night only, right here in Frimley at St. Peter’s Church Hall.
