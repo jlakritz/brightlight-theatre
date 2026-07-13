@@ -13,7 +13,7 @@ directors_note:
   text: |
     Judy's welcome note.
   directors:
-    []
+    - "Judy Price"
   pull_quote: "A Judy quote..."
 
 synopsis: |
