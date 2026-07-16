@@ -60,21 +60,26 @@ playwright:
   image: "uploads/Jamie.jpg"
 
 cast:
-  - role: "Ringmaster / Miss Blinder"
-    name: "Rebecca Griffiths"
-    image: "uploads/Becky.jpg"
-    bio: "Becky bio"
-    credits: "Previous Brightlight shows include: The Importance of Being Earnest, Blithe Spirit, Murder! at Mistletoe Manor and Farndale Murder Mystery"
-  - role: "Ringmaster / Roger Preener"
-    name: "Gregory Coles"
-    image: "uploads/Greg.jpg"
-    bio: "Greg's bio"
-    credits: "Previous Brightlight shows include: Bleak Expectations, Blithe Spirit, Unhanging, A Doll's House"
   - role: "Ringmaster / Aurora Preener"
     name: "Liam Badcoe"
     image: "uploads/Liam.jpg"
     bio: "Liam's bio"
     credits: "Previous Brightlight shows include: Songkeeper, Unhanging, Skitterling, Murdered To Death, Don't Dress for Dinner, The 39 Steps"
+  - role: "Ringmaster / Roger Preener"
+    name: "Gregory Coles"
+    image: "uploads/Greg.jpg"
+    bio: "Greg's bio"
+    credits: "Previous Brightlight shows include: Bleak Expectations, Blithe Spirit, Unhanging, A Doll's House"
+  - role: "Ringmaster / Miss Blinder"
+    name: "Rebecca Griffiths"
+    image: "uploads/Becky.jpg"
+    bio: "Becky bio"
+    credits: "Previous Brightlight shows include: The Importance of Being Earnest, Blithe Spirit, Murder! at Mistletoe Manor and Farndale Murder Mystery"
+  - role: "Ringmaster / Polly Echo"
+    name: "Megan Kaliniak"
+    image: "uploads/Megan.jpg"
+    bio: "I have enjoyed acting from a young age when I did youth theatre from age 7. I joined Brightlight in 2014 and have taken part in many shows, I love>
+    credits: "Previous Brightlight shows include: The 39 Steps, Bleak Expectations, The Wind in the Willows"
   - role: "Ringmaster / Broadcast Billy"
     name: "Jeremy Lake"
     image: "uploads/Jeremy.jpg"
@@ -86,11 +91,6 @@ cast:
       Since then, I've been fortunate enough to be cast in many productions, with The Aviary being my seventeenth. I can honestly say this has been the most enjoyable show I've ever rehearsed, developed, and performed. I hope you enjoy watching it just as much as we've enjoyed bringing it to life.
 
     credits: "Previous Brightlight shows include: Farndale Murder Mystery, The Edge of Darkness, The Importance of Being Earnest, Holly & Ivy, Murder! At Mistletoe Manor"
-  - role: "Ringmaster / Polly Echo"
-    name: "Megan Kaliniak"
-    image: "uploads/Megan.jpg"
-    bio: "I have enjoyed acting from a young age when I did youth theatre from age 7. I joined Brightlight in 2014 and have taken part in many shows, I love the camaraderie and friendly atmosphere. I have loved being a part of this production, it’s safe to say it’s been the most challenging role I have ever undertaken, but by far the most rewarding. I hope you enjoy the show."
-    credits: "Previous Brightlight shows include: The 39 Steps, Bleak Expectations, The Wind in the Willows,"
 
 cast_pull_quote:
   text: "Some people laugh in the face of danger. I think Brightlight Theatre poke danger in the eye and steal its car."
