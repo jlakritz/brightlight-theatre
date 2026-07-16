@@ -78,7 +78,7 @@ cast:
   - role: "Ringmaster / Polly Echo"
     name: "Megan Kaliniak"
     image: "uploads/Megan.jpg"
-    bio: "I have enjoyed acting from a young age when I did youth theatre from age 7. I joined Brightlight in 2014 and have taken part in many shows, I love>
+    bio: "I have enjoyed acting from a young age when I did youth theatre from age 7. I joined Brightlight in 2014 and have taken part in many shows, I love the camaraderie and friendly atmosphere. I have loved being a part of this production, it’s safe to say it’s been the most challenging role I have ever undertaken, but by far the most rewarding. I hope you enjoy the show."
     credits: "Previous Brightlight shows include: The 39 Steps, Bleak Expectations, The Wind in the Willows"
   - role: "Ringmaster / Broadcast Billy"
     name: "Jeremy Lake"
