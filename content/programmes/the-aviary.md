@@ -105,6 +105,8 @@ crew:
     name: "Jamie Lakritz"
   - role: "Sound"
     name: "JP Lakritz"
+  - role: "Photography"
+    name: "[Cat Lawton Photography](https://catlawtonphotography.com/)"
 
 rehearsal_gallery:
   - type: "photo"
