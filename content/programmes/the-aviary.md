@@ -17,27 +17,25 @@ directors_note:
 
     ### Inhabiting the Parapara Tree
 
-    Staging a play with such high-velocity, rhythmic prose required our cast to pour heart, humor, and immense physical courage into every single second on stage. To bring this stylized world to life, the ensemble had to operate as a single, breathing machine—embodying a community caught in the sticky, beautiful leaves of the "parapara tree". They had to navigate the delicate balance between fast-paced comedy and the devastating vulnerability of characters who have "filled [their] bones with the things [they] can't say".
+    Staging a play with such high-velocity and rhythmic prose required our cast to pour heart, humour, and immense physical courage into every single second on stage. To bring this stylised world to life, the ensemble had to operate as a single entity - embodying a community caught in the sticky, beautiful leaves of the "parapara tree". They had to navigate the delicate balance between fast-paced comedy and the devastating vulnerability of characters who have "filled their bones with the things they can't say".
 
-    Behind the scenes, our phenomenal tech and design team has woven it all together with imagination and precision. By integrating the live-feed "Shrike" audience camera, they turned the very theatre into a cage, perfectly capturing the voyeuristic, "thumb-swipe" energy of the script.
+    Behind the scenes, our phenomenal tech and design team has woven it all together with imagination and precision. They turned the very theatre into a cage, perfectly capturing the voyeuristic, "thumb-swipe" energy of the script.
 
     ### From Frimley to the National Stage
 
-    The competitive journey of this production has surpassed our wildest dreams. Sweeping the board at the **Henley Drama Festival** was a thrilling start, but conquering the gauntlet at the historic **Welwyn Drama Festival** was a true watershed moment. To earn a phenomenal **86 points** and runner-up overall in such a prestigious field was a wonderful affirmation of everyone’s hard work. Taking home the trophies for *Best Director*, *Best Stage Presentation*, and *Best Actress* (for Megan), alongside nominations for *Best New Play* (Jamie), *Best Actor* (Liam), and *Best Actress* (Becky), proved that our boundary-pushing, experimental piece of theater had truly found its wings.
+    The competitive journey of this production has surpassed our wildest dreams. Winning *Best New Comedy* at **Maidenhead Drama Festival** was a great start. But then sweeping the board at the **Henley Drama Festival** was thrilling. And finally coming second at **Welwyn Drama Festival**, widely regarded as one of the fiercest competitions on the drama festival circuit, was a wonderful affirmation of everyone’s hard work. Across the festivals we've taken home trophies for *Best Director*, *Best Actress* (for Megan), *Best New Play* and *Best Stage Presentation* alongside nominations for *Best Actor* (Liam), and *Best Actress* (Becky), proved that our boundary-pushing, experimental piece of theatre had truly found its wings.
 
-    Now, we face our biggest adventure yet. Out of more than 50 qualifying groups and award-winning productions put forward across the country this season, *The Aviary* has been officially selected for the **National Drama Festival Association (NDFA) National Drama Festival** final. We head to the national stage with excitement, gratitude, and a real sense of awe at how boldly we’ve taken flight from the branches of the parapara tree.
+    Now, we face our biggest adventure yet. Out of more than 50 qualifying groups and award-winning productions put forward across the country this season, *The Aviary* has been officially selected for the **National Drama Festival**. We head to the national stage with excitement, gratitude, and a real sense of awe at how boldly we’ve taken flight from the branches of the parapara tree.
 
     ### Our Homecoming
 
-    But before we travel to the national finals, we wanted to bring this story back to where it belongs.
+    But before we travel to the finals, we wanted to bring this story back to where it belongs.
 
-    **Frimley will always be the home and heart of Brightlight Theatre Company.** This is the community that has supported our wildest creative risks, cheered us on through every rehearsal, and watched us grow. We are both proud and deeply honored to be able to present this production of *The Aviary* here for you tonight.
-
-    Thank you for sitting in the dark with us, swiping aside the curtains, and letting us perform our song for you. Enjoy the show.
+    **Frimley will always be the home and heart of Brightlight Theatre.** This is the community that has supported our wildest creative risks, cheered us on through every rehearsal, and watched us grow. We are both proud and deeply honoured to be able to present this production of *The Aviary* here for you tonight.
 
   directors:
     - "Judy Price"
-  pull_quote: "A Judy quote..."
+  pull_quote: "Thank you for sitting in the dark with us, swiping aside the curtains, and letting us perform our song for you. Enjoy the show."
 
 synopsis: |
     In the cul-de-sac of The Aviary, the bird-people residents are trapped in the branches of the Parapara - a bird-catcher tree, whose sweet seeds and sticky sap bind its captives. Over the course of a single day, a peacock preens for invisible followers, a messenger bird trades in gossip, an ostrich drowns in a flood she refuses to acknowledge, and a timid parrot edges toward the cage door. A choral verse-play in the tradition of Under Milk Wood, The Aviary is a dark comedy about performance, paralysis, and the trap that sings us to sleep.
