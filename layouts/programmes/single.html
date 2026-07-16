@@ -41,7 +41,7 @@
         <a href="#crew" role="listitem">Crew</a>
         {{ with .Params.rehearsal_gallery }}<a href="#rehearsal" role="listitem">In Rehearsal</a>{{ end }}
         {{ with .Params.interviews }}<a href="#interviews" role="listitem">Interviews</a>{{ end }}
-        {{ with .Params.pull_quotes }}<a href="#voices" role="listitem">Voices</a>{{ end }}
+        {{ with .Params.pull_quotes }}<a href="#awards" role="listitem">Awards</a>{{ end }}
         {{ with .Params.charity }}<a href="#charity" role="listitem">Charity</a>{{ end }}
         {{ with .Params.next_show }}<a href="#next-show" role="listitem">What's Next</a>{{ end }}
         <a href="#get-involved" role="listitem">Get Involved</a>
@@ -308,14 +308,13 @@
     {{ end }}
 
     {{/* ============================================================
-         VOICES — standalone pull quotes (audience, press, adjudicators)
+         AWARDS — standalone pull quotes (audience, press, adjudicators)
          ============================================================ */}}
     {{ with .Params.pull_quotes }}
-    <section class="prog-section prog-voices" id="voices">
+    <section class="prog-section prog-voices" id="awards">
       <div class="site-shell">
         <div class="prog-section__header">
-          <p class="eyebrow">What they said</p>
-          <h2>Voices</h2>
+          <p class="eyebrow">Awards and Accolades</p>
         </div>
         <div class="prog-voices__grid">
           {{ range . }}
