@@ -106,7 +106,7 @@ crew:
   - role: "Sound"
     name: "JP Lakritz"
   - role: "Photography"
-    name: "[Cat Lawton Photography](https://catlawtonphotography.com/)"
+    name: "Cat Lawton Photography"
 
 rehearsal_gallery:
   - type: "photo"
@@ -123,21 +123,32 @@ interviews:
     subject: "Directing a festival show"
     image: "uploads/Judy.jpg"
     q_and_a:
-      - q: "Question"
-        a: "Answer"
-    pull_quote: "I'd rather attempt something ambitious and have it not quite land than play it safe and produce something forgettable."
+      - q: "Festival performances are very different from a normal production run. As a director, what's the biggest challenge in getting a show competition-ready?"
+        a: "Festival performances demand precision: tight transitions, adaptable technical elements, and performances that can immediately draw an audience into the play’s lyrical world despite limited setup time and unfamiliar spaces. For us, real task was preserving the delicacy and atmosphere that defined The Aviary while shaping it into a version that was lean, portable, and sharp enough to thrive in the fast‑paced rhythm of the festival circuit."
+      - q: "What have been the standout moments for you while directing The Aviary?"
+        a: "Honestly, the highlights have come in waves. Watching Jamie Lakritz’s script spring to life in the rehearsal room was extraordinary — every time the cast discovered a new rhythm or unearthed a fresh nuance in the world of the Aviary, the play seemed to breathe a little deeper. Seeing the ensemble grow braver, sharper and more connected with each run has been a privilege, and our tech team’s creativity has stitched the whole world together with such flair that it often felt like magic. Winning the Henley Drama Festival and placing as runner up at Welwyn were unforgettable moments of validation, but the real joy has been helping give voice to the sharp, vital messages woven throughout this remarkable script."
+      - q: "After winning at Henley and coming second at Welwyn, what are you asking the company to focus on as you prepare for the National Drama Festival?"
+        a: "After winning at Henley and securing a strong second place at Welwyn, we are focusing on sharpening the emotional precision and ensemble cohesion that make The Aviary resonate. The aim is to refine the subtle character dynamics, tighten pacing, and elevate the physical storytelling so every moment lands with clarity and impact. With Nationals ahead, the priority is building consistency, deepening the cast’s connection to the material, and ensuring the production feels both polished and boldly alive."
+    pull_quote: "For us, real task was preserving the delicacy and atmosphere that defined The Aviary."
   - person: "Liam Badcoe"
     subject: "Preparing for the National Drama Festival"
     image: "uploads/Liam.jpg"
     q_and_a:
-      - q: "Question"
-        a: "Answer"
-    pull_quote: "I hope they drive home arguing affectionately about which character they are in their own family."
+      - q: "The Aviary has already had an incredible festival run. How are you preparing to make sure your performance feels just as fresh and truthful at the National Drama Festival?"
+        a: "The trick is never stop exploring the text! Even when you think you've squeezed every last drop out of it, something else pours out and keeps the cast laughing!"
+      - q: "Without giving too much away, is there a particular moment in the show that you're especially excited for a new audience to experience?"
+        a: "Have you ever considered what it might be like to have a boxing smackdown with your colleagues?"
+      - q: "You were at the National Drama Festival with Brightlight last year. How does it feel returning this time with The Aviary, and what are you most looking forward to?"
+        a: "It was an honour and privilege to be invited to the NDF for the very first time last year and that feeling has certainly returned again this year - it is even more exciting because this piece is such a contrast to the quiet tension of Songkeeper - it's off-the-wall style and tongue-in-cheek delivery make it such a joy to perform every single time!"
+    pull_quote: "The trick is never stop exploring the text!"
 
 pull_quotes:
-  - text: "Some people laugh in the face of danger. I think Brightlight Theatre poke danger in the eye and steal its car."
-    name: "Dr. Tristan Marshall"
-    role: "GODA Adjudicator, Henley Drama Festival 2026"
+  - text: "Winner: Best Comedy"
+    name: "Maidenhead Drama Festival"
+    role: "April 2026"
+  - text: "Winner: First Place"
+    name: "Henley Drama Festival"
+    role: "May 2026"
 
 charity:
   name: "KatCanDo"
