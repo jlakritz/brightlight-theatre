@@ -20,15 +20,26 @@ directors_note:
   pull_quote: "A Judy quote..."
 
 synopsis: |
-  In the cul-de-sac of The Aviary, the bird-people residents are trapped in the branches of the Parapara - a bird-catcher tree, whose sweet seeds and sticky sap bind its captives. Over the course of a single day, a peacock preens for invisible followers, a messenger bird trades in gossip, an ostrich drowns in a flood she refuses to acknowledge, and a timid parrot edges toward the cage door. A choral verse-play in the tradition of Under Milk Wood, The Aviary is a dark comedy about performance, paralysis, and the trap that sings us to sleep.
+    In the cul-de-sac of The Aviary, the bird-people residents are trapped in the branches of the Parapara - a bird-catcher tree, whose sweet seeds and sticky sap bind its captives. Over the course of a single day, a peacock preens for invisible followers, a messenger bird trades in gossip, an ostrich drowns in a flood she refuses to acknowledge, and a timid parrot edges toward the cage door. A choral verse-play in the tradition of Under Milk Wood, The Aviary is a dark comedy about performance, paralysis, and the trap that sings us to sleep.
+
+    I started writing The Aviary after we returned from the National Drama Festival in 2025. We'd been for the first time and were thoroughly inspired by everything we saw. I wanted to create a piece that embraced everything I love about theatre. Not realism, but theatricality. A world where language could sing, where movement carried meaning, where comedy could sit comfortably alongside melancholy, and where the audience were invited to lean in and join the game.
+
+    The play draws inspiration from the rich, poetic storytelling of Under Milk Wood, but rather than looking backwards, I wanted to explore the traps of our modern world. Our flock of birds navigate a society shaped by performance, conformity and constant connection, asking questions about identity, belonging and the stories we tell ourselves, all wrapped in an eccentric, playful and sometimes surreal theatrical experience.
+
+    Writing The Aviary was only the beginning. What has brought it to life has been the extraordinary imagination of Judy, our cast and creative team, whose inventiveness, courage and generosity have transformed words on a page into something far greater than I could ever have imagined. Whatever you take away from tonight's performance, I hope you'll leave having laughed, wondered, and perhaps looked at the world - and each other - a little differently.
 
 story_pull_quote:
-  text: "Quote here"
-  attribution: "Someone, role"
+  text: "Only you, and a million other followers, can swipe aside the picture-perfect bedroom-cage-curtains... and peer within."
+  attribution: "Chorus, The Aviary"
 
 playwright:
   name: "Jamie Lakritz"
-  bio: "Bio here"
+  bio: |
+    Jamie is an award-winning playwright whose work ranges from acclaimed festival dramas to crowd-pleasing Christmas comedies. His published plays include The Start of Something, Of All the Things I Have Lost, Songkeeper, and The Great Christmas Cracker Heist.
+
+    His writing blends sharp dialogue, theatrical invention and a wry sense of humour. His plays have been performed by groups across the world, with Brightlight Theatre premiering almost all of them.
+
+    A regular winner of Best New Play at Woking Drama Festival, his debut play The Start of Something also received the Derek Jacobi Playwriting Award in 2017, and was later performed at Theatre503, directed by esteemed actor Sam Cox and starring BBC Coupling’s Kate Isitt.
   image: "uploads/Jamie.jpg"
 
 cast:
