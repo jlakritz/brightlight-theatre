@@ -53,11 +53,10 @@ story_pull_quote:
 playwright:
   name: "Jamie Lakritz"
   bio: |
-    Jamie is an award-winning playwright whose work ranges from acclaimed festival dramas to crowd-pleasing Christmas comedies. His published plays include The Start of Something, Of All the Things I Have Lost, Songkeeper, and The Great Christmas Cracker Heist.
+    Jamie is an award-winning playwright whose writing blends sharp dialogue, theatrical invention, and wry humor across acclaimed festival dramas and festive comedies. His published plays include The Start of Something, Of All the Things I Have Lost, Songkeeper, and The Great Christmas Cracker Heist.
 
-    His writing blends sharp dialogue, theatrical invention and a wry sense of humour. His plays have been performed by groups across the world, with Brightlight Theatre premiering almost all of them.
+    While his plays have been performed all over the world, Brightlight Theatre has proudly premiered all of his work. A frequent "Best New Play" winner at the Woking Drama Festival, Jamie's debut, The Start of Something, won the 2017 Derek Jacobi Playwriting Award and was later staged at London's Theatre503, directed by Sam Cox and starring Kate Isitt (BBC's Coupling).
 
-    A regular winner of Best New Play at Woking Drama Festival, his debut play The Start of Something also received the Derek Jacobi Playwriting Award in 2017, and was later performed at Theatre503, directed by esteemed actor Sam Cox and starring BBC Coupling’s Kate Isitt.
   image: "uploads/Jamie.jpg"
 
 cast:
@@ -79,7 +78,13 @@ cast:
   - role: "Ringmaster / Broadcast Billy"
     name: "Jeremy Lake"
     image: "uploads/Jeremy.jpg"
-    bio: "Jeremy's bio."
+    bio: |
+    While studying at Hatfield Polytechnic, I joined the drama society and quickly discovered a love of performing on stage, despite being a natural introvert. Apart from the occasional church sketch, I hadn't acted for many years before joining Brightlight Theatre in 2019.
+
+    My wife, Alison, and I were looking for a hobby we could enjoy together. After seeing a friend perform in one of Brightlight's excellent Christmas productions, we decided to take the plunge and sign up.
+
+    Since then, I've been fortunate enough to be cast in many productions, with The Aviary being my seventeenth. I can honestly say this has been the most enjoyable show I've ever rehearsed, developed, and performed. I hope you enjoy watching it just as much as we've enjoyed bringing it to life.
+
     credits: "Previous Brightlight shows include: Farndale Murder Mystery, The Edge of Darkness, The Importance of Being Earnest, Holly & Ivy, Murder! At Mistletoe Manor"
   - role: "Ringmaster / Polly Echo"
     name: "Megan Kaliniak"
