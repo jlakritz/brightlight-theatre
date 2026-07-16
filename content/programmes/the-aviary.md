@@ -79,11 +79,11 @@ cast:
     name: "Jeremy Lake"
     image: "uploads/Jeremy.jpg"
     bio: |
-    While studying at Hatfield Polytechnic, I joined the drama society and quickly discovered a love of performing on stage, despite being a natural introvert. Apart from the occasional church sketch, I hadn't acted for many years before joining Brightlight Theatre in 2019.
+      While studying at Hatfield Polytechnic, I joined the drama society and quickly discovered a love of performing on stage, despite being a natural introvert. Apart from the occasional church sketch, I hadn't acted for many years before joining Brightlight Theatre in 2019.
 
-    My wife, Alison, and I were looking for a hobby we could enjoy together. After seeing a friend perform in one of Brightlight's excellent Christmas productions, we decided to take the plunge and sign up.
+      My wife, Alison, and I were looking for a hobby we could enjoy together. After seeing a friend perform in one of Brightlight's excellent Christmas productions, we decided to take the plunge and sign up.
 
-    Since then, I've been fortunate enough to be cast in many productions, with The Aviary being my seventeenth. I can honestly say this has been the most enjoyable show I've ever rehearsed, developed, and performed. I hope you enjoy watching it just as much as we've enjoyed bringing it to life.
+      Since then, I've been fortunate enough to be cast in many productions, with The Aviary being my seventeenth. I can honestly say this has been the most enjoyable show I've ever rehearsed, developed, and performed. I hope you enjoy watching it just as much as we've enjoyed bringing it to life.
 
     credits: "Previous Brightlight shows include: Farndale Murder Mystery, The Edge of Darkness, The Importance of Being Earnest, Holly & Ivy, Murder! At Mistletoe Manor"
   - role: "Ringmaster / Polly Echo"
