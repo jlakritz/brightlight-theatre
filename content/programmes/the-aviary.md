@@ -4,8 +4,8 @@ sitemap:
   disable: true
 production_url: "/productions/the-aviary/"
 tagline: ""
-cover_image: "uploads/blank.png"
-show_logo: "uploads/Aviary1x2-1.jpg"
+cover_image: "uploads/AviaryProg.jpg"
+show_logo: "uploads/blank.png"
 performance_dates: "18 July 2026"
 venue: "St Peter's Church Hall, Frimley"
 
