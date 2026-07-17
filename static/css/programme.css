@@ -522,7 +522,10 @@
   height: 0; overflow: hidden;
   transition: height 1.2s cubic-bezier(.4,0,.2,1);
 }
-.cast-card.is-open .cast-card__bio-wrap { height: calc-size(auto, size); }
+.cast-card.is-open .cast-card__bio-wrap { height: auto; }
+@supports (height: calc-size(auto, size)) {
+   .cast-card.is-open .cast-card__bio-wrap { height: calc-size(auto, size); }
+}
 .cast-card__bio { font-size: .85rem; line-height: 1.68; color: var(--muted); margin-bottom: .6rem; }
 .cast-card__credits { font-size: .75rem; color: var(--pink); font-weight: 600; letter-spacing: .02em; margin-top: .5rem; }
 
