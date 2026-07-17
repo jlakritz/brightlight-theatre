@@ -434,6 +434,18 @@
     obs.observe(hero);
   }
 
+
+  /* ---- CAST BIO EXPAND --------------------------------------- */
+  document.querySelectorAll('.cast-card__toggle').forEach(function (btn) {
+    var card = btn.closest('.cast-card');
+    btn.addEventListener('click', function () {
+      var open = card.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', open);
+      btn.querySelector('span').textContent = open ? 'Close' : 'Read bio';
+    });
+  });
+
+
   // Active nav link highlight on scroll
   var sections = document.querySelectorAll('[id]');
   var navLinks = document.querySelectorAll('.prog-nav__links a');
