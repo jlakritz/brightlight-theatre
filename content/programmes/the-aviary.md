@@ -402,12 +402,12 @@ next_show:
   title: "200"
   author: a new play by Brightlight members
   description: A brand-new play inspired by the real stories of St Peter's Church
-    across two centuries. Community-built, community-told — and unlike anything
+    across two centuries. Community-built, community-told - and unlike anything
     we've staged before.
   dates: 29 August & 5 September 2026
   venue: St Peter's Church Hall, Frimley
   price: Tickets from £9
-  cover_image: uploads/200Cover.jpg
+  cover_image: uploads/200Poster.avif
   booking_url: https://www.trybooking.com/uk/events/landing/111739
   booking_text: Book Tickets for 200
 ---
