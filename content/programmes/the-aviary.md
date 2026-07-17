@@ -167,7 +167,7 @@ cast:
       production, it’s safe to say it’s been the most challenging role I have
       ever undertaken, but by far the most rewarding. I hope you enjoy the show.
     credits: "Previous Brightlight shows include: The 39 Steps, Bleak Expectations,
-      The Wind in the Willows"
+      The Wind in the Willows, Holly & Ivy"
   - role: Ringmaster / Broadcast Billy
     name: Jeremy Lake
     image: uploads/Jeremy.jpg
