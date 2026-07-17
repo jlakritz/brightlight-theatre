@@ -275,8 +275,9 @@ rehearsal_gallery:
     image: uploads/343ceab2-0d3c-4477-8a14-edf001e895ea.jpeg
     caption: The team collecting their awards at Welwyn Drama Festival.
 rehearsal_pull_quote:
-  text: Rehearsal quote
-  attribution: Judy Price, Director
+  text: I can honestly say this has been the most enjoyable show I've ever
+    rehearsed, developed, and performed.
+  attribution: Jeremy Lake, Actor
 interviews:
   - person: Judy Price
     subject: Directing a festival show
