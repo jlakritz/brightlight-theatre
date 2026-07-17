@@ -135,7 +135,15 @@ cast:
   - role: Ringmaster / Aurora Preener
     name: Liam Badcoe
     image: uploads/Liam.jpg
-    bio: Liam's bio
+    bio: Drama has always been a constant for me, even when other parts of my life
+      have been ever-changing. This love was first ignited at a very young age
+      after performing in the West End and continued well into school and
+      college where I became part of our resident theatre company. I have been
+      at Brightlight for over a decade  and each year has stretched and
+      challenged my skill and ability - it has been the greatest pleasure to
+      have been part of our festival team every year for the past 6 years. We
+      have gone from strength to strength and that is testament to our family
+      feel and determination.
     credits: "Previous Brightlight shows include: Songkeeper, Unhanging,
       Skitterling, Murdered To Death, Don't Dress for Dinner, The 39 Steps"
   - role: Ringmaster / Roger Preener
