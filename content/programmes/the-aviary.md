@@ -2,6 +2,9 @@
 title: The Aviary
 sitemap:
   disable: true
+aliases:
+  - /aviary
+
 production_url: /productions/the-aviary/
 cover_image: uploads/Aviary.jpg
 show_logo: uploads/AviaryLogo.png
