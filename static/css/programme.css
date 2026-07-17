@@ -467,108 +467,64 @@
    CAST
    ================================================================ */
 
-.prog-cast {
-  background: var(--surface-alt);
-}
-
+.prog-cast { background: var(--surface-alt); }
 .prog-cast__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-  gap: 1.4rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+  gap: 1.3rem;
 }
-
 .cast-card {
-  background: var(--surface);
-  border-radius: var(--radius);
-  overflow: hidden;
-  box-shadow: var(--shadow);
+  background: var(--surface); border-radius: var(--radius);
+  overflow: hidden; box-shadow: var(--shadow);
   border: 1px solid var(--border);
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-  display: flex;
-  flex-direction: column;
+  display: flex; flex-direction: column;
+  transition: transform .18s ease, box-shadow .18s ease;
 }
-
 @media (hover: hover) and (pointer: fine) {
-  .cast-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 28px 60px rgba(17,17,17,0.14);
-  }
+  .cast-card:hover { transform: translateY(-4px); box-shadow: 0 28px 60px rgba(17,17,17,.14); }
 }
-
-.cast-card__media {
-  position: relative;
-  flex-shrink: 0;
-}
-
+.cast-card__media { position: relative; flex-shrink: 0; }
 .cast-card__media img {
-  width: 100%;
-  aspect-ratio: 3 / 4;
-  object-fit: cover;
-  object-position: center top;
-  display: block;
+  width: 100%; aspect-ratio: 3/4;
+  object-fit: cover; object-position: center top; display: block;
 }
-
 .cast-card__placeholder {
-  width: 100%;
-  aspect-ratio: 3 / 4;
+  width: 100%; aspect-ratio: 3/4;
   background: linear-gradient(135deg, var(--surface-alt) 0%, #f0e8d8 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex; align-items: center; justify-content: center;
+  font-family: "Alfa Slab One", serif; font-size: 3.5rem;
+  color: rgba(17,17,17,.12);
 }
-
-.cast-card__placeholder span {
-  font-family: "Alfa Slab One", serif;
-  font-size: 4rem;
-  color: var(--border);
-}
-
 .cast-card__role {
-  position: absolute;
-  bottom: 0.7rem;
-  left: 0.7rem;
-  background: var(--yellow);
-  color: #111;
-  font-size: 0.67rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 0.22rem 0.65rem;
-  border-radius: 999px;
-  margin: 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  position: absolute; bottom: .7rem; left: .7rem;
+  background: var(--yellow); color: #111;
+  font-size: .63rem; letter-spacing: .1em;
+  text-transform: uppercase; font-weight: 700;
+  padding: .2rem .65rem; border-radius: 999px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.15);
 }
-
-.cast-card__info {
-  padding: 1.2rem 1.4rem 1.5rem;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+.cast-card__info { padding: 1.1rem 1.3rem 1.3rem; display: flex; flex-direction: column; flex: 1; }
+.cast-card__name { font-family: "Alfa Slab One", serif; font-size: 1.05rem; margin-bottom: .6rem; line-height: 1.2; }
+.cast-card__toggle {
+  display: inline-flex; align-items: center; gap: .35rem;
+  font-family: inherit; font-size: .78rem; font-weight: 700;
+  color: var(--pink); background: none; border: none;
+  cursor: pointer; padding: 0; margin-bottom: .5rem;
+  transition: opacity .15s;
 }
-
-.cast-card__name {
-  font-family: "Alfa Slab One", serif;
-  font-size: 1.1rem;
-  margin: 0 0 0.75rem;
-  line-height: 1.2;
+.cast-card__toggle:hover { opacity: .7; }
+.cast-card__toggle svg {
+  width: 14px; height: 14px;
+  transition: transform .3s cubic-bezier(.4,0,.2,1); flex-shrink: 0;
 }
-
-.cast-card__bio {
-  font-size: 0.875rem;
-  line-height: 1.65;
-  color: var(--muted);
-  flex: 1;
+.cast-card.is-open .cast-card__toggle svg { transform: rotate(180deg); }
+.cast-card__bio-wrap {
+  max-height: 0; overflow: hidden;
+  transition: max-height .42s cubic-bezier(.4,0,.2,1);
 }
-
-.cast-card__bio p { margin: 0; }
-
-.cast-card__credits {
-  font-size: 0.78rem;
-  color: var(--pink);
-  font-weight: 600;
-  margin: 0.75rem 0 0;
-  letter-spacing: 0.03em;
-}
+.cast-card.is-open .cast-card__bio-wrap { max-height: 500px; }
+.cast-card__bio { font-size: .85rem; line-height: 1.68; color: var(--muted); margin-bottom: .6rem; }
+.cast-card__credits { font-size: .75rem; color: var(--pink); font-weight: 600; letter-spacing: .02em; margin-top: .5rem; }
 
 /* ================================================================
    CREATIVE TEAM / CREW
