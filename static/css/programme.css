@@ -937,7 +937,6 @@
 
 .prog-next__media img {
   width: 100%;
-  aspect-ratio: 2 / 3;
   object-fit: cover;
   object-position: center top;
   display: block;
@@ -1290,7 +1289,7 @@
   }
 
   .prog-next__media img {
-    aspect-ratio: 3 / 4;
+/*    aspect-ratio: 3 / 4; */
   }
 
   .qa-item__q,
