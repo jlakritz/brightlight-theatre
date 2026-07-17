@@ -380,6 +380,9 @@ pull_quotes:
   - text: "Nominated: Best New Play"
     name: Welwyn Drama Festival
     role: May 2026
+  - text: "Winner: Best Stage Presentation"
+    name: Maidenhead Drama Festival
+    role: April 2026
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/
