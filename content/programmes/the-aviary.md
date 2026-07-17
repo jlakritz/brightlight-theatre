@@ -154,7 +154,7 @@ cast:
       Unhanging, A Doll's House"
   - role: Ringmaster / Miss Blinder
     name: Rebecca Griffiths
-    image: uploads/Becky.jpg
+    image: uploads/BL01-18.jpg
     bio: Becky bio
     credits: "Previous Brightlight shows include: The Importance of Being Earnest,
       Blithe Spirit, Murder! at Mistletoe Manor and Farndale Murder Mystery"
