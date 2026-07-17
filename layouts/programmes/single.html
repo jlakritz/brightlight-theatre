@@ -133,11 +133,11 @@
     {{ with .Params.cast }}
     <section class="prog-section prog-cast" id="cast">
       <div class="site-shell">
-        <div class="prog-section__header">
-          <p class="eyebrow">The Cast</p>
+        <div class="prog-section__header reveal">
+          <span class="eyebrow">The Cast</span>
           <h2>Meet the company</h2>
         </div>
-        <div class="prog-cast__grid">
+        <div class="prog-cast__grid stagger-children">
           {{ range . }}
           {{ $member := . }}
           <article class="cast-card">
@@ -145,29 +145,28 @@
               {{ with .image }}
               <img src="{{ . | absURL }}" alt="{{ $member.role }}" loading="lazy">
               {{ else }}
-              <div class="cast-card__placeholder">
-                <span>{{ substr .name 0 1 }}</span>
-              </div>
+              <div class="cast-card__placeholder"><span>{{ substr .name 0 1 }}</span></div>
               {{ end }}
               <p class="cast-card__role">{{ .role }}</p>
             </div>
             <div class="cast-card__info">
               <h3 class="cast-card__name">{{ .name }}</h3>
               {{ with .bio }}
-              <div class="cast-card__bio">
-                <p>{{ . }}</p>
+              <button class="cast-card__toggle" aria-expanded="false">
+                <span>Read bio</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="cast-card__bio-wrap">
+                <p class="cast-card__bio">{{ . }}</p>
+                {{ with $member.credits }}<p class="cast-card__credits">{{ . }}</p>{{ end }}
               </div>
-              {{ end }}
-              {{ with .credits }}
-              <p class="cast-card__credits">{{ . }}</p>
               {{ end }}
             </div>
           </article>
           {{ end }}
         </div>
-        {{/* Cast pull quote — adjudicator or director comment on the company */}}
         {{ with $.Params.cast_pull_quote }}
-        <blockquote class="prog-pull-quote prog-pull-quote--cast">
+        <blockquote class="prog-pull-quote prog-pull-quote--cast reveal">
           <p>{{ .text }}</p>
           {{ with .attribution }}<cite>— {{ . }}</cite>{{ end }}
         </blockquote>
@@ -175,7 +174,6 @@
       </div>
     </section>
     {{ end }}
-
     {{/* ============================================================
          CREATIVE TEAM / CREW
          ============================================================ */}}
