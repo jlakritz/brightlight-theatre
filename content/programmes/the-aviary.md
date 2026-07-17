@@ -407,7 +407,7 @@ next_show:
   dates: 29 August & 5 September 2026
   venue: St Peter's Church Hall, Frimley
   price: Tickets from £9
-  cover_image: uploads/200Poster.avif
+  cover_image: uploads/Aviary-ns-prog.jpg
   booking_url: https://www.trybooking.com/uk/events/landing/111739
   booking_text: Book Tickets for 200
 ---
