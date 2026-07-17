@@ -9,7 +9,7 @@ performance_dates: 18 July 2026
 venue: St Peter's Church Hall, Frimley
 directors_note:
   text: >-
-    Directing the debut performances of *The Aviary* has been an absolute joy,
+    Directing the debut performances of **The Aviary** has been an absolute joy,
     and I couldn’t be prouder of the extraordinary team who has brought this
     bold, beautiful play to life.
 
@@ -49,15 +49,15 @@ directors_note:
     thrilling. And finally coming second at **Welwyn Drama Festival**, widely
     regarded as one of the fiercest competitions on the drama festival circuit,
     was a wonderful affirmation of everyone’s hard work. Across the festivals
-    we've taken home trophies for *Best Director*, *Best Actress* (for Megan),
-    *Best New Play* and *Best Stage Presentation* alongside nominations for
-    *Best Actor* (Liam), and *Best Actress* (Becky), proved that our
-    boundary-pushing, experimental piece of theatre had truly found its wings.
+    we've taken home trophies for Best Director, Best Actress (for Megan), Best
+    New Play and Best Stage Presentation alongside nominations for Best Actor
+    (Liam), and Best Actress (Becky), proved that our boundary-pushing,
+    experimental piece of theatre had truly found its wings.
 
 
     Now, we face our biggest adventure yet. Out of more than 50 qualifying
     groups and award-winning productions put forward across the country this
-    season, *The Aviary* has been officially selected for the **National Drama
+    season, The Aviary has been officially selected for the **National Drama
     Festival**. We head to the national stage with excitement, gratitude, and a
     real sense of awe at how boldly we’ve taken flight from the branches of the
     parapara tree.
@@ -73,8 +73,8 @@ directors_note:
     **Frimley will always be the home and heart of Brightlight Theatre.** This
     is the community that has supported our wildest creative risks, cheered us
     on through every rehearsal, and watched us grow. We are both proud and
-    deeply honoured to be able to present this production of *The Aviary* here
-    for you tonight.
+    deeply honoured to be able to present this production of The Aviary here for
+    you tonight.
   directors:
     - Judy Price
   pull_quote: Thank you for sitting in the dark with us, swiping aside the
