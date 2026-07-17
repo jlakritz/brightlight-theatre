@@ -155,7 +155,27 @@ cast:
   - role: Ringmaster / Miss Blinder
     name: Rebecca Griffiths
     image: uploads/BL01-18.jpg
-    bio: Becky bio
+    bio: >-
+      I have always loved performing and being creative but as a kid there were
+      more opportunities for musicals and singing is not in my wheelhouse.  I
+      was both delighted and nervous to step back on stage with Brightlight
+      Theatre in 2022. My last performance had been 14 years prior during
+      A-level Performing Arts!
+
+
+      Brightlight are a fantastic group of talented, warm and welcoming people.
+      I have taken on classic parts like Gwendolyn Fairfax and Elvira
+      Conodomine, had a go at interchanging 3-character (and 3-accent!)
+      monologues in Jamie's Murder! at Mistletoe Manor, and even dabbled in some
+      directing. After all that, The Aviary is something special. I was
+      desperate to be in a festival play and to try my hand at something more
+      contemporary. The play really challenges us to consider our relationships
+      with social media and how we engage with the world around us. Underneath
+      the absurdism, I think the cast and our audiences connect because we can
+      see a little of ourselves in a lot of the play's characters.  It's been
+      daunting but also a fun, creative and rewarding process. I was honoured by
+      my Best Actress nomination at Welwyn Drama Festival and only wish we could
+      keep performing it.
     credits: "Previous Brightlight shows include: The Importance of Being Earnest,
       Blithe Spirit, Murder! at Mistletoe Manor and Farndale Murder Mystery"
   - role: Ringmaster / Polly Echo
