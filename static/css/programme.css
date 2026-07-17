@@ -379,6 +379,8 @@
 }
 
 .prog-welcome__sig {
+  position: sticky;
+  top: 140px;
   background: var(--surface);
   border-radius: var(--radius-sm);
   border-left: 4px solid var(--yellow);
