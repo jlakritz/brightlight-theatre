@@ -522,7 +522,7 @@
   max-height: 0; overflow: hidden;
   transition: max-height .42s cubic-bezier(.4,0,.2,1);
 }
-.cast-card.is-open .cast-card__bio-wrap { max-height: 500px; }
+.cast-card.is-open .cast-card__bio-wrap { max-height: fit-content; }
 .cast-card__bio { font-size: .85rem; line-height: 1.68; color: var(--muted); margin-bottom: .6rem; }
 .cast-card__credits { font-size: .75rem; color: var(--pink); font-weight: 600; letter-spacing: .02em; margin-top: .5rem; }
 
