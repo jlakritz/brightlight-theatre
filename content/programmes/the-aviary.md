@@ -184,7 +184,7 @@ cast:
 
 
       Since then, I've been fortunate enough to be cast in many productions,
-      with The Aviary being my seventeenth. I can honestly say this has been the
+      with The Aviary being my sixteenth. I can honestly say this has been the
       most enjoyable show I've ever rehearsed, developed, and performed. I hope
       you enjoy watching it just as much as we've enjoyed bringing it to life.
     credits: "Previous Brightlight shows include: Farndale Murder Mystery, The Edge
