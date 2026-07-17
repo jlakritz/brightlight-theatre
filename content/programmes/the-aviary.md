@@ -2,8 +2,6 @@
 title: The Aviary
 sitemap:
   disable: true
-aliases:
-  - /aviary
 production_url: /productions/the-aviary/
 cover_image: uploads/Aviary.jpg
 show_logo: uploads/AviaryLogo.png
@@ -290,8 +288,8 @@ interviews:
         a: "Festival performances demand precision: tight transitions, adaptable
           technical elements, and performances that can immediately draw an
           audience into the play’s lyrical world despite limited setup time and
-          unfamiliar spaces. For us, real task was preserving the delicacy and
-          atmosphere that defined The Aviary while shaping it into a version
+          unfamiliar spaces. For us, the real task was preserving the delicacy
+          and atmosphere that defined The Aviary while shaping it into a version
           that was lean, portable, and sharp enough to thrive in the fast‑paced
           rhythm of the festival circuit."
       - q: What have been the standout moments for you while directing The Aviary?
@@ -316,8 +314,8 @@ interviews:
           Nationals ahead, the priority is building consistency, deepening the
           cast’s connection to the material, and ensuring the production feels
           both polished and boldly alive.
-    pull_quote: For us, real task was preserving the delicacy and atmosphere that
-      defined The Aviary.
+    pull_quote: For us, the real task was preserving the delicacy and atmosphere
+      that defined The Aviary.
   - person: Liam Badcoe
     subject: Preparing for the National Drama Festival
     image: uploads/Liam.jpg
