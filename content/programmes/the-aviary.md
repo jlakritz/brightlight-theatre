@@ -47,7 +47,7 @@ directors_note:
 
 
     The competitive journey of this production has surpassed our wildest dreams.
-    Winning *Best New Comedy* at **Maidenhead Drama Festival** was a great
+    Winning Best New Comedy at **Maidenhead Drama Festival** was a great
     start. But then sweeping the board at the **Henley Drama Festival** was
     thrilling. And finally coming second at **Welwyn Drama Festival**, widely
     regarded as one of the fiercest competitions on the drama festival circuit,
@@ -348,6 +348,9 @@ pull_quotes:
   - text: "Winner: Best Comedy"
     name: Maidenhead Drama Festival
     role: April 2026
+  - text: "Winner: Best Stage Presentation"
+    name: Maidenhead Drama Festival
+    role: April 2026
   - text: "Winner: First Place"
     name: Henley Drama Festival
     role: May 2026
@@ -384,9 +387,6 @@ pull_quotes:
   - text: "Nominated: Best New Play"
     name: Welwyn Drama Festival
     role: May 2026
-  - text: "Winner: Best Stage Presentation"
-    name: Maidenhead Drama Festival
-    role: April 2026
 charity:
   name: KatCanDo
   url: https://www.katcando.org.uk/
