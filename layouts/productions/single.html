@@ -45,6 +45,15 @@
     </article>
 
     <aside class="production-sidebar">
+
+{{ with .Params.programme }}
+      <div class="info-panel">
+        <h2>Digital Programme</h2>
+        <a href="{{ . }}" target="_blank" rel="noopener" data-umami-event="Digital Programme Click">Read the digital programme</a>
+      </div>
+{{ end }}
+
+
       {{ with .Params.dates }}
       <div class="info-panel">
         <h2>Dates</h2>
@@ -67,13 +76,6 @@
 </div>
 {{ end }}
 
-
-{{ with .Params.programme }}
-      <div class="info-panel">
-        <h2>Digital Programme</h2>
-        <p><a href="{{ . }}" target="_blank" rel="noopener" data-umami-event="Digital Programme Click">Read the digital programme</a></p>
-      </div>
-{{ end }}
 
 
       {{ with .Params.cast }}
