@@ -7,6 +7,7 @@ author: by Jamie Lakritz
 hero_details: Saturday 18th July | St. Peter’s Church Hall, Frimley
 details: Saturday 18th July, 8pm at St. Peter’s Church Hall, Frimley
 eyebrow: One Night Only
+programme: https://brightlight-theatre.co.uk/programmes/the-aviary/
 running_time: 50 minutes
 performances:
   - date: 2026-07-18

@@ -67,6 +67,15 @@
 </div>
 {{ end }}
 
+
+{{ with .Params.programme }}
+      <div class="info-panel">
+        <h2>Digital Programme</h2>
+        <p><a href="{{ . }}" target="_blank" rel="noopener" data-umami-event="Digital Programme Click">Read the digital programme</a></p>
+      </div>
+{{ end }}
+
+
       {{ with .Params.cast }}
       <div class="info-panel">
         <h2>Cast</h2>
