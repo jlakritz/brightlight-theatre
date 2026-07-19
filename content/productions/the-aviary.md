@@ -1,7 +1,7 @@
 ---
 title: The Aviary
-status: current
-onsale: true
+status: archive
+onsale: false
 date: 2026-06-14
 author: by Jamie Lakritz
 hero_details: Saturday 18th July | St. Peter’s Church Hall, Frimley
