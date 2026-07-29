@@ -35,7 +35,7 @@ This is what I love about the NDF. It's not just a competition. It's a weekend w
 
 So tomorrow night, when Brightlight take that stage and the birds start to sing, whatever happens, we're already winning.
 
-Right. I need to go and find my lucky socks. (And yes, I really do have lucky socks. And no, I'm not sure what I'm going to do about the fact I'm almost certainly be wearing shorts and so look ridiculous!)
+Right. I need to go and find my lucky socks. (And yes, I really do have lucky socks. And no, I'm not sure what I'm going to do about the fact I'll almost certainly be wearing shorts and so look ridiculous!)
 
 Watch this space. 🕊️
 
