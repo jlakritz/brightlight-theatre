@@ -31,7 +31,7 @@ Nantwich Players, runners up last year, are back with Mike Bartlett's Bull. It's
 
 There's Stoppard from Switzerland (The Semi-Circle Basel with Another Moon Called Earth), Horowitz from Banbury (A Handbag - and yes, THAT Handbag), original scripts from Liverpool (Red Onion with Tigers) and on Sunday, a full-length play from Harlequin Players before the awards ceremony. And so much more.
 
-Then there's the rest of it - the stuff squeezed in between the productions - feedback forums every morning, stage combat with Dan Gough (looking forward to the change to punch Liam, even if it's only pretend), a session with West End director Bob Tomson on how to recognise and deliver effective theatre, and a deep dive into this year's Derek Jacobi Award winning script with its author, Ste Mc.
+Then there's the rest of it - the stuff squeezed in between the productions - feedback forums every morning, stage combat with Dan Gough (looking forward to the chance to punch Liam, even if it's only pretend), a session with West End director Bob Tomson on how to recognise and deliver effective theatre, and a deep dive into this year's Derek Jacobi Award winning script with its author, Ste Mc.
 
 Phew! I remember how exhausting it was last year - arriving at the theatre at 9am and not leaving again until 10pm. But it's worth it in inspiration alone.
 
