@@ -13,7 +13,7 @@ On Thursday 30 July, the [National Drama Festival](https://ndfa.co.uk/) begins. 
 
 
 
-I'm not nervous. I'm absolutely not nervous.
+**I'm not nervous. I'm absolutely not nervous.**
 
 (I'm nervous.)
 
