@@ -43,7 +43,7 @@ If you're around the Bromsgrove area and want to see brilliant theatre - come al
 
 Right. I need to go and find my lucky socks. (And yes, I really do have lucky socks. And no, I'm not sure what I'm going to do about the fact I'll almost certainly be wearing shorts and so look ridiculous!)
 
-Watch this space. 🕊️
+Come back tomorrow for my update on how we got on, plus the rest of the first festival day! Watch this space. 🕊️
 
 *Jamie*
 
