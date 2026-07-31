@@ -1,7 +1,7 @@
 ---
 title: And they're off... National Drama Festival Day 1
-date: 2026-07-31
-image: uploads/aviary-tech.jpg
+date: 2026-07-30
+image: uploads/aviary-ndf.jpg
 ---
 ## **Hot Glue, High Drama, and a 1 AM Pot Noodle**
 
