@@ -23,7 +23,7 @@ We arrived in Bromsgrove at the Artrix Theatre shortly after 1pm for a lines run
 
 And then we started. We had our 45 minute tech time where we had to programme in all our light cues, work out how to work the projector and hope that all the wifi-enabled wizardry we use to live stream the audience onto a TV and make doors light up different colours worked. Thankfully it all did. 
 
-![](/uploads/IMG_0727.jpg)
+![](/uploads/aviary-tech-full.jpg)
 
 *Our tech, as captured by Karen Carey from the NDFA. Thanks Karen!!*
 
@@ -41,11 +41,11 @@ This was a superbly written, highly emotional journey play following the story o
 
 ### Mop & Bucket
 
-And then for something completely different - a laugh out loud sitcom-esque comedy. The eponymous Mop and Bucket refer to an over-qualified cleaner and an under-qualifed CEO. Staged really simply, it let us focus on the comedy of the piece and the audience roared with laughter throughout. Some standout comedy moments involving stools, pants and job interviews. Loved it. The group are taking the production to Edinburgh Fringe this year, so if you happen to up there - seek it out! You can thank me later. 
+And then for something completely different - a laugh out loud sitcom-esque comedy. The eponymous Mop and Bucket refer to an over-qualified cleaner and an under-qualifed CEO. Staged really simply, it let us focus on the comedy of the piece and the audience roared with laughter throughout. Some standout comedy moments involving stools, pants and job interviews. Loved it. The group are taking the production to Edinburgh Fringe this year, so if you happen to be up there - seek it out! You can thank me later. 
 
 It was also lovely to meet members of these groups and chat about their experiences - another plus of a competition like this.
 
-So all that was left was to pack the car back up. BY this point in our festival journey, most of our props (cardboard cutout emojis of things - boxing gloves, cats, telephones) were only being held together by hot glue and gaffer tape, so we made use of the Brightlight branded bins and disposed of half the set!
+So all that was left was to pack the car back up. By this point in our festival journey, most of our props (cardboard cutout emojis of things - boxing gloves, cats, telephones) were only being held together by hot glue and gaffer tape, so we made use of the Brightlight branded bins and disposed of half the set!
 
 ![](</uploads/PXL_20260730_215723540 (1).jpg>)
 
