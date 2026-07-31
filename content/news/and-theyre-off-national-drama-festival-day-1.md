@@ -1,7 +1,7 @@
 ---
 title: And they're off... National Drama Festival Day 1
 date: 2026-07-31
-image: uploads/IMG_0727.jpg
+image: uploads/aviary-tech.jpg
 ---
 ## **Hot Glue, High Drama, and a 1 AM Pot Noodle**
 
@@ -15,7 +15,7 @@ What a day. It's currently 1am, I'm sat on the sofa of our airbnb with some milk
 
 Today started with loading the car at 8am. And then checking it roughly every 20 minutes after that to make sure I had everything. Over the years on the festival circuit we've got adept at constructing sets which can fit into the back of my Ford C-Max. But with doors, carpets, frames, wifi enabled lights, tools, bolts, boots, cats, cameras, telephones, yoga mats and a million other things this year was touch and go.
 
-![](<uploads/PXL_20260730_074652547 (1).jpg>)
+![](</uploads/PXL_20260730_074652547 (1).jpg>)
 
 *My car, fully loaded (and checked roughly fourteen times before I left).*
 
@@ -23,7 +23,7 @@ We arrived in Bromsgrove at the Artrix Theatre shortly after 1pm for a lines run
 
 And then we started. We had our 45 minute tech time where we had to programme in all our light cues, work out how to work the projector and hope that all the wifi-enabled wizardry we use to live stream the audience onto a TV and make doors light up different colours worked. Thankfully it all did. 
 
-![](uploads/IMG_0727.jpg)
+![](/uploads/IMG_0727.jpg)
 
 *Our tech, as captured by Karen Carey from the NDFA. Thanks Karen!!*
 
@@ -47,7 +47,7 @@ It was also lovely to meet members of these groups and chat about their experien
 
 So all that was left was to pack the car back up. BY this point in our festival journey, most of our props (cardboard cutout emojis of things - boxing gloves, cats, telephones) were only being held together by hot glue and gaffer tape, so we made use of the Brightlight branded bins and disposed of half the set!
 
-![](<uploads/PXL_20260730_215723540 (1).jpg>)
+![](</uploads/PXL_20260730_215723540 (1).jpg>)
 
 *Here we are packing the car up at the end of the night. Can you see those yellow and pink bins?*
 
