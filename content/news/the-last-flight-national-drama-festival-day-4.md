@@ -1,7 +1,7 @@
 ---
 title: The Last Flight - National Drama Festival Day 4!
 date: 2026-08-02
-image: uploads/awards.jpg
+image: uploads/awards2.jpg
 ---
 ## Where do you start when you're at the end?
 
