@@ -57,3 +57,15 @@ Here's some photos of us from across the weekend. What a bunch of heroes.
 See you next year.
 
 *Jamie*
+
+---
+
+**Catch up on previous entries:**
+
+[Day 0](https://brightlight-theatre.co.uk/news/national-drama-festival-the-birds-are-back/)
+
+[Day 1](https://brightlight-theatre.co.uk/news/and-theyre-off-national-drama-festival-day-1/)
+
+[Day 2](https://brightlight-theatre.co.uk/news/five-words-national-drama-festival-day-2/)
+
+[Day 3](https://brightlight-theatre.co.uk/news/anyones-game-national-drama-festival-day-3/)
