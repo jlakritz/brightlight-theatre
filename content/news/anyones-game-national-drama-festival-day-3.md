@@ -38,6 +38,8 @@ Tomorrow - the Brontës, and then the small matter of the awards. There's never 
 
 *Jamie*
 
+Catch up on other entries: [Day 0](https://brightlight-theatre.co.uk/news/national-drama-festival-the-birds-are-back/) | [Day 1](https://brightlight-theatre.co.uk/news/and-theyre-off-national-drama-festival-day-1/) | [Day 2](https://brightlight-theatre.co.uk/news/five-words-national-drama-festival-day-2/) | [Day 4](https://brightlight-theatre.co.uk/news/the-last-flight-national-drama-festival-day-4/)
+
 p.s. Here's a secret snap I took of Karen learning how to fly a drone!
 
 ![](/uploads/drone.jpg)
