@@ -7,7 +7,7 @@ image: uploads/Aviary1x2.jpg
 
 On Thursday 30 July, the [National Drama Festival](https://ndfa.co.uk/) begins. For the second year in a row, Brightlight Theatre have been selected to perform. As a large contingent of the group descend onto Bromsgrove, our Artistic Director, Jamie, is going to be blogging his reflections on each day. Here's his first entry, the night before the festival begins.
 
-**Update - see Jamie's [Day 1](https://brightlight-theatre.co.uk/news/and-theyre-off-national-drama-festival-day-1/) blog post. And [Day 2](https://brightlight-theatre.co.uk/news/five-words-national-drama-festival-day-2/)**.
+**Update - see Jamie's [Day 1](https://brightlight-theatre.co.uk/news/and-theyre-off-national-drama-festival-day-1/) blog post. And [Day 2](https://brightlight-theatre.co.uk/news/five-words-national-drama-festival-day-2/). And [Day 3](https://brightlight-theatre.co.uk/news/anyones-game-national-drama-festival-day-3/)**.
 
 
 
