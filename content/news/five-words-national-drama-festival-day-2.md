@@ -55,3 +55,7 @@ So that's it for today. Bed before midnight feels like a massive win.
 See you tomorrow!
 
 *Jamie*
+
+---
+
+**Catch up on other entries:** [Day 0](https://brightlight-theatre.co.uk/news/national-drama-festival-the-birds-are-back/) | [Day 1](https://brightlight-theatre.co.uk/news/and-theyre-off-national-drama-festival-day-1/) | [Day 3](https://brightlight-theatre.co.uk/news/anyones-game-national-drama-festival-day-3/) | [Day 4](https://brightlight-theatre.co.uk/news/the-last-flight-national-drama-festival-day-4/)
