@@ -32,7 +32,7 @@ Bob talked about theatre that makes an audience care. By that measure, every sin
 
 Which is probably why, after being so sure yesterday - TACT, odds-on, case closed, go home everyone - I now genuinely have no idea. And I mean that as the highest compliment I can pay this festival. There is something to love in everything we've seen this weekend. So many worthy winners who could walk away with something on Sunday. And, cheesy as it sounds, everyone here has already won just by being part of it.
 
-This festival is anyone's game. Which, if I'm honest, is exactly how it should be.
+This festival is anyone's game. Which, really, is exactly how it should be.
 
 Tomorrow - the Brontës, and then the small matter of the awards. There's never a dull moment here.
 
@@ -41,3 +41,4 @@ Tomorrow - the Brontës, and then the small matter of the awards. There's never 
 p.s. Here's a secret snap I took of Karen learning how to fly a drone!
 
 ![](/uploads/drone.jpg)
+
