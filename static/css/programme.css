@@ -643,7 +643,7 @@
 }
 
 .rehearsal-item video {
-    object-fit: contain;
+    object-fit: contain !important;
 }
 
 @media (hover: hover) and (pointer: fine) {
