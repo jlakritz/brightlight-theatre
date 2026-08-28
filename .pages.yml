@@ -461,6 +461,12 @@ content:
           - name: embed_url
             label: Video Embed Link (Videos only)
             type: string
+          - name: poster
+            label: Thumbnail for self-hosted videos
+            type: string
+          - name: src
+            label: Source for self-hosted videos
+            type: string
           - name: caption
             label: Caption
             type: string
